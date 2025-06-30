@@ -1,0 +1,36 @@
+additionalProperties:
+  formFields:
+    - default: 5443
+      edit: true
+      envKey: PANEL_APP_PORT_HTTP
+      labelEn: Main Service Port
+      labelZh: 主服务端口
+      label:
+        en: Main Service Port
+        ja: メインサービスポート
+        ms: Port Utama
+        pt-br: Porta Principal
+        ru: Основной порт сервиса
+        ko: 메인 서비스 포트
+        zh-Hant: 主服務端口
+        zh: 主服务端口
+      required: true
+      rule: paramPort
+      type: number
+    - default: 5003
+      edit: true
+      envKey: PANEL_APP_PORT_MANAGE
+      labelEn: Management Port
+      labelZh: 管理监控端口
+      label:
+        en: Management Port
+        ja: 管理ポート
+        ms: Port Pengurusan
+        pt-br: Porta de Gerenciamento
+        ru: Порт управления
+        ko: 관리 포트
+        zh-Hant: 管理監控端口
+        zh: 管理监控端口
+      required: true
+      rule: paramPort
+      type: number 

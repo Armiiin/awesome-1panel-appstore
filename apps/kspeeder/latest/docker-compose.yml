@@ -1,0 +1,13 @@
+services:
+  kspeeder:
+    image: linkease/kspeeder:latest
+    container_name: ${CONTAINER_NAME}
+    ports:
+      - ${PANEL_APP_PORT_HTTP}:5443
+      - ${PANEL_APP_PORT_MANAGE}:5003
+    volumes:
+      - ./kspeeder-data:/kspeeder-data
+      - ./kspeeder-config:/kspeeder-config
+    restart: unless-stopped
+    labels:
+      createdBy: "Apps" 
