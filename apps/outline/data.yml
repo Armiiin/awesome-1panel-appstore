@@ -1,0 +1,24 @@
+﻿name: Outline
+tags:
+  - 工具
+  - 知识库
+  - 自托管
+title: 一个基于React和Node.js构建的快速协作知识库
+description: 面向成长型团队的最快知识库，界面美观，实时协作，功能丰富，兼容 Markdown
+additionalProperties:
+  key: outline
+  name: Outline
+  tags:
+    - Tool
+  shortDescZh: 一个基于React和Node.js构建的快速协作知识库
+  shortDescEn: A fast, collaborative, knowledge base for your team built using React and Node.js.
+  description:
+    zh: 面向成长型团队的最快知识库，界面美观，实时协作，功能丰富，兼容 Markdown
+    en: The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.
+  type: tool
+  crossVersionUpdate: true
+  limit: 1
+  recommend: 0
+  website: https://www.getoutline.com/
+  github: https://github.com/outline/outline/
+  document: https://docs.getoutline.com/
