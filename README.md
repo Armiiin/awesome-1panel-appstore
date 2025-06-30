@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/arch3rPro/1Panel-Appstore/dev/1Panel-Appstore.png" >
+  <img src="https://raw.githubusercontent.com/arch3rPro/1Panel-Appstore/main/1Panel-Appstore.png" >
 </p>
 <h1 align="center">1Panel AppStore </h1>
 <br>
