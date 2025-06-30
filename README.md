@@ -598,12 +598,6 @@
 <kbd>latest</kbd> • [官网链接](https://kspeeder.istoreos.com/)
 
 </td>
-<td width="33%" align="center">
-
-</td>
-<td width="33%" align="center">
-
-</td>
 </tr>
 </table>
 
