@@ -593,9 +593,15 @@
 <br><b>KSpeeder</b>
 </a>
 
-Docker 镜像加速与私有部署服务，支持多平台和多架构
+🔄 Docker 镜像加速与私有部署服务，支持多平台和多架构
 
 <kbd>latest</kbd> • [官网链接](https://kspeeder.istoreos.com/)
+
+</td>
+<td width="33%" align="center">
+
+</td>
+<td width="33%" align="center">
 
 </td>
 </tr>
