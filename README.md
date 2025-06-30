@@ -585,6 +585,20 @@
 
 </td>
 </tr>
+<tr>
+<td width="33%" align="center">
+
+<a href="./apps/kspeeder/README.md">
+<img src="./apps/kspeeder/logo.png" width="60" height="60" alt="KSpeeder">
+<br><b>KSpeeder</b>
+</a>
+
+Docker 镜像加速与私有部署服务，支持多平台和多架构
+
+<kbd>latest</kbd> • [官网链接](https://kspeeder.istoreos.com/)
+
+</td>
+</tr>
 </table>
 
 #### 🐳 容器管理
