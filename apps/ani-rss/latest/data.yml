@@ -8,24 +8,3 @@ additionalProperties:
           required: true
           rule: paramPort
           type: number
-        - default: ./ani-rss-config
-          edit: true
-          envKey: ANI_RSS_CONF_PATH
-          labelEn: Config Path
-          labelZh: 配置目录
-          required: true
-          type: string
-        - default: ./downloads
-          edit: true
-          envKey: ANI_RSS_DOWNLOAD_PATH
-          labelEn: Download Path
-          labelZh: 下载目录
-          required: true
-          type: string
-        - default: ./media
-          edit: true
-          envKey: ANI_RSS_MEDIA_PATH
-          labelEn: Media Path
-          labelZh: 媒体目录
-          required: true
-          type: string 
