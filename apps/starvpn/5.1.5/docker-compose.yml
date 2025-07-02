@@ -1,6 +1,6 @@
 services:
   starvpn:
-    image: starvpn/starvpn:latest
+    image: registry.cn-beijing.aliyuncs.com/ld_beijing/stars.client:5.1.5
     container_name: starvpn
     restart: always
     environment:

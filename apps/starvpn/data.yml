@@ -1,4 +1,4 @@
-name: StarVPN
+name: 星空组网
 
 tags:
     - VPN
@@ -12,7 +12,7 @@ description: StarVPN 是一款支持多平台的自托管 VPN 服务，支持 Do
 
 additionalProperties:
     key: starvpn
-    name: StarVPN
+    name: 星空组网
     tags:
         - VPN
         - Network
