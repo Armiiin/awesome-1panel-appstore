@@ -659,6 +659,15 @@
 </td>
 <td width="33%" align="center">
 
+<a href="./apps/verysync/README.md">
+<img src="./apps/verysync/logo.png" width="60" height="60" alt="Verysync">
+<br><b>微力同步（Verysync）</b>
+</a>
+
+🔄 基于P2P的极速文件同步工具，支持多平台和多架构，适合家庭与企业备份
+
+<kbd>latest</kbd> • [官网链接](https://github.com/Jonnyan404/verysync)
+
 </td>
 </tr>
 </table>
