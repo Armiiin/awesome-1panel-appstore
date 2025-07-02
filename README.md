@@ -771,7 +771,7 @@
 rm -rf /tmp/appstore_merge
 
 # 克隆 appstore-arch3rPro
-git clone --depth=1 https://ghfast.top/https://github.com/arch3rPro/appstore /tmp/appstore_merge/appstore-arch3rPro
+git clone --depth=1 https://ghfast.top/https://github.com/arch3rPro/1Panel-Appstore /tmp/appstore_merge/appstore-arch3rPro
 
 # 复制 数据（完整复制）
 cp -rf /tmp/appstore_merge/appstore-arch3rPro/apps/* /opt/1panel/resource/apps/local/
