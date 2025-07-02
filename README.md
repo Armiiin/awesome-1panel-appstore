@@ -618,6 +618,47 @@
 </td>
 <td width="33%" align="center">
 
+<a href="./apps/starvpn/README.md">
+<img src="./apps/starvpn/logo.png" width="60" height="60" alt="StarVPN">
+<br><b>星空组网（StarVPN）</b>
+</a>
+
+🌌 简单易用的自托管VPN服务，支持多平台和Docker快速部署
+
+<kbd>latest</kbd> • [官网链接](https://github.com/starvpn/starvpn)
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+<a href="./apps/ani-rss/README.md">
+<img src="./apps/ani-rss/logo.png" width="60" height="60" alt="ANI-RSS">
+<br><b>ANI-RSS</b>
+</a>
+
+📺 动漫自动订阅与下载工具，支持多平台和主流下载器，适合NAS自动追番
+
+<kbd>latest</kbd> • [官网链接](https://github.com/wushuo894/ani-rss)
+
+</td>
+<td width="33%" align="center">
+
+<a href="./apps/jdxb/README.md">
+<img src="./apps/jdxb/logo.png" width="60" height="60" alt="JDxB">
+<br><b>节点小宝（JDxB）</b>
+</a>
+
+🛰️ 多平台远程管理与网络加速工具，支持内网穿透、异地组网和文件备份
+
+<kbd>latest</kbd> • [官网链接](https://github.com/ionewu/owjdxb)
+
+</td>
+<td width="33%" align="center">
+
 </td>
 </tr>
 </table>
