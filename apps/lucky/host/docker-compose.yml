@@ -1,0 +1,8 @@
+services:
+  lucky:
+    image: gdy666/lucky
+    container_name: lucky
+    network_mode: host
+    volumes:
+      - "${LUCKY_CONF_PATH:-./luckyconf}:/goodluck"
+    restart: always 
