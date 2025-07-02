@@ -604,6 +604,21 @@
 <kbd>latest</kbd> • [官网链接](https://kspeeder.istoreos.com/)
 
 </td>
+<td width="33%" align="center">
+
+<a href="./apps/lucky/README.md">
+<img src="./apps/lucky/logo.png" width="60" height="60" alt="Lucky">
+<br><b>Lucky</b>
+</a>
+
+⚡ 多功能端口转发、流量转发、WAF、防火墙与备份工具，支持多平台部署
+
+<kbd>latest</kbd> • [官网链接](https://github.com/gdy666/lucky)
+
+</td>
+<td width="33%" align="center">
+
+</td>
 </tr>
 </table>
 
