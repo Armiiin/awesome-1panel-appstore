@@ -1,0 +1,13 @@
+services:
+  verysync:
+    image: jonnyan404/verysync:v2.20.1
+    container_name: verysync
+    ports:
+      - "${PANEL_APP_PORT_HTTP}:8886"   # Web管理端口
+      - "${VERYSYNC_TRANSFER_PORT}:22330"   # 数据传输端口
+      # - "3000:3000"         # 公共中继端口（可选）
+      # - "22027:22027/udp"   # 内网UDP发现端口（可选）
+      # - "22037:22037/udp"   # 内网UDP发现端口（可选）
+    volumes:
+      - "${VERYSYNC_DATA_PATH}:/data"
+    restart: unless-stopped 

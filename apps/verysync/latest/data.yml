@@ -1,0 +1,25 @@
+additionalProperties:
+    formFields:
+        - default: 8886
+          edit: true
+          envKey: PANEL_APP_PORT_HTTP
+          labelEn: Web Port
+          labelZh: Web管理端口
+          required: true
+          rule: paramPort
+          type: number
+        - default: 22330
+          edit: true
+          envKey: VERYSYNC_TRANSFER_PORT
+          labelEn: Transfer Port
+          labelZh: 数据传输端口
+          required: true
+          rule: paramPort
+          type: number
+        - default: /data
+          edit: true
+          envKey: VERYSYNC_DATA_PATH
+          labelEn: Data Path
+          labelZh: 数据目录
+          required: true
+          type: text 
