@@ -545,6 +545,15 @@
 </td>
 <td width="33%" align="center">
 
+<a href="./apps/git-sync/README.md">
+<img src="./apps/git-sync/logo.png" width="60" height="60" alt="Git-Sync">
+<br><b>Git-Sync</b>
+</a>
+
+🔄 多平台Git仓库自动同步与备份工具，支持定时任务和Docker部署
+
+<kbd>latest</kbd> • [官网链接](https://github.com/AkashRajpurohit/git-sync)
+
 </td>
 </tr>
 </table>
