@@ -1,0 +1,12 @@
+
+services:
+  git-sync:
+    image: akashrajpuroh1t/git-sync:latest
+    container_name: git-sync
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+    volumes:
+      - ${GITSYNC_CONFIG_PATH}:/git-sync/config.yaml
+      - ${GITSYNC_BACKUP_PATH}:/backups
+    restart: unless-stopped 
