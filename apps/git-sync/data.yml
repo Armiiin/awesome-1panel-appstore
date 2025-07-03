@@ -31,7 +31,7 @@ additionalProperties:
     description:
         en: Git repository auto sync and backup tool. Supports Docker, cron jobs, and multi-platform deployment. Easy to use and highly customizable.
         zh: Git-Sync 是一款支持多平台的 Git 仓库自动同步与备份工具，支持定时任务、Docker 快速部署，适合个人和团队代码备份。
-    type: tools
+    type: tool
     crossVersionUpdate: true
     limit: 0
     recommend: 0
