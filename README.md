@@ -792,3 +792,23 @@ cp -rf /tmp/appstore_merge/appstore-arch3rPro/apps/* /opt/1panel/resource/apps/l
 rm -rf /tmp/appstore_merge
 echo "应用商店数据已更新"
 ```
+
+---
+
+<!-- 经典黑白风格 -->
+
+![Copyright-arch3rPro](https://img.shields.io/badge/Copyright-arch3rPro-222222?style=flat&logo=github&logoColor=white&labelColor=000000)
+
+<!-- 蓝紫色风格 -->
+
+![Copyright-arch3rPro](https://img.shields.io/badge/Copyright-arch3rPro-6a11cb?style=flat&logo=github&logoColor=white)
+
+<!-- 绿色风格 -->
+
+![Copyright-arch3rPro](https://img.shields.io/badge/Copyright-arch3rPro-43e97b?style=flat&logo=github&logoColor=white)
+
+<!-- 橙色风格 -->
+
+![Copyright-arch3rPro](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
+---

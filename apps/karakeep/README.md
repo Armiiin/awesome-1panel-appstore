@@ -6,6 +6,8 @@
 
 [![主页截图](https://github.com/hoarder-app/hoarder/raw/main/screenshots/homepage.png?raw=true)](https://github.com/hoarder-app/hoarder/blob/main/screenshots/homepage.png?raw=true)
 
+![Copyright-arch3rPro](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
 ## 特征
 
 - 🔗 为链接添加书签、做简单的笔记并存储图像和 PDF。

@@ -24,6 +24,8 @@ Minio:
   - Username: admin
   - Password: YOUR_MINIO_PASSWORD
 
+
+
 ## 简介
 
 **LobeChat** 是一个现代化设计的开源 ChatGPT/LLMs 聊天应用与开发框架，支持语音合成、多模态、可扩展的（function call）插件系统，一键免费拥有你自己的 ChatGPT/Gemini/Claude/Ollama 应用。
@@ -37,6 +39,9 @@ Lobe Chat 支持两种部署模式：
 本应用商店部署的是**服务端数据库版本**（PS：服务端数据库版本的配置脚本太难写了=-=，1Panel官网提供的是客户端数据库版本，功能不全）
 
 ![LobeChat](https://private-user-images.githubusercontent.com/34400653/411259329-9647f70f-b71b-43b6-9564-7cdd12d1c24d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDIwOTg1MjQsIm5iZiI6MTc0MjA5ODIyNCwicGF0aCI6Ii8zNDQwMDY1My80MTEyNTkzMjktOTY0N2Y3MGYtYjcxYi00M2I2LTk1NjQtN2NkZDEyZDFjMjRkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzE2VDA0MTAyNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWM5NjNkZjg3NmE0M2M5OTc4OWVkZWYxNGFiZTQxNzM1YTJlNzg1ODllOGZjMTc4Nzg0MmEwYThiNDQ1MzRkZjcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.5u2ujzdC-1oZ3-vcrFhXCjEyx9hmpO7VVdGu6cBGYxo)
+
+![Copyright-arch3rPro](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
 
 ## 特性：
 

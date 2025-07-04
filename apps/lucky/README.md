@@ -12,6 +12,9 @@ Lucky 是一款集端口转发、流量转发、WAF、防火墙、备份等多�
 - **Web 管理界面**：直观易用的 Web UI，支持多用户管理。
 - **自动升级**：支持后台上传升级包或手动替换升级。
 
+![Copyright-arch3rPro](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
+
 ## 部署模式说明
 
 Lucky 提供两种 Docker 部署模式：

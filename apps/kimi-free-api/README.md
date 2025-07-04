@@ -2,6 +2,7 @@
 
 🚀 KIMI AI 长文本大模型逆向API【特长：长文本解读整理】，支持高速流式输出、智能体对话、联网搜索、探索版、K1思考模型、长文档解读、图像解析、多轮对话，零配置部署，多路token支持，自动清理会话痕迹，仅供测试，如需商用请前往官方开放平台。
 
+![Copyright-arch3rPro](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
 ### 风险说明
 
 - 逆向API是不稳定的，建议前往DeepSeek官方 https://platform.moonshot.cn/ 付费使用API，避免封禁的风险。

@@ -2,6 +2,9 @@
 
 KSpeeder is a modern, multi-platform Docker image acceleration and private registry service. It is designed for environments with limited access to DockerHub or those requiring fast, local image pulls. With KSpeeder, you can easily deploy your own image acceleration service in your LAN or enterprise, significantly improving Docker image download speeds.
 
+![Copyright-arch3rPro](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
+
 ## Main Features
 
 - **Image Acceleration**: Speed up Docker image pulls, especially in regions with slow or restricted access to DockerHub.

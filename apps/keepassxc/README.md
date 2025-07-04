@@ -2,6 +2,8 @@
 
 KeePassXC 是一款开源、跨平台的密码管理器，支持Web界面和多种平台。
 
+![Copyright-arch3rPro](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
 ## 功能特性
 
 - 跨平台密码管理，支持多种操作系统

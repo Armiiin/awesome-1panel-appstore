@@ -2,6 +2,9 @@
 
 Linkwarden 是一个自托管、开源的协作书签管理工具，支持网页归档、团队协作、全文搜索等功能。
 
+![Copyright-arch3rPro](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
+
 ## 主要特性
 
 - 📸 自动捕获每个网页的屏幕截图、PDF、单个 html 文件和可读视图。
