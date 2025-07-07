@@ -1,11 +1,11 @@
-name: cup
+name: Cup
 tags:
     - 实用工具
 title: 自动检测 Docker 容器基础镜像的工具
 description: 自动检测 Docker 容器基础镜像的工具
 additionalProperties:
     key: cup
-    name: cup
+    name: Cup
     tags:
         - Tool
     shortDescZh: 自动检测 Docker 容器基础镜像的工具
