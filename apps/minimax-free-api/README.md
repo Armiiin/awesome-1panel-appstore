@@ -2,6 +2,10 @@
 
 🚀 MiniMax大模型海螺AI逆向API【特长：超自然语音】，支持MiniMax Text-01、MiniMax-VL-01模型，支持高速流式输出、语音合成、联网搜索、长文档解读、图像解析、多轮对话，零配置部署，多路token支持，自动清理会话痕迹，仅供测试，如需商用请前往官方开放平台。
 
+![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/Free-API.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
 ### 风险说明
 
 - 逆向API是不稳定的，建议前往MiniMax官方 https://www.minimaxi.com/platform 付费使用API，避免封禁的风险。
