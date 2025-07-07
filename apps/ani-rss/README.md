@@ -2,6 +2,10 @@
 
 ANI-RSS 是一款专为动漫爱好者设计的自动订阅与下载工具，支持 Docker 快速部署，自动追番、下载、推送，适配主流下载器（如 qBittorrent、Aria2 等），让追番更智能高效。
 
+![](https://raw.githubusercontent.com/xiaoY233/PicList/main/public/assets/ANI-RSS.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
 ## 主要功能
 
 - **动漫 RSS 订阅**：自动订阅番剧更新，支持多站点源。
