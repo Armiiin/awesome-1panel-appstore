@@ -2,6 +2,13 @@
 
 Diun is a CLI tool to monitor Docker image updates and send notifications.
 
+
+![](https://raw.githubusercontent.com/xiaoY233/PicList/main/public/assets/Diun.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
+
+
 ## Features
 
 - Automatically monitor Docker image updates
