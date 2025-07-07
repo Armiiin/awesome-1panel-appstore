@@ -1,4 +1,4 @@
-name: Verysync
+name: 微力同步
 
 tags:
     - 文件同步
@@ -13,7 +13,7 @@ title: 智能P2P极速文件同步工具
 description: 微力同步（Verysync）是一款基于P2P技术的极速文件同步工具，支持多平台部署，适合家庭、企业、开发者等多场景使用。
 additionalProperties:
     key: verysync
-    name: Verysync
+    name: 微力同步
     tags:
         - Sync
         - NAS
