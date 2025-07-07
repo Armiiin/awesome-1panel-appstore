@@ -2,7 +2,9 @@
 
 Cup 是检查容器镜像更新最简单的方法.
 
-![https://cdn.jsdelivr.net/gh/sergi0g/cup@main/screenshots/web_dark.png](https://cdn.jsdelivr.net/gh/sergi0g/cup@main/screenshots/web_dark.png)
+![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/Cup.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
 
 ### 特色✨
 - 速度超快。Cup 充分利用了您的 CPU 资源，并经过高度优化，带来闪电般的速度。在我的 Raspberry Pi 5 上，58 张图片的读取仅用了 3.7 秒！
