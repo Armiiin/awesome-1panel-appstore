@@ -5,7 +5,7 @@ title: 跨平台传输文件
 description: 跨平台传输文件，无需设置，无需注册
 additionalProperties:
   key: pairdrop
-  name: pairdrop
+  name: Pairdrop
   tags:
     - Tool
     - local
