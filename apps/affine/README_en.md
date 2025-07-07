@@ -1,11 +1,11 @@
 # AFFiNE
 **AFFiNE** is an open-source integrated workspace and operating system for building knowledge bases and more—wiki, knowledge management, presentations, and digital assets. It's a better alternative to Notion and Miro.
 
-![AFFiNE](https://raw.githubusercontent.com/xiaoY233/PicList/main/public/assets/AFFiNE.png)
+![](https://raw.githubusercontent.com/xiaoY233/PicList/main/public/assets/AFFiNE.png)
 
 <!-- 橙色风格 -->
 
-![Copyright-arch3rPro](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
 
 ## Key Features:
 ### True canvas for blocks of any form, documents and whiteboards now fully merged.

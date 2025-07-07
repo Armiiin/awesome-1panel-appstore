@@ -2,11 +2,11 @@
 
 **AFFiNE** 是一个开源的一体化工作区和操作系统，适用于构建知识库的所有构建块以及更多内容——wiki、知识管理、演示和数字资产。它是 Notion 和 Miro 的更好替代品。
 
-![AFFiNE](https://raw.githubusercontent.com/xiaoY233/PicList/main/public/assets/AFFiNE.png)
+![](https://raw.githubusercontent.com/xiaoY233/PicList/main/public/assets/AFFiNE.png)
 
 <!-- 橙色风格 -->
 
-![Copyright-arch3rPro](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
 
 ## 主要特征：
 
