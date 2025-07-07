@@ -29,13 +29,13 @@ additionalProperties:
       required: true
       rule: paramComplexity
       type: password
-    - default: ""
+    - default: "postgresql"
       envKey: PANEL_DB_HOST
       key: postgresql
       labelEn: PostgreSQL Database Service
       labelZh: PostgreSQL 数据库服务
       required: true
-      type: service
+      type: text
     - default: "5432"
       edit: true
       envKey: PANEL_DB_PORT
