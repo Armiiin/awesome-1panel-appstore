@@ -2,6 +2,10 @@
 
 Diun 是一个用于监控 Docker 镜像更新并发送通知的命令行工具。
 
+![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/Diun.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
 ## 功能特性
 
 - 自动监控 Docker 镜像更新
