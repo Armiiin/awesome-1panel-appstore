@@ -29,9 +29,8 @@ additionalProperties:
       required: true
       rule: paramComplexity
       type: password
-    - default: "postgresql"
+    - default: "1.2.3.4"
       envKey: PANEL_DB_HOST
-      key: postgresql
       labelEn: PostgreSQL Database Service
       labelZh: PostgreSQL 数据库服务
       required: true
