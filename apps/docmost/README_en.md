@@ -7,6 +7,11 @@
         <a href="https://docmost.com/docs"><strong>Documentation</strong></a>
     </p>
 </div>
+
+![Test](https://raw.githubusercontent.com/xiaoY233/PicList/main/public/assets/Docmost.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
 > [!NOTE]  
 > Docmost is currently in **beta**. We value your feedback as we progress towards a stable release.
 

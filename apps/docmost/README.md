@@ -9,6 +9,10 @@
 </div>
 <br />
 
+![安装测试](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/Docmost.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
 > [!提示]  
 > Docmost 目前处于**测试阶段**。我们非常重视您的反馈，我们正在努力推出稳定版本。.
 
