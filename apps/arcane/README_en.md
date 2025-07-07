@@ -2,6 +2,10 @@
 
 Arcane is a modern, open-source Docker management web panel for containers, images, networks and more.
 
+![](https://raw.githubusercontent.com/xiaoY233/PicList/main/public/assets/Arcane.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
 ## Features
 
 - Modern web UI, clean and intuitive

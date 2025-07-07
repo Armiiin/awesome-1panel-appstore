@@ -2,6 +2,10 @@
 
 Arcane 是一款现代化、开源的Docker管理Web面板，支持容器、镜像、网络等一站式管理。
 
+![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/Arcane.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
 ## 功能特性
 
 - 现代化Web界面，操作简洁直观
