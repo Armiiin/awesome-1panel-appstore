@@ -5,7 +5,7 @@ Blinko 是一个创新的开源项目，专为那些想要快速捕捉和组织�
 
 ![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/Blinko.png)
 
-![Copyright-arch3rPro](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
 
 ## 使用方式
 
