@@ -1,5 +1,11 @@
 # EasyTier
 
+一个简单、安全、去中心化的内网穿透 VPN 组网方案，使用 Rust 语言和 Tokio 框架实现。
+
+![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/Easytier.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
 ## 使用说明
 
 > [!NOTE] 
@@ -12,8 +18,6 @@
 [简体中文](https://github.com/EasyTier/EasyTier/blob/main/README_CN.md) | [English](https://github.com/EasyTier/EasyTier/blob/main/README.md)
 
 **请访问 [EasyTier 官网](https://www.easytier.top/) 以查看完整的文档。**
-
-一个简单、安全、去中心化的内网穿透 VPN 组网方案，使用 Rust 语言和 Tokio 框架实现。
 
 
 ## 特点
