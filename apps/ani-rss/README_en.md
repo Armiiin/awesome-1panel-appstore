@@ -2,6 +2,10 @@
 
 ANI-RSS is an auto anime RSS subscription and download tool for anime fans. It supports Docker quick deployment, auto episode tracking, download, and push, compatible with mainstream downloaders (qBittorrent, Aria2, etc.), making anime following smarter and easier.
 
+![](https://raw.githubusercontent.com/xiaoY233/PicList/main/public/assets/ANI-RSS.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
 ## Main Features
 
 - **Anime RSS Subscription**: Auto subscribe to anime updates, support multiple sources.

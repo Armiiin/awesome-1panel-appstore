@@ -1,34 +1,18 @@
 name: ANI-RSS
-
 tags:
     - RSS
     - 动漫
-    - 下载
-    - 自动化
-    - Docker
     - 订阅
-    - BT
-    - 番剧
     - 追番
-    - 跨平台
 title: 动漫自动订阅与下载工具
-# 简要描述
-# 详细描述见 additionalProperties.description
-
 description: ANI-RSS 是一款专为动漫爱好者设计的自动订阅与下载工具，支持多平台部署，自动追番、下载、推送，适配主流下载器。
-
 additionalProperties:
     key: ani-rss
     name: ANI-RSS
     tags:
         - RSS
         - Anime
-        - Download
-        - Automation
-        - Docker
         - Subscription
-        - BT
-        - CrossPlatform
     shortDescZh: 动漫自动订阅与下载工具，支持多平台和主流下载器。
     shortDescEn: Anime RSS auto subscription and download tool, cross-platform and supports mainstream downloaders.
     description:
