@@ -2,6 +2,10 @@
 
 Verysync is a fast file synchronization tool based on intelligent P2P technology. It supports multi-platform deployment and is suitable for home, enterprise, and developer scenarios.
 
+![](https://raw.githubusercontent.com/xiaoY233/PicList/main/public/assets/Verysync.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
 ## Port Description
 
 - **8886**: Web management port (main port, set by variable)

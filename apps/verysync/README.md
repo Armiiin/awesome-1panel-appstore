@@ -2,6 +2,10 @@
 
 Verysync（微力同步）是一款基于智能P2P技术的极速文件同步工具，支持多平台部署，适合家庭、企业、开发者等多场景使用。
 
+![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/Verysync.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
 ## 主要功能
 
 - **极速P2P同步**：智能P2P加速，文件分块同步，传输速度快。

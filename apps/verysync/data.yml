@@ -1,14 +1,8 @@
 name: 微力同步
-
 tags:
     - 文件同步
     - NAS
     - 备份
-    - 多平台
-    - Docker
-    - 私有云
-    - 传输
-    - 跨平台
 title: 智能P2P极速文件同步工具
 description: 微力同步（Verysync）是一款基于P2P技术的极速文件同步工具，支持多平台部署，适合家庭、企业、开发者等多场景使用。
 additionalProperties:
@@ -18,9 +12,6 @@ additionalProperties:
         - Sync
         - NAS
         - Backup
-        - PrivateCloud
-        - Docker
-        - CrossPlatform
     shortDescZh: 极速P2P文件同步，支持多平台和多架构。
     shortDescEn: Fast P2P file sync, cross-platform and multi-architecture supported.
     description:
