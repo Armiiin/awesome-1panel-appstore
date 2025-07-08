@@ -2,6 +2,11 @@
 ## 申明
 由于原Alist项目所有者、文档、代码以及社群都被大幅度修改，原开发者Xhofe已经离开，当前最后版本为v3.45.0，基于此版本进行封存；后续基于开源社区维护OpenList进行更新；安装时，请选择openlist版本。
 
+![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/OpenList.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
+
 ## 版本说明
 
 - latest 开源主版本，不包含其他工具，体积最小
