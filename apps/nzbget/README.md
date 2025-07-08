@@ -2,6 +2,10 @@
 
 NZBGet 是一个高性能的Usenet下载工具，支持Web界面管理和自动化下载。
 
+![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/NZBGet.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
 ## 功能特性
 
 - 高性能Usenet下载

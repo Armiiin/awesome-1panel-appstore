@@ -2,6 +2,10 @@
 
 NZBGet is a high-performance Usenet downloader with web interface and automation support.
 
+![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/NZBGet.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
 ## Features
 
 - High-performance Usenet downloading
