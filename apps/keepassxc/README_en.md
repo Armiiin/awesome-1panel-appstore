@@ -2,6 +2,10 @@
 
 KeePassXC is an open-source, cross-platform password manager with web interface support.
 
+![](https://raw.githubusercontent.com/xiaoY233/PicList/main/public/assets/KeePassXC.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
 ## Features
 
 - Cross-platform password management for multiple OS
