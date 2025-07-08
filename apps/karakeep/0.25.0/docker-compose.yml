@@ -1,6 +1,6 @@
 services:
   karakeep:
-    image: ghcr.io/karakeep-app/karakeep:0.24.1
+    image: ghcr.io/karakeep-app/karakeep:0.25.0
     container_name: ${CONTAINER_NAME}
     restart: unless-stopped
     volumes:
@@ -22,7 +22,7 @@ services:
       # If you want to mount a custom directory, change the volume mapping above instead.
       DATA_DIR: /data # DON'T CHANGE THIS
   chrome:
-    image: gcr.io/zenika-hub/alpine-chrome:123
+    image: gcr.io/zenika-hub/alpine-chrome:124
     container_name: chrome-${CONTAINER_NAME}
     restart: unless-stopped
     command:
@@ -33,7 +33,7 @@ services:
       - --remote-debugging-port=9222
       - --hide-scrollbars
   meilisearch:
-    image: getmeili/meilisearch:v1.11.1
+    image: getmeili/meilisearch:v1.15.2
     container_name: meili-${CONTAINER_NAME}
     restart: unless-stopped
     environment:

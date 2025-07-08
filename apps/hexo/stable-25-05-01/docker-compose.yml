@@ -7,13 +7,16 @@ services:
     ports:
       - "${PANEL_APP_PORT_HTTP}:4000"
     volumes:
-      - hexo_data:/home/hexo/.hexo
-    image: taskbjorn/hexo:main
+      - "${DATA_PATH}:/app"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Shanghai
+      - GIT_USER=${GIT_USERNAME}
+      - GIT_EMAIL=${GIT_MAIL}
+    image: bloodstar/hexo:stable-25-05-01
     labels:  
       createdBy: "Apps"
-
-volumes:
-  hexo_data:
 
 networks:  
   1panel-network:  

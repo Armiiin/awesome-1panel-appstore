@@ -4,9 +4,9 @@
 
 > *karakeep（原名Hoarder） 是一个独立的非商业项目。它与 Hordr.app 或其所有者没有任何关联、支持或联系。*
 
-[![主页截图](https://github.com/hoarder-app/hoarder/raw/main/screenshots/homepage.png?raw=true)](https://github.com/hoarder-app/hoarder/blob/main/screenshots/homepage.png?raw=true)
+![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/Karakeep.png)
 
-![Copyright-arch3rPro](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
 
 ## 特征
 
