@@ -1,24 +1,31 @@
 services:
   transmission:
     container_name: ${CONTAINER_NAME}
-    image: lscr.io/linuxserver/transmission:latest
     restart: always
     networks:
       - 1panel-network
     ports:
       - "${PANEL_APP_PORT_HTTP}:9091"
-      - "51413:51413"
-      - "51413:51413/udp"
+      - "${PEER_PORT_VALUE}:${PEER_PORT_VALUE}"
+      - "${PEER_PORT_VALUE}:${PEER_PORT_VALUE}/udp"
+    volumes:
+      - "./data/config:/config"
+      - "${DOWNLOAD_PATH}:/downloads"
+      - "${WATCH_PATH}:/watch"
     environment:
-      - TZ=Asia/Shanghai
       - PUID=1000
       - PGID=1000
-    volumes:
-      - ./config:/config
-      - ./downloads:/downloads
-      - ./watch:/watch
-    labels:
+      - TZ=Asia/Shanghai
+      - TRANSMISSION_WEB_HOME= #optional
+      - USER=${WEBUI_USER}
+      - PASS=${WEBUI_PWD}
+      - WHITELIST= #optional
+      - PEERPORT=${PEER_PORT_VALUE}
+      - HOST_WHITELIST= #optional
+    image: linuxserver/transmission:latest
+    labels:  
       createdBy: "Apps"
-networks:
-  1panel-network:
-    external: true 
+
+networks:  
+  1panel-network:  
+    external: true

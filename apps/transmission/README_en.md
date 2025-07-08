@@ -2,6 +2,10 @@
 
 Transmission is an open-source, high-performance BT/PT downloader with web interface support.
 
+![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/Transmission.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
 ## Features
 
 - High-performance BT/PT downloading, supports torrents and magnet links

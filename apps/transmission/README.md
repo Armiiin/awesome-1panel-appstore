@@ -2,6 +2,11 @@
 
 Transmission 是一款开源、高性能的BT/PT下载工具，支持Web界面和多平台。
 
+![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/Transmission.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
+
 ## 功能特性
 
 - 高性能BT/PT下载，支持种子和磁力链接
