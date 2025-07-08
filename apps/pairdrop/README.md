@@ -1,10 +1,14 @@
-- # 使用[PairDrop](https://pairdrop.net/)*发送*
+# PairDrop
 
   [**在网页浏览器中**](https://pairdrop.net/) 共享本地文件。
   灵感源自 Apple 的 AirDrop。Snapdrop
   的分支。
 
-  ## 特征
+![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/PairDrop.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
+## 特征
 
   可在所有平台上运行的本地网络上的文件共享。
 
