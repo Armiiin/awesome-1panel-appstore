@@ -1,4 +1,9 @@
 # Qexo
+
+![](https://s2.loli.net/2024/07/19/r1XJPHnYANKbcRl.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
 > **Note:**
 > 
 >This application needs to be used with a static blog website. When installing, you need to modify the volumes parameter in the Docker-compose file. The default is hexo_data. Please modify it to the mount volume path of the blog application as needed.

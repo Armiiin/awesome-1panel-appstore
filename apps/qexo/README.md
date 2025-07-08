@@ -1,11 +1,15 @@
 # Qexo
 
+![](https://s2.loli.net/2024/07/19/r1XJPHnYANKbcRl.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
 > **使用说明**
 > 本应用需配合静态博客网站使用，安装时需要修改Docker-compose中的挂载卷-volumes参数，默认为hexo_data，请按需修改为博客应用APP的挂载卷地址。
 
 **Qexo** 是一个快速、强大、美观的在线 **静态博客编辑器**。使用 GPL3.0 **开源**协议。支持包括且不限于在 **Vercel** 等平台部署, 为您的静态博客添加**动态**的元素
 
-![Dashboard](https://s2.loli.net/2024/07/19/r1XJPHnYANKbcRl.png)
+![](https://s2.loli.net/2024/07/19/r1XJPHnYANKbcRl.png)
 
 - **文章管理~全新界面**
 
