@@ -2,7 +2,10 @@
 
 KSpeeder 是一款专为 Docker 镜像加速设计的镜像服务，支持本地私有部署，适用于无法访问 DockerHub 的环境。通过 KSpeeder，您可以在局域网内搭建属于自己的镜像加速服务，大幅提升 Docker 镜像的拉取速度。
 
-![Copyright-arch3rPro](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
+![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/KSpeeder.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
 
 
 ## 主要特性
