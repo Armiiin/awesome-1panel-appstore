@@ -2,6 +2,7 @@
 # NPS
 NPS 是一款**轻量级**、**高性能**、**功能强大**的**内网穿透代理服务器**。
 
+### 1Panel测试截图
 ![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/NPS.png)
 
 ![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
