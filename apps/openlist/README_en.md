@@ -2,6 +2,11 @@
 
 A file list program that supports multiple storage, and supports web browsing and webdav, powered by gin and Solidjs.
 
+
+![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/OpenList.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
 ## Supported Storage
 
 - Local storage
