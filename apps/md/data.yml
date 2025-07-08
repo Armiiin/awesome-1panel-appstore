@@ -1,11 +1,11 @@
-name: md
+name: MD
 tags:
     - 实用工具
 title: 微信Markdown编辑器
 description: 一款高度简洁的微信Markdown编辑器
 additionalProperties:
     key: md
-    name: md
+    name: MD
     tags:
         - Tool
     shortDescZh: 一款高度简洁的微信 Markdown 编辑器
