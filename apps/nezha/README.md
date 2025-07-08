@@ -4,7 +4,7 @@
 哪吒监控是一款开源的服务器监控与运维工具，支持实时监控、故障告警、WebSSH、DDNS、流量监控等功能。
 
 
-![]](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/Nezha.png)
+![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/Nezha.png)
 
 ![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
 
