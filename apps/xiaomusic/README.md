@@ -6,74 +6,13 @@
 
 文档: <https://xdocs.hanxi.cc/>
 
+![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/XiaoMusic.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
 > [!TIP]
 > 初次安装遇到问题请查阅 [💬 FAQ问题集合](https://github.com/hanxi/xiaomusic/issues/99) ，一般遇到的问题都已经有解决办法。
 
-## 👋 最简配置运行
-
-已经支持在 web 页面配置其他参数，docker 启动命令如下:
-
-```bash
-docker run -p 58090:8090 -e XIAOMUSIC_PUBLIC_PORT=58090 -v /xiaomusic_music:/app/music -v /xiaomusic_conf:/app/conf hanxi/xiaomusic
-```
-
-🔥 国内：
-
-```bash
-docker run -p 58090:8090 -e XIAOMUSIC_PUBLIC_PORT=58090 -v /xiaomusic_music:/app/music -v /xiaomusic_conf:/app/conf docker.hanxi.cc/hanxi/xiaomusic
-```
-
-对应的 docker compose 配置如下：
-
-```yaml
-services:
-  xiaomusic:
-    image: hanxi/xiaomusic
-    container_name: xiaomusic
-    restart: unless-stopped
-    ports:
-      - 58090:8090
-    environment:
-      XIAOMUSIC_PUBLIC_PORT: 58090
-    volumes:
-      - /xiaomusic_music:/app/music
-      - /xiaomusic_conf:/app/conf
-```
-
-🔥 国内：
-
-```yaml
-services:
-  xiaomusic:
-    image: docker.hanxi.cc/hanxi/xiaomusic
-    container_name: xiaomusic
-    restart: unless-stopped
-    ports:
-      - 58090:8090
-    environment:
-      XIAOMUSIC_PUBLIC_PORT: 58090
-    volumes:
-      - /xiaomusic_music:/app/music
-      - /xiaomusic_conf:/app/conf
-```
-
-- 其中 conf 目录为配置文件存放目录，music 目录为音乐存放目录，建议分开配置为不同的目录。
-- /xiaomusic_music 和 /xiaomusic_conf 是 docker 所在的主机的目录，可以修改为其他目录。如果报错找不到 /xiaomusic_music 目录，可以先执行 `mkdir -p /xiaomusic_{music,conf}` 命令新建目录。
-- /app/music 和 /app/conf 是 docker 容器里的目录，不要去修改。
-- XIAOMUSIC_PUBLIC_PORT 是用来配置 NAS 本地端口的。8090 是容器端口，不要去修改。
-- 后台访问地址为： http://NAS_IP:58090
-
-> [!NOTE]
-> docker 和 docker compose 二选一即可，启动成功后，在 web 页面可以配置其他参数，带有 `*` 号的配置是必须要配置的，其他的用不上时不用修改。初次配置时需要在页面上输入小米账号和密码保存后才能获取到设备列表。
-
-> [!TIP]
-> 目前安装步骤已经是最简化了，如果还是嫌安装麻烦，可以微信或者 QQ 约我远程安装，我一般周末和晚上才有时间，收个辛苦费 :moneybag: 50 元一次，安装失败不收费。
-
-遇到问题可以去 web 设置页面底部点击【下载日志文件】按钮，然后搜索一下日志文件内容确保里面没有账号密码信息后(有就删除这些敏感信息)，然后在提 issues 反馈问题时把下载的日志文件带上。
-
-> [!TIP]
-> 海外 RackNerd VPS 机器推荐，可支付宝付款。
-<a href="https://my.racknerd.com/aff.php?aff=11177"><img src="https://racknerd.com/banners/320x50.gif" alt="RackNerd Mobile Leaderboard Banner" width="320" height="50"></a>
 ### 🤐 支持语音口令
 
 - 【播放歌曲】，播放本地的歌曲
@@ -130,42 +69,6 @@ options:
 其中 `config.json` 文件可以参考 `config-example.json` 文件配置。见 <https://github.com/hanxi/xiaomusic/issues/94>
 
 不修改默认端口 8090 的情况下，只需要执行 `xiaomusic` 即可启动。
-
-## 🔩 开发环境运行
-
-- 使用 install_dependencies.sh 下载依赖
-- 使用 pdm 安装环境
-- 默认监听了端口 8090 , 使用其他端口自行修改。
-
-```shell
-pdm run xiaomusic.py
-````
-
-如果是开发前端界面，可以通过 <http://localhost:8090/docs>
-查看有什么接口。目前的 web 控制台非常简陋，欢迎有兴趣的朋友帮忙实现一个漂亮的前端，需要什么接口可以随时提需求。
-
-### 🚦 代码提交规范
-
-提交前请执行
-
-```
-pdm lintfmt
-```
-
-用于检查代码和格式化代码。
-
-### 本地编译 Docker Image
-
-```shell
-docker build -t xiaomusic .
-```
-
-### 技术栈
-
-- 后端代码使用 Python 语言编写。
-- HTTP 服务使用的是 FastAPI 框架，~~早期版本使用的是 Flask~~。
-- 使用了 Docker ，在 NAS 上安装更方便。
-- 默认的前端主题使用了 jQuery 。
 
 ## 已测试支持的设备
 
@@ -232,55 +135,7 @@ docker build -t xiaomusic .
 - 自定义口令功能 <https://github.com/hanxi/xiaomusic/issues/105>
 - [ ] 缺少一篇教程 [如何写自定义插件](https://github.com/hanxi/xiaomusic/issues/105)
 
-## 📢 讨论区
-
-- [点击链接加入QQ频道【xiaomusic】](https://pd.qq.com/s/e2jybz0ss)
-- [点击链接加入群聊【满 xiaomusic官方交流群1(小爱音箱)】 604526973](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=13St5PLVcTxYlWTAs_iAawazjtdD1l-a&authKey=dJWEpaT2fDBDpdUUOWj%2FLt6NS1ePBfShDfz7a6seNURi05VvVnAGQzXF%2FM%2F5HgIm&noverify=0&group_code=604526973)
-- [点击链接加入群聊【xiaomusic官方交流群2(小爱音箱)】1021062499](https://qm.qq.com/q/BmVNqhDL3M)
-- <https://github.com/hanxi/xiaomusic/issues>
-- [微信群二维码](https://github.com/hanxi/xiaomusic/issues/86)
-
-## ❤️ 感谢
-
-- [xiaomi](https://www.mi.com/)
-- [PDM](https://pdm.fming.dev/latest/)
-- [xiaogpt](https://github.com/yihong0618/xiaogpt)
-- [MiService](https://github.com/yihong0618/MiService)
-- [实现原理](https://github.com/yihong0618/gitblog/issues/258)
-- [yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- [awesome-xiaoai](https://github.com/zzz6519003/awesome-xiaoai)
-- [微信小程序: 卯卯音乐](https://github.com/F-loat/xiaoplayer)
-- [pure 主题 xiaomusicUI](https://github.com/52fisher/xiaomusicUI)
-- [移动端的播放器主题](https://github.com/52fisher/XMusicPlayer)
-- [Tailwind主题](https://github.com/clarencejh/xiaomusic)
-- [一个第三方的主题](https://github.com/DarrenWen/xiaomusicui)
-- [Umami 统计](https://github.com/umami-software/umami)
-- [Sentry 报错监控](https://github.com/getsentry/sentry)
-- 所有帮忙调试和测试的朋友
-- 所有反馈问题和建议的朋友
-
 ### 👉 其他教程
 
 更多功能见 [📝 文档汇总](https://github.com/hanxi/xiaomusic/issues/211)
 
-## 🚨 免责声明
-
-本项目仅供学习和研究目的，不得用于任何商业活动。用户在使用本项目时应遵守所在地区的法律法规，对于违法使用所导致的后果，本项目及作者不承担任何责任。
-本项目可能存在未知的缺陷和风险（包括但不限于设备损坏和账号封禁等），使用者应自行承担使用本项目所产生的所有风险及责任。
-作者不保证本项目的准确性、完整性、及时性、可靠性，也不承担任何因使用本项目而产生的任何损失或损害责任。
-使用本项目即表示您已阅读并同意本免责声明的全部内容。
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=hanxi/xiaomusic&type=Date)](https://star-history.com/#hanxi/xiaomusic&Date)
-
-## 赞赏
-
-- :moneybag: 爱发电 <https://afdian.com/a/imhanxi>
-- 点个 Star :star:
-- 谢谢 :heart:
-- ![喝杯奶茶](https://i.v2ex.co/7Q03axO5l.png)
-
-## License
-
-[MIT](https://github.com/hanxi/xiaomusic/blob/main/LICENSE) License © 2024 涵曦

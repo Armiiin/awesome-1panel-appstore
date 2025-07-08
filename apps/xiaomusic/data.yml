@@ -15,7 +15,7 @@ additionalProperties:
   description:
     zh: 使用小爱/红米音箱播放音乐，音乐使用 yt-dlp 下载
     en: Play music using Xiaolove/Redmi speaker, and the music is downloaded with yt-dlp.
-  type: music
+  type: website
   crossVersionUpdate: true
   limit: 0
   recommend: 0
