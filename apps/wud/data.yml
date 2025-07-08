@@ -17,7 +17,6 @@ additionalProperties:
   architectures:
     - amd64
     - arm64
-
   website: https://getwud.github.io/wud/
   github: https://github.com/getwud/wud
   document: https://github.com/getwud/wud
