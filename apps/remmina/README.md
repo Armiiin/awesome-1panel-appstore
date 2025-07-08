@@ -2,6 +2,10 @@
 
 Remmina 是一款开源、跨平台的远程桌面客户端，支持多种协议和Web界面。
 
+![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/Remmina.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
 ## 功能特性
 
 - 支持RDP、VNC、SPICE、NX、XDMCP等多种远程桌面协议

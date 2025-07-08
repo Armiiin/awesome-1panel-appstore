@@ -2,6 +2,10 @@
 
 Remmina is an open-source, cross-platform remote desktop client with web interface support.
 
+![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/Remmina.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
 ## Features
 
 - Supports RDP, VNC, SPICE, NX, XDMCP and more remote desktop protocols
