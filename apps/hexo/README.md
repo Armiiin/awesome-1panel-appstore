@@ -2,6 +2,10 @@
 
 > 一个快速、简单且功能强大的博客框架，由[Node.js](https://nodejs.org/)提供支持。
 
+![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/Hexo.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
 [网站](https://hexo.io/)| [文档](https://hexo.io/docs/)| [安装指南](https://hexo.io/docs/#Installation)| [贡献指南](https://hexo.io/docs/contributing)| [行为准则](https://github.com/hexojs/hexo/blob/master/CODE_OF_CONDUCT.md)| [API](https://hexo.io/api/) | [Twitter](https://twitter.com/hexojs)
 
 ## 特征

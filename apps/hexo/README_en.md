@@ -1,8 +1,10 @@
-<img src="https://raw.githubusercontent.com/hexojs/logo/master/hexo-logo-avatar.png" alt="Hexo logo" width="100" height="100" align="right" />
-
 # Hexo
 
 > A fast, simple & powerful blog framework, powered by [Node.js](https://nodejs.org).
+
+![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/Hexo.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
 
 [Website](https://hexo.io) |
 [Documentation](https://hexo.io/docs/) |
