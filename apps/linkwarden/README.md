@@ -2,7 +2,9 @@
 
 Linkwarden 是一个自托管、开源的协作书签管理工具，支持网页归档、团队协作、全文搜索等功能。
 
-![Copyright-arch3rPro](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/Linkwarden.png)
+
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
 
 
 ## 主要特性
@@ -44,6 +46,3 @@ Linkwarden 是一个自托管、开源的协作书签管理工具，支持网页
 2. 安装完成后，访问 `http://服务器IP:端口` 进行初始化设置
 3. 数据默认持久化在 `data` 目录下
 
-## 相关截图
-
-![dashboard](https://raw.githubusercontent.com/linkwarden/linkwarden/main/assets/dashboard.png)
