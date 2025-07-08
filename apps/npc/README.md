@@ -1,33 +1,76 @@
+# NPS
+NPS 是一款**轻量级**、**高性能**、**功能强大**的**内网穿透代理服务器**。
 
-# nps
-nps是一款轻量级、高性能、功能强大的**内网穿透**代理服务器。目前支持**tcp、udp流量转发**，可支持任何**tcp、udp**上层协议（访问内网网站、本地支付接口调试、ssh访问、远程桌面，内网dns解析等等……），此外还**支持内网http代理、内网socks5代理**、**p2p等**，并带有功能强大的web管理端。
+### 1Panel安装测试
+![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/NPS.png)
 
-## 说明
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
 
-由于[nps](https://github.com/ehang-io/nps)已经有二年多的时间没有更新了，存留了不少bug和未完善的功能。
+- **多协议支持**：原生支持 **TCP** 与 **UDP** 流量转发，可承载任意上层协议（SSH、RDP、数据库、游戏联机、内网 DNS、音视频流等）。
+- **域名转发**：内置完整的 HTTP/HTTPS 反向代理能力，可通过自定义域名与证书，将公网请求安全透明地转发到内网 Web 服务，适用于线上灰度发布、微信/小程序调试、Webhook 回调等场景。
+- **代理模式丰富**：内置 **HTTP 代理**、**Socks5 代理**，实现类似 VPN 的访问体验；还提供**私密代理、P2P 连接**，无需将端口暴露在公网环境下。
+- **高效 P2P 直连**：支持 TCP/UDP 端到端映射、透明代理和 Socks5 直连；打洞成功时流量**不走服务器**，打洞失败 TCP 端口 可自动回落到私密代理。
+- **Web 管理界面**：可视化控制台实时展示隧道状态、流量统计与访问日志，支持多用户、多隧道与细粒度访问控制。
+- **多连接协议**：支持通过 TCP、KCP、TLS、QUIC、WS、WSS 协议连接服务器，适应各种不同环境需求。
 
-此版本基于 nps 0.26 的基础上二次开发而来。
+### 背景
 
+![image](https://cdn.jsdelivr.net/gh/djylb/nps/image/web.png)
 
-## 背景
-![image](https://github.com/ehang-io/nps/blob/master/image/web.png?raw=true)
+### ✨ 核心功能
 
-1. 做微信公众号开发、小程序开发等----> 域名代理模式
+#### 🕸️ **域名转发** (支持H3)
 
-2. 想在外网通过ssh连接内网的机器，做云服务器到内网服务器端口的映射，----> tcp代理模式
+通过域名访问内网Web服务器，HTTP/HTTPS 反向代理，相当于 Nginx ，可用于：
 
-3. 在非内网环境下使用内网dns，或者需要通过udp访问内网机器等----> udp代理模式
+- 内网 Web 服务上线部署
+- 微信公众号、小程序本地调试
+- Webhook 回调调试
 
-4. 在外网使用HTTP代理访问内网站点----> http代理模式
+#### 🔌 **TCP 隧道**
 
-5. 搭建一个内网穿透ss，在外网如同使用内网vpn一样访问内网资源或者设备----> socks5代理模式
-## 特点
-- 协议支持全面，兼容几乎所有常用协议，例如tcp、udp、http(s)、socks5、p2p、http代理...
-- 全平台兼容(linux、windows、macos、群辉等)，支持一键安装为系统服务
-- 控制全面，同时支持服务端和客户端控制
-- https集成，支持将后端代理和web服务转成https，同时支持多证书
-- 操作简单，只需简单的配置即可在web ui上完成其余操作
-- 展示信息全面，流量、系统信息、即时带宽、客户端版本等
-- 扩展功能强大，该有的都有了（缓存、压缩、加密、流量限制、带宽限制、端口复用等等）
-- 域名解析具备自定义header、404页面配置、host修改、站点保护、URL路由、泛解析等功能
-- 服务端支持多用户和用户注册功能
+映射任意 TCP 端口到 NPS 服务器，常用于：
+
+- RDP 远程桌面
+- 连接内网 SSH
+- 远程数据库访问
+
+#### 📡 **UDP 隧道**
+
+映射任意 UDP 端口到 NPS 服务器，常用于：
+
+- 访问内网 DNS
+- 内网游戏联机
+- 音视频串流
+
+#### 🌍 **HTTP/Socks5 代理**
+
+通过 HTTP/Socks5 代理访问内网资源，相当于 VPN ，常用于：
+
+- 内部服务器远程访问
+- 企业办公系统外网访问
+- 远程内网运维调试
+
+#### 🤫 **私密代理**
+
+端到端的 TCP 端口映射，端口不会暴露于公网，适用于安全性较高的场景，所有流量经 NPS 服务器中转。
+
+#### 🌐 **P2P 连接**
+
+支持 TCP/UDP 端到端映射、Socks5 隧道、透明代理。
+
+- **流量不走中转**：直连时不占用服务器带宽。
+- **自动回落**：若 P2P 打洞失败，TCP 端口映射将自动切换到“私密代理”中继模式。
+
+### 特别推荐
+
+原项目很久未更新了，这个是二开项目，博主更新维护积极，同时还支持OPenwrt和Andriod客户端
+
+项目地址如下
+
+- 网站文档: [https://d-jy.net/docs/nps/](https://d-jy.net/docs/nps/)
+- github: [https://github.com/djylb/nps](https://github.com/djylb/nps)
+
+有幸给项目写过一套主题，虽然写的很烂，好在博主以重构的方式合并版本里面了
+
+- 主题地址：[https://github.com/arch3rPro/NPS-Theme-Argon](https://github.com/arch3rPro/NPS-Theme-Argon)

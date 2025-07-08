@@ -17,6 +17,6 @@ additionalProperties:
   crossVersionUpdate: true
   limit: 1
   recommend: 0
-  website: https://ehang-io.github.io/nps
+  website: https://d-jy.net/docs/nps/
   github: https://github.com/djylb/nps
-  document: https://ehang-io.github.io/nps
+  document: https://d-jy.net/docs/nps/
