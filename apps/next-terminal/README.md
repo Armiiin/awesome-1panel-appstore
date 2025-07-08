@@ -1,7 +1,9 @@
 # Next Terminal
 
-[![Docker guacd build](https://github.com/dushixiang/next-terminal/actions/workflows/docker-guacd.yml/badge.svg)](https://github.com/dushixiang/next-terminal/actions/workflows/docker-guacd.yml)
-[![Docker next-terminal build](https://github.com/dushixiang/next-terminal/actions/workflows/docker-next-terminal.yml/badge.svg)](https://github.com/dushixiang/next-terminal/actions/workflows/docker-next-terminal.yml)
+Next Terminal是一个简单好用安全的开源交互审计系统，支持RDP、SSH、VNC、Telnet、Kubernetes协议。
+
+![](https://github.com/dushixiang/next-terminal/raw/master/screenshots/zh/dashboard.png)
+![](https://github.com/dushixiang/next-terminal/raw/master/screenshots/zh/access.png)
 
 ## 快速了解
 
@@ -45,29 +47,3 @@ https://next.typesafe.cn/ 账号：test  密码：test
 - [安装文档](https://next-terminal.typesafe.cn)
 
 默认账号密码为 admin/admin 。
-
-## 手动编译
-
-1. 找一台Linux 机器或者Mac
-2. 安装 go 1.18 或以上版本
-3. 安装 nodejs 16，安装 npm 或 yarn
-4. 进入 web 目录 执行 yarn 或 npm install
-5. 返回上级目录，也就是项目根目录，执行 sh build.sh
-
-## 问题反馈
-
-- Issues
-- 微信群 加我微信拉你进群 (请备注 next-terminal)
-
-<img src="https://github.com/dushixiang/next-terminal/raw/master/wx.png" width="300"  height="auto"/>
-
-- QQ群 938145268
-- Telegram https://t.me/next_terminal
-
-## 安全问题
-
-如果您在使用过程中发现了安全问题，请发送邮件至 helloworld1024@foxmail.com 联系我，谢谢。
-
-## License 
-
-Next Terminal 使用 [AGPL-3.0](./LICENSE) 开源协议，请自觉遵守。
