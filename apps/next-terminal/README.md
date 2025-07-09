@@ -2,6 +2,9 @@
 
 Next Terminal是一个简单好用安全的开源交互审计系统，支持RDP、SSH、VNC、Telnet、Kubernetes协议。
 
+
+
+## 屏幕截图
 ![](https://github.com/dushixiang/next-terminal/raw/master/screenshots/zh/dashboard.png)
 ![](https://github.com/dushixiang/next-terminal/raw/master/screenshots/zh/access.png)
 
