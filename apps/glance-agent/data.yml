@@ -16,7 +16,7 @@ additionalProperties:
         - Other
     shortDescZh: 远程服务器监控数据采集agent
     shortDescEn: Remote server monitoring data collection agent
-    type: tools
+    type: tool
     crossVersionUpdate: true
     website: https://github.com/arch3rPro/Glance-Monitor
     github: https://github.com/arch3rPro/Glance-Monitor

@@ -10,7 +10,7 @@ additionalProperties:
         - AI
     shortDescZh: LobeChat服务端数据库版 - 现代化设计的开源 ChatGPT/LLMs 聊天应用与开发框架
     shortDescEn: LobeChat-Data - An open-source, modern-design ChatGPT/LLMs UI/Framework
-    type: tool
+    type: website
     crossVersionUpdate: true
     limit: 0
     recommend: 0

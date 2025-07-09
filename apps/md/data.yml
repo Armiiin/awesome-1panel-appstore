@@ -10,7 +10,7 @@ additionalProperties:
         - Tool
     shortDescZh: 一款高度简洁的微信 Markdown 编辑器
     shortDescEn: WeChat Markdown Editor
-    type: tool
+    type: website
     crossVersionUpdate: true
     limit: 0
     recommend: 0

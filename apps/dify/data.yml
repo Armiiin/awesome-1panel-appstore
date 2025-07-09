@@ -10,7 +10,7 @@ additionalProperties:
     - AI
   shortDescZh: Dify 是一个开源的 LLM 应用开发平台
   shortDescEn: Dify is an open-source LLM application development platform
-  type: tool
+  type: website
   crossVersionUpdate: true
   limit: 0
   recommend: 0
