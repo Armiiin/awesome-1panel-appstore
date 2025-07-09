@@ -10,7 +10,7 @@ additionalProperties:
     - Tool
   shortDescZh: 一款开源、自托管的个人笔记工具
   shortDescEn: An open-source, self-hosted personal note tool
-  type: tool
+  type: website
   crossVersionUpdate: true
   limit: 0
   recommend: 0
