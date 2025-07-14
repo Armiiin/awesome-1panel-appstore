@@ -1,6 +1,6 @@
 services:
   nps:
-    image: duan2001/nps:v0.29.33
+    image: duan2001/nps:v0.29.35
     container_name: ${CONTAINER_NAME}
     ports:
       - ${PANEL_APP_PORT_HTTP}:${PANEL_APP_PORT_HTTP}
@@ -30,8 +30,7 @@ services:
       NPS_HTTPS_PROXY_PORT: ${NPS_HTTPS_PROXY_PORT}
     network_mode: 1panel-network
     labels:
-      createdBy: "Apps"
-
+      createdBy: Apps
 networks:
   1panel-network:
     external: true
