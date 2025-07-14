@@ -175,7 +175,7 @@
 
 轻量级文档管理系统，支持多人协作编辑与版本控制
 
-<kbd>v0.20.4</kbd> • [官网链接](https://github.com/docmost/docmost)
+<kbd>0.21.0</kbd> • [官网链接](https://github.com/docmost/docmost)
 
 </td>
 <td width="33%" align="center">
@@ -187,7 +187,7 @@
 
 快速静态博客框架，支持Markdown编写，丰富的插件和主题
 
-<kbd>latest</kbd> • [官网链接](https://github.com/hexojs/hexo)
+<kbd>stable-25-05-01</kbd> • [官网链接](https://github.com/hexojs/hexo)
 
 </td>
 <td width="33%" align="center">
@@ -199,7 +199,7 @@
 
 美观强大的在线静态博客管理器，支持多种平台
 
-<kbd>latest</kbd> • [官网链接](https://github.com/Qexo/Qexo)
+<kbd>3.6.2</kbd> • [官网链接](https://github.com/Qexo/Qexo)
 
 </td>
 </tr>
@@ -216,7 +216,7 @@
 
 微信 Markdown 编辑器，自动即时渲染为微信图文
 
-<kbd>v2.0.3</kbd> • [官网链接](https://github.com/doocs/md)
+<kbd>2.0.4</kbd> • [官网链接](https://github.com/doocs/md)
 
 </td>
 <td width="33%" align="center">
@@ -228,7 +228,7 @@
 
 自托管全能书签管理工具，支持AI自动标签功能
 
-<kbd>v0.24.1</kbd> • [官网链接](https://github.com/karakeep-app/karakeep)
+<kbd>0.25.0</kbd> • [官网链接](https://github.com/karakeep-app/karakeep)
 
 </td>
 <td width="33%" align="center">
@@ -257,7 +257,7 @@
 
 文档、白板和数据库完全整合的工作空间
 
-<kbd>stable</kbd> • [官网链接](https://github.com/toeverything/AFFiNE)
+<kbd>stable-e98f035</kbd> • [官网链接](https://github.com/toeverything/AFFiNE)
 
 </td>
 <td width="33%" align="center">
@@ -269,7 +269,7 @@
 
 开源自托管个人笔记工具，支持AI增强笔记检索
 
-<kbd>v1.0.3</kbd> • [官网链接](https://github.com/blinko-space/blinko)
+<kbd>1.1.2</kbd> • [官网链接](https://github.com/blinko-space/blinko)
 
 </td>
 <td width="33%" align="center">
@@ -291,7 +291,7 @@
 
 🌐 简单安全去中心化的内网穿透 VPN 组网方案
 
-<kbd>v2.3.1</kbd> • [官网链接](https://github.com/EasyTier/Easytier)
+<kbd>2.3.2</kbd> • [官网链接](https://github.com/EasyTier/Easytier)
 
 </td>
 <td width="33%" align="center">
@@ -303,7 +303,7 @@
 
 🔗 NPS客户端，轻量级高性能内网穿透代理工具
 
-<kbd>v0.29.21</kbd> • [官网链接](https://github.com/djylb/nps)
+<kbd>v0.29.35</kbd> • [官网链接](https://github.com/djylb/nps)
 
 </td>
 <td width="33%" align="center">
@@ -315,7 +315,7 @@
 
 🔄 轻量级高性能内网穿透代理服务器
 
-<kbd>v0.29.21</kbd> • [官网链接](https://github.com/djylb/nps)
+<kbd>v0.29.35</kbd> • [官网链接](https://github.com/djylb/nps)
 
 </td>
 </tr>
@@ -332,7 +332,7 @@
 
 🛡️ 简单好用的Web应用防火墙(WAF)
 
-<kbd>V7.6.2</kbd> • [官网链接](https://github.com/chaitin/SafeLine)
+<kbd>9.0.3</kbd> • [官网链接](https://github.com/chaitin/SafeLine)
 
 </td>
 <td width="33%" align="center">
@@ -375,7 +375,7 @@
 
 💬 开源现代设计的 ChatGPT/LLMs UI/框架
 
-<kbd>1.73.0</kbd> • [官网链接](https://github.com/lobehub/lobe-chat)
+<kbd>1.98.2</kbd> • [官网链接](https://github.com/lobehub/lobe-chat)
 
 </td>
 <td width="33%" align="center">
@@ -387,7 +387,7 @@
 
 🤖 开源LLM应用开发平台，支持AI工作流和RAG管道
 
-<kbd>1.1.1</kbd> • [官网链接](https://github.com/langgenius/dify)
+<kbd>1.6.0</kbd> • [官网链接](https://github.com/langgenius/dify)
 
 </td>
 <td width="33%" align="center">
@@ -409,7 +409,7 @@
 
 🎵 使用小爱/红米音箱播放音乐，支持yt-dlp下载
 
-<kbd>latest</kbd> • [官网链接](https://github.com/hanxi/xiaomusic)
+<kbd>0.3.83</kbd> • [官网链接](https://github.com/hanxi/xiaomusic)
 
 </td>
 <td width="33%" align="center">
@@ -421,7 +421,7 @@
 
 📁 开源支持多存储的文件列表程序和私人网盘
 
-<kbd>4.0.2</kbd> • [官网链接](https://github.com/AlistGo/alist)
+<kbd>4.0.8-ffmpeg</kbd> • [官网链接](https://github.com/AlistGo/alist)
 
 </td>
 <td width="33%" align="center">
@@ -433,7 +433,7 @@
 
 🖼️ 高效云存储和图床平台管理工具
 
-<kbd>latest</kbd> • [官网链接](https://github.com/Kuingsmile/PicList)
+<kbd>1.9.14</kbd> • [官网链接](https://github.com/Kuingsmile/PicList)
 
 </td>
 </tr>
@@ -450,7 +450,7 @@
 
 📥 高性能Usenet下载工具，支持Web界面管理
 
-<kbd>latest</kbd> • [官网链接](https://nzbget.net/)
+<kbd>25.2</kbd> • [官网链接](https://nzbget.net/)
 
 </td>
 <td width="33%" align="center">
@@ -462,7 +462,7 @@
 
 🌱 开源高性能BT/PT下载工具，支持Web界面
 
-<kbd>latest</kbd> • [官网链接](https://transmissionbt.com/)
+<kbd>4.0.6</kbd> • [官网链接](https://transmissionbt.com/)
 
 </td>
 <td width="33%" align="center">
@@ -484,7 +484,7 @@
 
 📊 开源轻量易用的服务器监控运维工具
 
-<kbd>v1.12.4</kbd> • [官网链接](https://github.com/naiba/nezha/)
+<kbd>1.13.0</kbd> • [官网链接](https://github.com/naiba/nezha/)
 
 </td>
 <td width="33%" align="center">
@@ -525,7 +525,7 @@
 
 📈 Linux性能实时监测工具，全方位性能监控
 
-<kbd>v2.2.6</kbd> • [官网链接](https://github.com/netdata/netdata)
+<kbd>2.2.6</kbd> • [官网链接](https://github.com/netdata/netdata)
 
 </td>
 <td width="33%" align="center">
@@ -537,7 +537,7 @@
 
 🖥️ 开源跨平台远程桌面客户端，支持多种协议
 
-<kbd>latest</kbd> • [官网链接](https://remmina.org/)
+<kbd>1.4.35</kbd> • [官网链接](https://remmina.org/)
 
 </td>
 <td width="33%" align="center">
@@ -568,7 +568,7 @@
 
 🔄 跨平台P2P文件同步和分享工具
 
-<kbd>v3.0.3</kbd> • [官网链接](https://www.resilio.com/sync/)
+<kbd>3.0.3</kbd> • [官网链接](https://www.resilio.com/sync/)
 
 </td>
 <td width="33%" align="center">
@@ -580,7 +580,7 @@
 
 🔄 多AdGuardHome实例间配置同步工具
 
-<kbd>latest</kbd> • [官网链接](https://github.com/bakito/adguardhome-sync)
+<kbd>0.7.7</kbd> • [官网链接](https://github.com/bakito/adguardhome-sync)
 
 </td>
 <td width="33%" align="center">
@@ -592,7 +592,7 @@
 
 📱 类AirDrop工具，支持网络文件、文本共享
 
-<kbd>Latest</kbd> • [官网链接](https://github.com/schlagmichdoch/PairDrop)
+<kbd>1.11.2</kbd> • [官网链接](https://github.com/schlagmichdoch/PairDrop)
 
 </td>
 </tr>
@@ -609,7 +609,7 @@
 
 🔄 Docker 镜像加速与私有部署服务，支持多平台和多架构
 
-<kbd>latest</kbd> • [官网链接](https://kspeeder.istoreos.com/)
+<kbd>0.3.0</kbd> • [官网链接](https://kspeeder.istoreos.com/)
 
 </td>
 <td width="33%" align="center">
@@ -633,7 +633,7 @@
 
 🌌 简单易用的自托管VPN服务，支持多平台和Docker快速部署
 
-<kbd>latest</kbd> • [官网链接](https://github.com/starvpn/starvpn)
+<kbd>5.1.5</kbd> • [官网链接](https://github.com/starvpn/starvpn)
 
 </td>
 </tr>
@@ -650,7 +650,7 @@
 
 📺 动漫自动订阅与下载工具，支持多平台和主流下载器，适合NAS自动追番
 
-<kbd>latest</kbd> • [官网链接](https://github.com/wushuo894/ani-rss)
+<kbd>v2.0.27</kbd> • [官网链接](https://github.com/wushuo894/ani-rss)
 
 </td>
 <td width="33%" align="center">
@@ -674,7 +674,7 @@
 
 🔄 基于P2P的极速文件同步工具，支持多平台和多架构，适合家庭与企业备份
 
-<kbd>latest</kbd> • [官网链接](https://github.com/Jonnyan404/verysync)
+<kbd>2.20.1</kbd> • [官网链接](https://github.com/Jonnyan404/verysync)
 
 </td>
 </tr>
@@ -693,7 +693,7 @@
 
 🔄 支持Web和Cli方式检查容器镜像更新
 
-<kbd>latest</kbd> • [官网链接](https://github.com/sergi0g/cup/)
+<kbd>3.4.0</kbd> • [官网链接](https://github.com/sergi0g/cup/)
 
 </td>
 <td width="33%" align="center">
@@ -717,7 +717,7 @@
 
 🔄 监控Docker基础镜像自动更新
 
-<kbd>latest</kbd> • [官网链接](https://github.com/sergi0g/cup/)
+<kbd>8.1.0</kbd> • [官网链接](https://github.com/sergi0g/cup/)
 
 </td>
 </tr>
@@ -746,7 +746,7 @@
 
 🔔 Docker镜像更新监控和通知工具
 
-<kbd>latest</kbd> • [官网链接](https://github.com/crazy-max/diun)
+<kbd>4.29.0</kbd> • [官网链接](https://github.com/crazy-max/diun)
 
 </td>
 <td width="33%" align="center">
@@ -758,7 +758,7 @@
 
 🧙‍♂️ 现代化开源Docker管理Web面板
 
-<kbd>latest</kbd> • [官网链接](https://arcane.ofkm.dev/)
+<kbd>0.15.1</kbd> • [官网链接](https://arcane.ofkm.dev/)
 
 </td>
 </tr>
