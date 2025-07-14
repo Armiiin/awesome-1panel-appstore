@@ -1,6 +1,6 @@
 services:
   web:
-    image: haedlessdev/portnote:v1.2.0
+    image: haedlessdev/portnote:1.2.0
     container_name: portnote
     restart: always
     ports:
@@ -15,7 +15,7 @@ services:
       db:
         condition: service_started
   agent:
-    image: haedlessdev/portnote-agent:v1.2.0
+    image: haedlessdev/portnote-agent:1.2.0
     environment:
       DATABASE_URL: "postgresql://postgres:${PANEL_DB_USER_PASSWORD}@db:5432/postgres"
     depends_on:
