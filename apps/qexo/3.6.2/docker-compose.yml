@@ -5,7 +5,7 @@ services:
     networks:
       - 1panel-network
     ports:
-      - "${PANEL_APP_PORT_HTTP}:8000"
+      - ${PANEL_APP_PORT_HTTP}:8000
     volumes:
       - ./db:/app/db
       - hexo_data:/app/hexo_data
@@ -15,12 +15,12 @@ services:
       - TZ=Asia/Shanghai
       - WORKERS=4
       - THREADS=4
-    image: abudulin/qexo:3.6.1
-    labels:  
-      createdBy: "Apps"
+    image: abudulin/qexo:3.6.2
+    labels:
+      createdBy: Apps
 volumes:
   hexo_data:
     name: hexo_data
-networks:  
-  1panel-network:  
+networks:
+  1panel-network:
     external: true
