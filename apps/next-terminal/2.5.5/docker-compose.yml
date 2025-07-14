@@ -23,7 +23,7 @@ services:
       createdBy: "Apps"
   postgresql:
     container_name: postgresql-${CONTAINER_NAME}
-    image: registry.cn-beijing.aliyuncs.com/dushixiang/postgres:16.4
+    image: postgres:16.4
     networks:
       - 1panel-network
     environment:
