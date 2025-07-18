@@ -1,0 +1,33 @@
+name: PandaWiki
+# 精简标签
+# tags 字段
+# 只保留核心标签
+# 例如：AI、知识库、开源、文档系统、RAG
+# 你可根据实际需要再调整
+#
+tags:
+  - AI
+  - 知识库
+  - 文档系统
+  - RAG
+title: PandaWiki 是一款 AI 大模型驱动的开源知识库搭建系统
+shortDescZh: PandaWiki 是一款 AI 大模型驱动的开源知识库搭建系统，支持智能文档、FAQ、博客、AI创作、AI问答、AI搜索等能力。
+shortDescEn: PandaWiki is an open-source AI-powered knowledge base system for smart docs, FAQ, blogs, AI creation, Q&A, and search.
+description: PandaWiki 是一款 AI 大模型驱动的开源知识库搭建系统，帮助你快速构建智能化的产品文档、技术文档、FAQ、博客系统，借助大模型的力量为你提供 AI 创作、AI 问答、AI 搜索等能力。
+additionalProperties:
+  key: pandawiki
+  name: PandaWiki
+  tags:
+    - AI
+    - 知识库
+    - 文档系统
+    - RAG
+  shortDescZh: PandaWiki 是一款 AI 大模型驱动的开源知识库搭建系统
+  shortDescEn: PandaWiki is an open-source AI-powered knowledge base system
+  type: website
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://github.com/chaitin/pandawiki
+  github: https://github.com/chaitin/pandawiki
+  document: https://github.com/chaitin/pandawiki#readme 

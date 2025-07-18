@@ -1,0 +1,73 @@
+additionalProperties:
+  formFields:
+    - default: 2443
+      edit: true
+      envKey: PANEL_APP_PORT_HTTPS
+      labelZh: HTTPS 端口
+      labelEn: HTTPS Port
+      required: true
+      rule: paramPort
+      type: number
+    - default: "j1BLrlGmUjZDs5ZmeEAVY51JYHeOuHve"
+      edit: true
+      envKey: POSTGRES_PASSWORD
+      labelZh: 数据库密码
+      labelEn: Postgres Password
+      required: true
+      rule: paramCommon
+      type: password
+    - default: "fgq0zdBXCFz0XGDpUTspI6UwzUgrgOzm"
+      edit: true
+      envKey: REDIS_PASSWORD
+      labelZh: Redis 密码
+      labelEn: Redis Password
+      required: true
+      rule: paramCommon
+      type: password
+    - default: "iDg1Sg23XeLNOjsF8rM6zMMXLqHwSLE8"
+      edit: true
+      envKey: S3_SECRET_KEY
+      labelZh: S3 密钥
+      labelEn: S3 Secret Key
+      required: true
+      rule: paramCommon
+      type: password
+    - default: "YirTecRaTfrWpNwKdL36j11JwZg0kQY8"
+      edit: true
+      envKey: JWT_SECRET
+      labelZh: JWT 密钥
+      labelEn: JWT Secret
+      required: true
+      rule: paramCommon
+      type: password
+    - default: "AvnAkNa1deETN7Yx7YriDE5wvQqfyC7t"
+      edit: true
+      envKey: ADMIN_PASSWORD
+      labelZh: 管理员密码
+      labelEn: Admin Password
+      required: true
+      rule: paramCommon
+      type: password
+    - default: "BuhWQd0F5yKuuaehotLXZFAhLnXkqxPy"
+      edit: true
+      envKey: QDRANT_API_KEY
+      labelZh: Qdrant API 密钥
+      labelEn: Qdrant API Key
+      required: true
+      rule: paramCommon
+      type: password
+    - default: 169.254.15
+      edit: true
+      envKey: SUBNET_PREFIX
+      labelZh: 子网前缀
+      labelEn: Subnet Prefix
+      required: false
+      type: string
+    - default: "BLrPuWtby500FqCQ0hED9Otam1jKWrQU"
+      edit: true
+      envKey: NATS_PASSWORD
+      labelZh: NATS 密码
+      labelEn: NATS Password
+      required: true
+      rule: paramCommon
+      type: password 
