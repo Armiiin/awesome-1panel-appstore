@@ -392,6 +392,15 @@
 </td>
 <td width="33%" align="center">
 
+<a href="./apps/prompt-optimizer/README.md">
+<img src="./apps/prompt-optimizer/logo.png" width="60" height="60" alt="Prompt-Optimizer">
+<br><b>Prompt-Optimizer</b>
+</a>
+
+🚀 强大的AI提示词优化工具，支持多种主流大语言模型
+
+<kbd>1.3.1</kbd> • [官网链接](https://github.com/arch3rPro/Prompt-Optimizer)
+
 </td>
 </tr>
 </table>
