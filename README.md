@@ -58,7 +58,7 @@
 <br><b>Kimi-Free-API</b>
 </a>
 
-🚀 KIMI AI 长文本大模型逆向API
+🚀 KIMI AI 长文本大模型逆向API, 支持Kimi-K2模型
 
 <kbd>latest</kbd> • [官网链接](https://github.com/LLM-Red-Team/kimi-free-api)
 

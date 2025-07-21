@@ -27,6 +27,16 @@
 
 ![example8](https://cdn.jsdelivr.net/gh/LLM-Red-Team/kimi-free-api@master/doc/example-8.jpg)
 
+
+### 支持K2模型
+
+Kimi K2 是一款先进的混合专家 (MoE) 语言模型，拥有 320 亿个激活参数和 1 万亿个总参数。Kimi K2 采用 Muon 优化器进行训练，在前沿知识、推理和编码任务中表现出色，同时针对代理能力进行了精心优化
+
+当前版本支持K2模型使用，需要手动添加模型，模型ID为`kimi-k2-0711-preview`, 模型名称随便填写
+
+![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/Kimi-K2.png)
+
+
 ### 多账号接入
 
 目前同个账号同时只能有*一路*输出，你可以通过提供多个账号的userToken value并使用`,`拼接提供：
