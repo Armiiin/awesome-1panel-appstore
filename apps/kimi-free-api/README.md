@@ -8,7 +8,7 @@
 
 ### 风险说明
 
-- 逆向API是不稳定的，建议前往DeepSeek官方 https://platform.moonshot.cn/ 付费使用API，避免封禁的风险。
+- 逆向API是不稳定的，建议前往Kimi官方 https://platform.moonshot.cn/ 付费使用API，避免封禁的风险。
 
 - 本组织和个人不接受任何资金捐助和交易，此项目是纯粹研究交流学习性质！
 
