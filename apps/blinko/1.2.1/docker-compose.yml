@@ -1,6 +1,6 @@
 services:
   blinko:
-    image: "blinkospace/blinko:1.1.2"
+    image: blinkospace/blinko:1.2.1
     container_name: ${CONTAINER_NAME}
     restart: always
     networks:
@@ -12,17 +12,21 @@ services:
       NEXTAUTH_SECRET: ${NEXTAUTH_SECRET}
       DATABASE_URL: postgresql://${PANEL_DB_USER}:${PANEL_DB_USER_PASSWORD}@${PANEL_DB_HOST}:${PANEL_DB_PORT}/${PANEL_DB_NAME}
     volumes:
-      - "./data:/app/.blinko"
+      - ./data:/app/.blinko
     ports:
-      - "${PANEL_APP_PORT_HTTP}:1111"
+      - ${PANEL_APP_PORT_HTTP}:1111
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:1111/"]
+      test:
+        - CMD
+        - curl
+        - -f
+        - http://localhost:1111/
       interval: 30s
       timeout: 10s
       retries: 5
       start_period: 30s
     labels:
-      createdBy: "Apps"
+      createdBy: Apps
   postgres:
     image: postgres:14
     container_name: ${CONTAINER_NAME}-postgres
@@ -35,11 +39,15 @@ services:
       POSTGRES_PASSWORD: ${PANEL_DB_USER_PASSWORD}
     healthcheck:
       test:
-        ["CMD", "pg_isready", "-U", "postgres", "-d", "postgres"]
+        - CMD
+        - pg_isready
+        - -U
+        - postgres
+        - -d
+        - postgres
       interval: 5s
       timeout: 10s
-      retries: 5      
-
+      retries: 5
 networks:
   1panel-network:
     external: true
