@@ -1,6 +1,6 @@
 services:
     deepseek-free-api:
-        image: vuldocker/deepseek-free-api:latest
+        image: vuldocker/deepseek-free-api:0.0.22
         container_name: ${CONTAINER_NAME}
         ports:
             - ${PANEL_APP_PORT_HTTP}:8000

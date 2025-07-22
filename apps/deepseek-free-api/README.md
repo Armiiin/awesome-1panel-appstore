@@ -2,6 +2,11 @@
 
 🚀 DeepSeek-V3 & R1大模型逆向API【特长：良心厂商】（官方贼便宜，建议直接走官方），支持高速流式输出、多轮对话，联网搜索，R1深度思考，零配置部署，多路token支持，仅供测试，如需商用请前往官方开放平台。
 
+> 更新说明：原作者v0.0.21版本由于官方更新了接口已无法在客户端正常使用，根据issue中其他人提供的fork项目修改，构建了v0.0.22版本
+
+> 这是修改版本的地址 [https://github.com/Fu-Jie/deepseek-free-api](https://github.com/Fu-Jie/deepseek-free-api),风险自行承担，或暂停使用等待原作者更新吧
+
+
 ![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/Free-API.png)
 
 ![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
@@ -15,6 +20,13 @@
 - 仅限自用，禁止对外提供服务或商用，避免对官方造成服务压力，否则风险自担！
 
 ### 使用说明
+
+#### 版本说明： 
+
+- latest：其他fork修改版，本人clone后构建镜像，打包上传dockerhub，无任何代码修改
+- 0.0.21: 原作者docker镜像版本，暂时无法使用，等待后续更新
+- 0.0.22: 其他fork修改版，本人clone后构建镜像，打包上传dockerhub，无任何代码修改
+
 
 请确保您在中国境内或者拥有中国境内的个人计算设备，否则部署后可能因无法访问DeepSeek而无法使用。
 
