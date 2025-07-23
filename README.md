@@ -274,6 +274,15 @@
 </td>
 <td width="33%" align="center">
 
+<a href="./apps/opendeepwiki/README.md">
+<img src="./apps/opendeepwiki/logo.png" width="60" height="60" alt="OpenDeepWiki">
+<br><b>OpenDeepWiki</b>
+</a>
+
+AI驱动的开源代码知识库与文档协作平台，支持多模型、多数据库、智能文档生成
+
+<kbd>latest</kbd> • [官网链接](https://opendeep.wiki/)
+
 </td>
 </tr>
 </table>
