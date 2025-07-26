@@ -485,6 +485,15 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 </td>
 <td width="33%" align="center">
 
+<a href="./apps/moontv/README.md">
+<img src="./apps/moontv/logo.png" width="60" height="60" alt="MoonTV">
+<br><b>MoonTV</b>
+</a>
+
+🎬 开箱即用的跨平台影视聚合播放器，支持多源搜索和在线播放
+
+<kbd>latest</kbd> • [官网链接](https://github.com/xiaoY233/MoonTV)
+
 </td>
 </tr>
 </table>
