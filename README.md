@@ -70,7 +70,7 @@
 <br><b>Qwen-Free-API</b>
 </a>
 
-🚀 阿里通义千问2.5大模型逆向API
+🚀 阿里通义千问3.0大模型逆向API,支持Qwen3-Coder模型
 
 <kbd>latest</kbd> • [官网链接](https://github.com/LLM-Red-Team/qwen-free-api)
 

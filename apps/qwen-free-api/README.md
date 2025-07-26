@@ -23,6 +23,18 @@
 
 ![获取tongyi_sso_ticket](https://cdn.jsdelivr.net/gh/LLM-Red-Team/qwen-free-api@master/doc/example-0.png)
 
+### 支持qwen3模型
+
+Qwen3是阿里云Qwen团队研发的大型语言模型系列。
+
+当前版本支持Qwen3和Qwen3-Coder等模型使用，需要手动添加模型，模型ID为`qwen3-coder-plus`, 模型名称随便填写
+
+![](https://cdn.jsdelivr.net/gh/xiaoY233/PicList@main/public/assets/Qwen3-Coder.png)
+
+详细模型ID参考
+[阿里云百炼官方文档](https://bailian.console.aliyun.com/?tab=doc#/doc/?type=model&url=https%3A%2F%2Fhelp.aliyun.com%2Fdocument_detail%2F2840914.html&renderType=iframe)
+
+
 ### 多账号接入
 
 目前同个账号同时只能有*一路*输出，你可以通过提供多个账号的userToken value并使用`,`拼接提供：
