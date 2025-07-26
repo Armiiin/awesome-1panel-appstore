@@ -414,6 +414,29 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 </tr>
 </table>
 
+<table>
+<tr>
+<td width="33%" align="center">
+
+<a href="./apps/new-api/README.md">
+<img src="./apps/new-api/logo.png" width="60" height="60" alt="New-API">
+<br><b>New-API</b>
+</a>
+
+🍥 新一代大模型网关与AI资产管理系统，支持多种模型统一调用
+
+<kbd>0.8.7.5</kbd> • [官网链接](https://docs.newapi.pro/)
+
+</td>
+<td width="100%" align="center">
+
+</td>
+<td width="100%" align="center">
+
+</td>
+</tr>
+</table>
+
 #### 🎵 多媒体管理
 
 <table>
