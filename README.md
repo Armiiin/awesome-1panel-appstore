@@ -287,6 +287,29 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 </tr>
 </table>
 
+<table>
+<tr>
+<td width="100%" align="center">
+
+<a href="./apps/wewe-rss/README.md">
+<img src="./apps/wewe-rss/logo.png" width="60" height="60" alt="WeWe RSS">
+<br><b>WeWe RSS</b>
+</a>
+
+更优雅的微信公众号订阅方式，支持RSS输出和全文内容
+
+<kbd>2.6.1</kbd> • [官网链接](https://github.com/cooderl/wewe-rss)
+
+</td>
+<td width="33%" align="center">
+
+</td>
+<td width="33%" align="center">
+
+</td>
+</tr>
+</table>
+
 #### 🔒 安全与网络工具
 
 <table>
@@ -416,7 +439,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 <table>
 <tr>
-<td width="33%" align="center">
+<td width="100%" align="center">
 
 <a href="./apps/new-api/README.md">
 <img src="./apps/new-api/logo.png" width="60" height="60" alt="New-API">
