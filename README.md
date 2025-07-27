@@ -439,7 +439,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 <table>
 <tr>
-<td width="100%" align="center">
+<td width="33%" align="center">
 
 <a href="./apps/new-api/README.md">
 <img src="./apps/new-api/logo.png" width="60" height="60" alt="New-API">
@@ -451,10 +451,19 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 <kbd>0.8.7.5</kbd> • [官网链接](https://docs.newapi.pro/)
 
 </td>
-<td width="100%" align="center">
+<td width="33%" align="center">
+
+<a href="./apps/one-hub/README.md">
+<img src="./apps/one-hub/logo.png" width="60" height="60" alt="One-Hub">
+<br><b>One-Hub</b>
+</a>
+
+🔗 统一的AI模型管理和调用平台，支持多种大语言模型集成
+
+<kbd>0.14.22</kbd> • [官网链接](https://github.com/one-hub/one-hub)
 
 </td>
-<td width="100%" align="center">
+<td width="33%" align="center">
 
 </td>
 </tr>
