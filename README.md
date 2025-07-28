@@ -289,7 +289,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 <table>
 <tr>
-<td width="100%" align="center">
+<td width="33%" align="center">
 
 <a href="./apps/wewe-rss/README.md">
 <img src="./apps/wewe-rss/logo.png" width="60" height="60" alt="WeWe RSS">
@@ -302,6 +302,15 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 </td>
 <td width="33%" align="center">
+
+<a href="./apps/nocodb/README.md">
+<img src="./apps/nocodb/logo.png" width="60" height="60" alt="NocoDB">
+<br><b>NocoDB</b>
+</a>
+
+开源Airtable替代品，将任何数据库转换为智能电子表格
+
+<kbd>0.264.0</kbd> • [官网链接](https://github.com/nocodb/nocodb)
 
 </td>
 <td width="33%" align="center">
