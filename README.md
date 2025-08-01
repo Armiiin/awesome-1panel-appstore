@@ -160,9 +160,9 @@
 </tr>
 </table>
 
-<table>
+<table align="center" style="width: 33%;">
 <tr>
-<td width="33%" align="center">
+<td align="center">
 
 <a href="./apps/gpt4free/README.md">
 <img src="./apps/gpt4free/logo.png" width="60" height="60" alt="GPT4Free">
@@ -173,10 +173,6 @@
 
 <kbd>0.5.7.0</kbd> • [官网链接](https://github.com/xtekky/gpt4free)
 
-</td>
-<!-- <td width="33%" align="center"> -->
-</td>
-<!-- <td width="33%" align="center"> -->
 </td>
 </tr>
 </table>
