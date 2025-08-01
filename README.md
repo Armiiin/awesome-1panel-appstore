@@ -162,7 +162,7 @@
 
 <table>
 <tr>
-<td width="100%" align="center">
+<td width="33%" align="center">
 
 <a href="./apps/gpt4free/README.md">
 <img src="./apps/gpt4free/logo.png" width="60" height="60" alt="GPT4Free">
