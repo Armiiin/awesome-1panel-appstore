@@ -474,6 +474,15 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 </td>
 <td width="33%" align="center">
 
+<a href="./apps/flowise/README.md">
+<img src="./apps/flowise/logo.png" width="60" height="60" alt="Flowise">
+<br><b>Flowise</b>
+</a>
+
+🔮 开源可视化AI工作流构建平台，拖拽式设计LLM应用
+
+<kbd>3.0.4</kbd> • [官网链接](https://github.com/FlowiseAI/Flowise)
+
 </td>
 </tr>
 </table>
