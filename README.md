@@ -160,6 +160,26 @@
 </tr>
 </table>
 
+<table>
+<tr>
+<td width="100%" align="center">
+
+<a href="./apps/gpt4free/README.md">
+<img src="./apps/gpt4free/logo.png" width="60" height="60" alt="GPT4Free">
+<br><b>GPT4Free</b>
+</a>
+
+🚀 免费的GPT-4和其他大语言模型API接口
+
+<kbd>0.5.7.0</kbd> • [官网链接](https://github.com/xtekky/gpt4free)
+
+</td>
+<!-- <td width="33%" align="center"> -->
+</td>
+<!-- <td width="33%" align="center"> -->
+</td>
+</tr>
+</table>
 
 
 #### 📝 文档与内容管理
