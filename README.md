@@ -160,9 +160,9 @@
 </tr>
 </table>
 
-<table align="center" style="width: 33%;">
+<table>
 <tr>
-<td align="center">
+<td width="100%" align="center">
 
 <a href="./apps/gpt4free/README.md">
 <img src="./apps/gpt4free/logo.png" width="60" height="60" alt="GPT4Free">
