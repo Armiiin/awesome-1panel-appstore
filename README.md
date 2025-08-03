@@ -162,7 +162,7 @@
 
 <table>
 <tr>
-<td width="100%" align="center">
+<td width="33%" align="center">
 
 <a href="./apps/gpt4free/README.md">
 <img src="./apps/gpt4free/logo.png" width="60" height="60" alt="GPT4Free">
@@ -172,6 +172,21 @@
 🚀 免费的GPT-4和其他大语言模型API接口
 
 <kbd>0.5.7.0</kbd> • [官网链接](https://github.com/xtekky/gpt4free)
+
+</td>
+<td width="33%" align="center">
+
+<a href="./apps/raycast-ai-openrouter-proxy/README.md">
+<img src="./apps/raycast-ai-openrouter-proxy/logo.png" width="60" height="60" alt="Raycast AI OpenRouter Proxy">
+<br><b>Raycast AI OpenRouter Proxy</b>
+</a>
+
+🚀 Raycast AI的OpenAI兼容API代理，无需Pro订阅
+
+<kbd>latest</kbd> • [官网链接](https://github.com/miikkaylisiurunen/raycast-ai-openrouter-proxy)
+
+</td>
+<td width="33%" align="center">
 
 </td>
 </tr>
