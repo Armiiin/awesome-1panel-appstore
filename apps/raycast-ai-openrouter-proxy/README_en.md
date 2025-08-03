@@ -59,7 +59,7 @@ The proxy's behavior is primarily configured through a `models.json` file in the
 
 The default models.json has 6 OpenRouter models configured, with the first four being free models and the last two being paid models. You can modify the models.json configuration according to your needs. Official OpenRouter model query:
 
-![https://openrouter.ai/models](https://openrouter.ai/models)
+[https://openrouter.ai/models](https://openrouter.ai/models)
 
 - Moonshotai Kimi-K2
 - DeepSeek V3

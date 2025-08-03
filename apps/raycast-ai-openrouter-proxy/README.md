@@ -59,7 +59,7 @@
 
 默认models.json中已配置OpenRouter6个模型，其中前四个为免费模型，后两个为收费模型，可根据需求自行修改models.json配置。Openrouter官方模型查询:
 
-![https://openrouter.ai/models](https://openrouter.ai/models)
+[https://openrouter.ai/models](https://openrouter.ai/models)
 
 - Moonshotai Kimi-K2
 - DeepSeek V3
