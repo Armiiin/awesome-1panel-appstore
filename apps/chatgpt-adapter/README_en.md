@@ -14,6 +14,9 @@
 
 ChatGPT Adapter is an open-source project that adapts multiple AI chat reverse interfaces to the OpenAI API standard interface server. This service integrates chat interfaces from Coze, Bing Copilot, Cursor, Windsurf, Deepseek, You.com, Grok, and more, making them conform to the OpenAI API standard for easy and unified developer access.
 
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
+
 ## ✨ Core Features
 
 - 🚀 **High-speed Streaming Output** - Real-time streaming responses for smooth conversation experience

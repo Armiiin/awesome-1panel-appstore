@@ -9,6 +9,9 @@
 
 ChatGPT Adapter是一个开源项目，将多款AI聊天逆向接口适配到OpenAI API标准接口服务端。该服务集成了Coze、Bing Copilot、Cursor、Windsurf、Deepseek、You.com、Grok等多款AI的聊天接口，使其符合OpenAI API标准，方便开发者统一调用。
 
+![](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+
+
 ## ✨ 核心特性
 
 - 🚀 **高速流式输出** - 支持实时流式响应，提供流畅的对话体验
