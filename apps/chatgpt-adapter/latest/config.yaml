@@ -1,0 +1,44 @@
+# ChatGPT Adapter 配置示例文件
+# 详细配置请参考官方文档: https://bincooo.github.io/chatgpt-adapter
+
+# 基础服务配置
+port: 8080                    # 服务端口
+host: "0.0.0.0"              # 监听地址，0.0.0.0表示监听所有网卡
+debug: true                   # 调试模式，开启后会输出详细日志
+timeout: 300                  # 请求超时时间(秒)
+cors: true                    # 是否启用跨域支持
+
+# Deepseek配置 - 需要有效的cookie才能使用
+deepseek:
+  # 必需配置：从浏览器获取的cookie
+  # 1. 访问 https://chat.deepseek.com/
+  # 2. 登录账号
+  # 3. 打开浏览器开发者工具 -> Network -> 找到任意请求 -> 复制Cookie头
+  # 4. 将完整的cookie字符串粘贴到下面
+  cookie: "HWWAFSESID=d774326ec18baba0ccf; HWWAFSESTIME=1754295290913; smidV2=20250804161452e8b3a8907977f8a0ec8462a0dc7be56d001f9ed69e49c4330; .thumbcache_6b2e5483f9d858d7c661c5e276b6a6ae=CAlgC1owPX3Xs41W3lqjGBrZu/3f0DNIJQwLD1xLbxwVTWpsGn7p9L2F7nvFcmDh6LXHg6Knwz5NpMdUoGlyYQ%3D%3D; ds_session_id=e237ecf78b7f4b5aa81d54273d468884; intercom-session-guh50jw4=allXUWFkOGpXcWlOcm5FRkJrWGdEMlJTSnJHWmowc0IzWVpORzRmTDJuM1F4TldtVTZ2NTZTYmhqZVlndlo3NitSZnlzRDZvdmRHYzJMQTl2dk8yZ25DTzkvTUVOMmFEeUo1VmtXVXpYZ1k9LS1VeFM1SmVhS3hOSE5nRU1JRnpaTmNnPT0=--94be45cb00f6e0451b5e2245a085017620f959d5; intercom-device-id-guh50jw4=76d45f54-9682-40fb-857e-273b396c3c0c"
+  
+  # 可选配置：User-Agent（通常不需要修改）
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15'
+
+# coze:
+#   websdk:
+#     model: claude-35-sonnet-200k
+#     system: "你是一个有用的AI助手"
+#     bot: custom-assistant
+#     accounts:
+#       - email: "wh1tecat2389@gmail.com"
+#         password: "wnbi ebkn jcyj oguk"
+#         validate: "wh1tecat2389@gmail.com"
+
+# Browser-less服务配置 (Coze websdk必需)
+# browser-less:
+#   enabled: true                     # 启用browser-less服务
+#   reversal: "http://your-browser-less-service:8080"  # 如果使用外部browser-less服务
+
+# ==================== 认证配置 ====================
+# API密钥认证 - 为API访问添加安全验证
+# auth:
+#   keys:
+#     - "ks-chatgpt-adapter-your-custom-key-here"     # 自定义API密钥1
+#     - "ks-another-custom-api-key-for-backup"        # 自定义API密钥2（备用）
+#     - "ks-team-shared-key-for-multiple-users"       # 团队共享密钥

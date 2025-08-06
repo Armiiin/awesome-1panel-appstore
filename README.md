@@ -188,6 +188,15 @@
 </td>
 <td width="33%" align="center">
 
+<a href="./apps/chatgpt-adapter/README.md">
+<img src="./apps/chatgpt-adapter/logo.png" width="60" height="60" alt="ChatGPT Adapter">
+<br><b>ChatGPT Adapter</b>
+</a>
+
+🚀 多款AI聊天逆向接口适配到OpenAI标准接口
+
+<kbd>latest</kbd> • [官网链接](https://github.com/bincooo/chatgpt-adapter)
+
 </td>
 </tr>
 </table>
