@@ -527,6 +527,29 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 </tr>
 </table>
 
+<table>
+<tr>
+<td width="33%" align="center">
+
+<a href="./apps/inspector/README.md">
+<img src="./apps/inspector/logo.png" width="60" height="60" alt="MCP Inspector">
+<br><b>MCP Inspector</b>
+</a>
+
+🔍 模型上下文协议调试工具，支持MCP服务器测试与开发
+
+<kbd>0.16.2</kbd> • [官网链接](https://github.com/modelcontextprotocol/inspector)
+
+</td>
+<td width="33%" align="center">
+
+</td>
+<td width="33%" align="center">
+
+</td>
+</tr>
+</table>
+
 #### 🎵 多媒体管理
 
 <table>
