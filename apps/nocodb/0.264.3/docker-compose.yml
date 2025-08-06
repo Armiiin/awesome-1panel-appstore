@@ -1,6 +1,6 @@
 services:
   nocodb:
-    image: nocodb/nocodb:0.264.0
+    image: nocodb/nocodb:0.264.3
     container_name: ${CONTAINER_NAME}
     restart: always
     networks:
@@ -10,7 +10,7 @@ services:
     volumes:
       - ./data:/usr/app/data
     labels:
-      createdBy: "Apps"
+      createdBy: Apps
 networks:
   1panel-network:
     external: true
