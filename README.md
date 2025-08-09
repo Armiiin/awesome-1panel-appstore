@@ -555,6 +555,15 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 </td>
 <td width="33%" align="center">
 
+<a href="./apps/higress/README.md">
+<img src="./apps/higress/logo.png" width="60" height="60" alt="Higress">
+<br><b>Higress</b>
+</a>
+
+🌐 阿里巴巴开源的下一代云原生网关
+
+<kbd>latest</kbd> • [官网链接](https://github.com/alibaba/higress)
+
 </td>
 </tr>
 </table>
