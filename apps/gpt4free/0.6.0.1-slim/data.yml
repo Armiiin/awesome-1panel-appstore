@@ -22,14 +22,3 @@ additionalProperties:
       required: true
       rule: paramPort
       type: number
-    - default: 7900
-      envKey: PANEL_APP_PORT_REMOTE
-      labelEn: Remote Desktop Port
-      labelZh: 远程桌面端口
-      label:
-        en: Remote Desktop Port
-        zh: 远程桌面端口
-        zh-Hant: 遠程桌面埠
-      required: true
-      rule: paramPort
-      type: number
