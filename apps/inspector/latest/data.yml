@@ -37,7 +37,7 @@ additionalProperties:
               value: "true"
             - label: "False"
               value: ""
-        - default: ""
+        - default: "f056e8659d86a35843e4c7bb5b1782b6ba5c10d194e0ddd7ac507ea074f56ca9"
           envKey: MCP_PROXY_AUTH_TOKEN
           labelEn: Proxy Auth Token (openssl rand -hex 32)
           labelZh: 代理认证令牌 (使用命令openssl rand -hex 32生成)
@@ -46,5 +46,15 @@ additionalProperties:
             zh: 代理认证令牌 (使用命令openssl rand -hex 32生成)
             zh-Hant: 代理認證令牌
           random: false
+          required: false
+          type: text
+        - default: "http://your-server-ip:6274"
+          envKey: ALLOWED_ORIGINS
+          labelEn: Allowed Origins
+          labelZh: 允许的网站来源
+          label:
+            en: Allowed Origins
+            zh: 允许的网站来源
+            zh-Hant: 允許的源站
           required: false
           type: text

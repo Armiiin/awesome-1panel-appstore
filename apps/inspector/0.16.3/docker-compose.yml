@@ -10,8 +10,9 @@ services:
       - ${PANEL_APP_PORT_PROXY}:6277
     environment:
       - NODE_ENV=production
+      - ALLOWED_ORIGINS=${ALLOWED_ORIGINS}
       - DANGEROUSLY_OMIT_AUTH=${DANGEROUSLY_OMIT_AUTH}
-      - MCP_PROXY_AUTH_TOKEN=${MCP_PROXY_AUTH_TOKEN:-}
+      - MCP_PROXY_AUTH_TOKEN=${MCP_PROXY_AUTH_TOKEN}
       - HOST=0.0.0.0
     labels:
       createdBy: "Apps"
