@@ -1,7 +1,7 @@
 name: Qwen-Free-API
 tags:
   - AI / 大模型
-title: 🚀 阿里通义千问2.5大模型逆向API
+title: 🚀 阿里通义千问3大模型逆向API
 description: 阿里通义 (Qwen) 接口转API 
 additionalProperties:
   key: qwen-free-api
@@ -9,7 +9,7 @@ additionalProperties:
   tags:
     - AI
     - Tools
-  shortDescZh: 🚀 阿里通义千问2.5大模型逆向API
+  shortDescZh: 🚀 阿里通义千问3大模型逆向API
   shortDescEn: A 1Panel deployment for qwen-free-api
   type: website
   crossVersionUpdate: true
