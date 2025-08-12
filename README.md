@@ -538,7 +538,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🔍 模型上下文协议调试工具，支持MCP服务器测试与开发
 
-<kbd>0.16.2</kbd> • [官网链接](https://github.com/modelcontextprotocol/inspector)
+<kbd>0.16.3</kbd> • [官网链接](https://github.com/modelcontextprotocol/inspector)
 
 </td>
 <td width="33%" align="center">
