@@ -355,6 +355,15 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 </td>
 <td width="33%" align="center">
 
+<a href="./apps/rustfs/README.md">
+<img src="./apps/rustfs/logo.png" width="60" height="60" alt="RustFS">
+<br><b>RustFS</b>
+</a>
+
+高性能Rust对象存储系统，提供S3兼容API
+
+<kbd>latest</kbd> • [官网链接](https://github.com/rustfs/rustfs)
+
 </td>
 </tr>
 </table>
