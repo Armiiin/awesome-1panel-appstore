@@ -1,6 +1,6 @@
 services:
   inspector:
-    image: ghcr.io/modelcontextprotocol/inspector:0.16.3
+    image: ghcr.io/modelcontextprotocol/inspector:0.16.5
     container_name: ${CONTAINER_NAME}
     restart: always
     networks:
@@ -15,8 +15,7 @@ services:
       - MCP_PROXY_AUTH_TOKEN=${MCP_PROXY_AUTH_TOKEN}
       - HOST=0.0.0.0
     labels:
-      createdBy: "Apps"
-
+      createdBy: Apps
 networks:
   1panel-network:
     external: true
