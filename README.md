@@ -297,7 +297,7 @@
 
 文档、白板和数据库完全整合的工作空间
 
-<kbd>stable-e98f035</kbd> • [官网链接](https://github.com/toeverything/AFFiNE)
+<kbd>0.24.1</kbd> • [官网链接](https://github.com/toeverything/AFFiNE)
 
 </td>
 <td width="33%" align="center">
@@ -770,7 +770,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🔄 多AdGuardHome实例间配置同步工具
 
-<kbd>0.7.7</kbd> • [官网链接](https://github.com/bakito/adguardhome-sync)
+<kbd>0.7.8</kbd> • [官网链接](https://github.com/bakito/adguardhome-sync)
 
 </td>
 <td width="33%" align="center">
@@ -840,7 +840,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 📺 动漫自动订阅与下载工具，支持多平台和主流下载器，适合NAS自动追番
 
-<kbd>v2.0.27</kbd> • [官网链接](https://github.com/wushuo894/ani-rss)
+<kbd>2.1.13</kbd> • [官网链接](https://github.com/wushuo894/ani-rss)
 
 </td>
 <td width="33%" align="center">
