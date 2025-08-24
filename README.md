@@ -280,7 +280,7 @@
 
 自托管协作书签管理工具，支持网页归档和团队协作
 
-<kbd>latest</kbd> • [官网链接](https://github.com/linkwarden/linkwarden)
+<kbd>2.11.7</kbd> • [官网链接](https://github.com/linkwarden/linkwarden)
 
 </td>
 </tr>
@@ -799,7 +799,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🔄 Docker 镜像加速与私有部署服务，支持多平台和多架构
 
-<kbd>0.3.0</kbd> • [官网链接](https://kspeeder.istoreos.com/)
+<kbd>0.3.3</kbd> • [官网链接](https://kspeeder.istoreos.com/)
 
 </td>
 <td width="33%" align="center">
