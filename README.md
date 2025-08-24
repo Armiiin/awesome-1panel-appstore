@@ -171,7 +171,7 @@
 
 🚀 免费的GPT-4和其他大语言模型API接口
 
-<kbd>0.6.0.1</kbd> • [官网链接](https://github.com/xtekky/gpt4free)
+<kbd>0.6.1.4</kbd> • [官网链接](https://github.com/xtekky/gpt4free)
 
 </td>
 <td width="33%" align="center">
@@ -530,7 +530,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🔮 开源可视化AI工作流构建平台，拖拽式设计LLM应用
 
-<kbd>3.0.4</kbd> • [官网链接](https://github.com/FlowiseAI/Flowise)
+<kbd>3.0.5s</kbd> • [官网链接](https://github.com/FlowiseAI/Flowise)
 
 </td>
 </tr>
