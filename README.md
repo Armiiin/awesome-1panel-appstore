@@ -268,7 +268,7 @@
 
 自托管全能书签管理工具，支持AI自动标签功能
 
-<kbd>0.25.0</kbd> • [官网链接](https://github.com/karakeep-app/karakeep)
+<kbd>0.26.0</kbd> • [官网链接](https://github.com/karakeep-app/karakeep)
 
 </td>
 <td width="33%" align="center">
@@ -547,7 +547,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🔍 模型上下文协议调试工具，支持MCP服务器测试与开发
 
-<kbd>0.16.3</kbd> • [官网链接](https://github.com/modelcontextprotocol/inspector)
+<kbd>0.16.5</kbd> • [官网链接](https://github.com/modelcontextprotocol/inspector)
 
 </td>
 <td width="33%" align="center">
