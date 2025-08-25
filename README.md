@@ -465,7 +465,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 💬 开源现代设计的 ChatGPT/LLMs UI/框架
 
-<kbd>1.98.2</kbd> • [官网链接](https://github.com/lobehub/lobe-chat)
+<kbd>1.114.6</kbd> • [官网链接](https://github.com/lobehub/lobe-chat)
 
 </td>
 <td width="33%" align="center">
