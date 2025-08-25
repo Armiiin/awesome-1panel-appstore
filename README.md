@@ -655,7 +655,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🎬 开箱即用的跨平台影视聚合播放器，支持多源搜索和在线播放
 
-<kbd>latest</kbd> • [官网链接](https://github.com/xiaoY233/MoonTV)
+<kbd>4.1.1</kbd> • [官网链接](https://github.com/MoonTechLab/LunaTV)
 
 </td>
 </tr>
