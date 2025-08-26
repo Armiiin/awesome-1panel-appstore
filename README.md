@@ -925,6 +925,38 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 </tr>
 </table>
 
+<table>
+<tr>
+<td width="33%" align="center">
+
+<a href="./apps/keepassxc/README.md">
+<img src="./apps/keepassxc/logo.png" width="60" height="60" alt="KeePassXC">
+<br><b>KeePassXC</b>
+</a>
+
+🔐 跨平台开源密码管理器，支持Web界面和多种平台，安全可靠
+
+<kbd>2.7.9</kbd> • [官网链接](https://keepassxc.org/)
+
+</td>
+<td width="33%" align="center">
+
+<a href="./apps/pansou/README.md">
+<img src="./apps/pansou/logo.png" width="60" height="60" alt="PanSou">
+<br><b>PanSou</b>
+</a>
+
+🔍 高性能网盘资源搜索API服务，支持TG频道和插件搜索，智能排序和网盘类型分类
+
+<kbd>latest</kbd> • [官网链接](https://github.com/fish2018/pansou)
+
+</td>
+<td width="33%" align="center">
+
+</td>
+</tr>
+</table>
+
 
 #### 🐳 容器管理
 
