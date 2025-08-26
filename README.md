@@ -577,6 +577,29 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 </tr>
 </table>
 
+<table>
+<tr>
+<td width="33%" align="center">
+
+<a href="./apps/searxng/README.md">
+<img src="./apps/searxng/logo.png" width="60" height="60" alt="SearXNG">
+<br><b>SearXNG</b>
+</a>
+
+🔍 开源无广告元搜索引擎，保护隐私无追踪，支持自建部署
+
+<kbd>latest</kbd> • [官网链接](https://docs.searxng.org/)
+
+</td>
+<td width="33%" align="center">
+
+</td>
+<td width="33%" align="center">
+
+</td>
+</tr>
+</table>
+
 #### 🎵 多媒体管理
 
 <table>
@@ -745,6 +768,29 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 </tr>
 </table>
 
+<table>
+<tr>
+<td width="33%" align="center">
+
+<a href="./apps/tianji/README.md">
+<img src="./apps/tianji/logo.png" width="60" height="60" alt="Tianji">
+<br><b>Tianji</b>
+</a>
+
+📊 开源 all-in-one 数据洞察中心，集成网站分析、服务监控、服务器状态监控
+
+<kbd>1.24.22</kbd> • [官网链接](https://tianji.msgbyte.com/)
+
+</td>
+<td width="33%" align="center">
+
+</td>
+<td width="33%" align="center">
+
+</td>
+</tr>
+</table>
+
 #### 🗄️ Nas工具
 
 <table>
@@ -869,6 +915,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 </td>
 </tr>
 </table>
+
 
 #### 🐳 容器管理
 
