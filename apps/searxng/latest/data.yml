@@ -15,7 +15,7 @@ additionalProperties:
       labelZh: 数据文件夹路径
       required: true
       type: text
-    - default: http://localhost:40032
+    - default: http://Your-IP:40032
       edit: true
       envKey: SEARXNG_EXTERNAL_URL
       labelEn: External URL
