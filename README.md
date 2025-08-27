@@ -605,6 +605,15 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 </td>
 <td width="33%" align="center">
 
+<a href="./apps/chatnio/README.md">
+<img src="./apps/chatnio/logo.png" width="60" height="60" alt="ChatNio">
+<br><b>ChatNio</b>
+</a>
+
+💬 下一代 AI 一站式解决方案，综合性 AI 服务管理平台
+
+<kbd>3.11.2</kbd> • [官网链接](https://chatnio.net)
+
 </td>
 </tr>
 </table>
