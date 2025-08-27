@@ -802,6 +802,15 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 </td>
 <td width="33%" align="center">
 
+<a href="./apps/beszel-agent/README.md">
+<img src="./apps/beszel-agent/logo.png" width="60" height="60" alt="Beszel-Agent">
+<br><b>Beszel-Agent</b>
+</a>
+
+⚡ 轻量级服务器监控代理，支持实时性能数据收集
+
+<kbd>0.12.4</kbd> • [官网链接](https://github.com/henrygd/beszel)
+
 </td>
 <td width="33%" align="center">
 
