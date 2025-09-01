@@ -1,6 +1,6 @@
 services:
   beszel-agent:
-    image: henrygd/beszel-agent:0.12.4
+    image: henrygd/beszel-agent:0.12.6
     container_name: ${CONTAINER_NAME}
     restart: always
     network_mode: host
@@ -10,4 +10,4 @@ services:
       - PORT=${PANEL_APP_PORT_HTTP}
       - KEY=${KEY}
     labels:
-      createdBy: "Apps"
+      createdBy: Apps
