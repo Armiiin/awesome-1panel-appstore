@@ -1,6 +1,6 @@
 services:
   gpt4free:
-    image: hlohaus789/g4f:0.6.1.4
+    image: hlohaus789/g4f:0.6.1.6-slim
     container_name: ${CONTAINER_NAME}
     restart: always
     networks:
@@ -16,7 +16,7 @@ services:
     environment:
       - OLLAMA_HOST=host.docker.internal
     labels:
-      createdBy: "Apps"
+      createdBy: Apps
 networks:
   1panel-network:
     external: true
