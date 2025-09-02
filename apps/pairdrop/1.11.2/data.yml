@@ -1,15 +1,4 @@
 additionalProperties:
-    key: pairdrop
-    name: PairDrop
-    tags:
-        - Other
-    shortDescZh: 跨平台传输文件
-    shortDescEn: Transfer Files Cross-Platform
-    type: website
-    crossVersionUpdate: true
-    architectures:
-        - amd64
-        - arm64
     formFields:
         - default: "3000"
           edit: true
