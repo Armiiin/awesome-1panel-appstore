@@ -1,6 +1,6 @@
 services:
   gpt-load:
-    image: ghcr.io/tbphp/gpt-load:v1.0.22.1
+    image: ghcr.io/tbphp/gpt-load:v1.1.0
     container_name: ${CONTAINER_NAME}
     restart: always
     ports:
@@ -12,7 +12,7 @@ services:
     environment:
       - AUTH_KEY=${AUTH_KEY}
     labels:
-      createdBy: "Apps"
+      createdBy: Apps
 networks:
   1panel-network:
     external: true
