@@ -1,6 +1,6 @@
 services:
   gpt4free:
-    image: hlohaus789/g4f:0.6.2.6
+    image: hlohaus789/g4f:0.6.2.8
     container_name: ${CONTAINER_NAME}
     restart: always
     networks:
