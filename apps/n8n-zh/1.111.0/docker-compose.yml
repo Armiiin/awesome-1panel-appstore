@@ -1,9 +1,9 @@
 services:
   n8n:
-    image: n8nio/n8n:1.109.1
+    image: n8nio/n8n:1.111.0
     container_name: ${CONTAINER_NAME}
     restart: always
-    user: "1000:1000"
+    user: 1000:1000
     networks:
       - 1panel-network
     ports:
@@ -15,7 +15,7 @@ services:
       N8N_SECURE_COOKIE: false
       N8N_DEFAULT_LOCALE: zh-CN
     labels:
-      createdBy: "Apps"
+      createdBy: Apps
 networks:
   1panel-network:
     external: true
