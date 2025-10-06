@@ -80,7 +80,7 @@ services:
     env_file:
       - .env
   lobe:
-    image: lobehub/lobe-chat-database:1.134.6
+    image: lobehub/lobe-chat-database:1.135.2
     container_name: lobe-chat
     network_mode: service:network-service
     depends_on:
