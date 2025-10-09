@@ -1,6 +1,6 @@
 services:
   verysync:
-    image: jonnyan404/verysync:v2.20.1
+    image: jonnyan404/verysync:v2.21.3
     container_name: verysync
     environment:
       - PORT=${PANEL_APP_PORT_HTTP}
@@ -13,11 +13,10 @@ services:
     volumes:
       - ${VERYSYNC_DATA_PATH}:/data
     restart: always
-    labels:  
-      createdBy: "Apps"
+    labels:
+      createdBy: Apps
     networks:
       - 1panel-network
-
-networks:  
-  1panel-network:  
+networks:
+  1panel-network:
     external: true
