@@ -9,3 +9,13 @@ additionalProperties:
       type: number
       edit: true
       rule: paramPort
+    - default: sk-1234
+      envKey: LITELLM_MASTER_KEY
+      label:
+        en: LITELLM_MASTER_KEY
+        zh: LITELLM密钥
+      required: true
+      type: text
+      edit: true
+      rule: paramCommon
+      values: []
