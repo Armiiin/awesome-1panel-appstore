@@ -1,7 +1,5 @@
 services:
   litellm:
-      args:
-        target: runtime
     image: ghcr.io/berriai/litellm:main-stable
     container_name: ${CONTAINER_NAME}
     #########################################
