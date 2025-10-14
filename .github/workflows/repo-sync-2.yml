@@ -1,0 +1,20 @@
+on:
+  schedule:
+  - cron:  "0/1440 * * * *"
+  workflow_dispatch:
+
+jobs:
+  repo-sync:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        persist-credentials: false
+    - name: Github Sync
+      uses: repo-sync/github-sync@v2.3.0
+      with:
+        source_repo: "https://github.com/arch3rPro/1Panel-Appstore.git"
+        source_branch: ""
+        destination_branch: "arch3rpro-appstore"
+        sync_tags: ""
+        github_token: ${{ secrets.PAT }}
