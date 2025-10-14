@@ -1,3 +1,4 @@
+name: Sync okxlin with upstream repo
 on:
   schedule:
   - cron:  "0/1440 * * * *"
