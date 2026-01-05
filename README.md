@@ -1042,7 +1042,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🔐 跨平台开源密码管理器，支持Web界面和多种平台，安全可靠
 
-<kbd>2.7.10</kbd> • [官网链接](https://keepassxc.org/)
+<kbd>2.7.11</kbd> • [官网链接](https://keepassxc.org/)
 
 </td>
 <td width="33%" align="center">
