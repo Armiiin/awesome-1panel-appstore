@@ -287,7 +287,7 @@
 
 自托管协作书签管理工具，支持网页归档和团队协作
 
-<kbd>2.13.2</kbd> • [官网链接](https://github.com/linkwarden/linkwarden)
+<kbd>2.13.5</kbd> • [官网链接](https://github.com/linkwarden/linkwarden)
 
 </td>
 </tr>
