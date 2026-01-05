@@ -275,7 +275,7 @@
 
 自托管全能书签管理工具，支持AI自动标签功能
 
-<kbd>0.29.3</kbd> • [官网链接](https://github.com/karakeep-app/karakeep)
+<kbd>0.30.0</kbd> • [官网链接](https://github.com/karakeep-app/karakeep)
 
 </td>
 <td width="33%" align="center">
