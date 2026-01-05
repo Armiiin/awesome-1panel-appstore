@@ -388,7 +388,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🌐 简单安全去中心化的内网穿透 VPN 组网方案
 
-<kbd>2.4.5</kbd> • [官网链接](https://github.com/EasyTier/Easytier)
+<kbd>2.5.0</kbd> • [官网链接](https://github.com/EasyTier/Easytier)
 
 </td>
 <td width="33%" align="center">
