@@ -1,6 +1,10 @@
 services:
   n8n:
+<<<<<<<< HEAD:apps/n8n-zh/2.3.0/docker-compose.yml
     image: n8nio/n8n:2.3.0
+========
+    image: n8nio/n8n:2.2.2
+>>>>>>>> 8e6cc572050a5c9325ed5d40b27a804e3b5f4032:apps/n8n-zh/2.2.2/docker-compose.yml
     container_name: ${CONTAINER_NAME}
     restart: always
     user: 1000:1000

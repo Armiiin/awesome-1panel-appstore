@@ -5,7 +5,11 @@ services:
     networks:
       1panel-network:
         ipv4_address: ${SUBNET_PREFIX}.234
+<<<<<<<< HEAD:apps/safeline/9.3.1/docker-compose.yml
     image: chaitin/safeline-mgt:9.3.1
+========
+    image: chaitin/safeline-mgt:9.3.0
+>>>>>>>> 8e6cc572050a5c9325ed5d40b27a804e3b5f4032:apps/safeline/9.3.0/docker-compose.yml
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - ${SAFELINE_DIR}/resources/mgt:/app/data
@@ -33,7 +37,11 @@ services:
     networks:
       1panel-network:
         ipv4_address: ${SUBNET_PREFIX}.235
+<<<<<<<< HEAD:apps/safeline/9.3.1/docker-compose.yml
     image: chaitin/safeline-detector:9.2.9
+========
+    image: chaitin/safeline-detector:9.3.0
+>>>>>>>> 8e6cc572050a5c9325ed5d40b27a804e3b5f4032:apps/safeline/9.3.0/docker-compose.yml
     volumes:
       - ${SAFELINE_DIR}/resources/detector:/resources/detector
       - ${SAFELINE_DIR}/logs/detector:/logs/detector
@@ -45,7 +53,11 @@ services:
   safeline-tengine:
     container_name: ${CONTAINER_NAME}-tengine
     restart: always
+<<<<<<<< HEAD:apps/safeline/9.3.1/docker-compose.yml
     image: chaitin/safeline-tengine:9.2.9
+========
+    image: chaitin/safeline-tengine:9.3.0
+>>>>>>>> 8e6cc572050a5c9325ed5d40b27a804e3b5f4032:apps/safeline/9.3.0/docker-compose.yml
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - /etc/resolv.conf:/etc/resolv.conf:ro
@@ -69,7 +81,11 @@ services:
     networks:
       1panel-network:
         ipv4_address: ${SUBNET_PREFIX}.237
+<<<<<<<< HEAD:apps/safeline/9.3.1/docker-compose.yml
     image: chaitin/safeline-luigi:9.2.9
+========
+    image: chaitin/safeline-luigi:9.3.0
+>>>>>>>> 8e6cc572050a5c9325ed5d40b27a804e3b5f4032:apps/safeline/9.3.0/docker-compose.yml
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - ${SAFELINE_DIR}/resources/luigi:/app/data
@@ -90,7 +106,11 @@ services:
     networks:
       1panel-network:
         ipv4_address: ${SUBNET_PREFIX}.238
+<<<<<<<< HEAD:apps/safeline/9.3.1/docker-compose.yml
     image: chaitin/safeline-fvm:9.2.9
+========
+    image: chaitin/safeline-fvm:9.3.0
+>>>>>>>> 8e6cc572050a5c9325ed5d40b27a804e3b5f4032:apps/safeline/9.3.0/docker-compose.yml
     volumes:
       - /etc/localtime:/etc/localtime:ro
     logging:
@@ -126,7 +146,11 @@ services:
     networks:
       1panel-network:
         ipv4_address: ${SUBNET_PREFIX}.240
+<<<<<<<< HEAD:apps/safeline/9.3.1/docker-compose.yml
     image: chaitin/safeline-chaos:9.2.9
+========
+    image: chaitin/safeline-chaos:9.3.0
+>>>>>>>> 8e6cc572050a5c9325ed5d40b27a804e3b5f4032:apps/safeline/9.3.0/docker-compose.yml
     logging:
       options:
         max-size: 100m
