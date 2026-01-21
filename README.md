@@ -429,7 +429,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🛡️ 简单好用的Web应用防火墙(WAF)
 
-<kbd>9.3.1</kbd> • [官网链接](https://github.com/chaitin/SafeLine)
+<kbd>9.3.2</kbd> • [官网链接](https://github.com/chaitin/SafeLine)
 
 </td>
 
