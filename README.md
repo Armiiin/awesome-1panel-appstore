@@ -763,7 +763,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🌱 开源高性能BT/PT下载工具，支持Web界面
 
-<kbd>4.0.6</kbd> • [官网链接](https://transmissionbt.com/)
+<kbd>4.1.0</kbd> • [官网链接](https://transmissionbt.com/)
 
 </td>
 <td width="33%" align="center">
