@@ -751,7 +751,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 📥 高性能Usenet下载工具，支持Web界面管理
 
-<kbd>25.4</kbd> • [官网链接](https://nzbget.net/)
+<kbd>26.0</kbd> • [官网链接](https://nzbget.net/)
 
 </td>
 <td width="33%" align="center">
