@@ -304,7 +304,7 @@
 
 文档、白板和数据库完全整合的工作空间
 
-<kbd>0.25.7</kbd> • [官网链接](https://github.com/toeverything/AFFiNE)
+<kbd>0.26.0</kbd> • [官网链接](https://github.com/toeverything/AFFiNE)
 
 </td>
 <td width="33%" align="center">
