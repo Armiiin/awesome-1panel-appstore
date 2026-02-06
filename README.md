@@ -96,7 +96,7 @@
 
 🚀 智谱清言ChatGLM-4-Plus大模型逆向API
 
-<kbd>1.0.1</kbd> • [官网链接](https://github.com/xiaoY233/GLM-Free-API)
+<kbd>1.0.2</kbd> • [官网链接](https://github.com/xiaoY233/GLM-Free-API)
 
 </td>
 <td width="33%" align="center">
