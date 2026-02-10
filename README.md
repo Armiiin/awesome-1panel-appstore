@@ -55,7 +55,7 @@
 
 🚀 DeepSeek-V3 & R1大模型逆向API
 
-<kbd>1.0.1</kbd> • [官网链接](https://github.com/xiaoY233/DeepSeek-Free-API)
+<kbd>1.0.2</kbd> • [官网链接](https://github.com/xiaoY233/DeepSeek-Free-API)
 
 </td>
 <td width="33%" align="center">
