@@ -859,7 +859,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🔄 多平台Git仓库自动同步与备份工具，支持定时任务和Docker部署
 
-<kbd>0.20.0</kbd> • [官网链接](https://github.com/AkashRajpurohit/git-sync)
+<kbd>0.21.0</kbd> • [官网链接](https://github.com/AkashRajpurohit/git-sync)
 
 </td>
 </tr>
