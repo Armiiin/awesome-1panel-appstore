@@ -847,7 +847,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🖥️ 开源跨平台远程桌面客户端，支持多种协议
 
-<kbd>1.4.40</kbd> • [官网链接](https://remmina.org/)
+<kbd>1.4.43</kbd> • [官网链接](https://remmina.org/)
 
 </td>
 <td width="33%" align="center">
