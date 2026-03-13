@@ -18,8 +18,10 @@ services:
       - ERROR_LOG_ENABLED=true
       - BATCH_UPDATE_ENABLED=true
     depends_on:
-      - redis
-      - mysql
+      redis:
+        condition: service_started
+      mysql:
+        condition: service_healthy
     healthcheck:
       test:
         - CMD-SHELL
@@ -41,6 +43,11 @@ services:
       - MYSQL_DATABASE=${PANEL_DB_NAME}
     networks:
       - 1panel-network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p${PANEL_DB_ROOT_PASSWORD}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
   redis:
     image: redis:latest
     container_name: ${CONTAINER_NAME}-redis
