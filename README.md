@@ -178,7 +178,7 @@
 
 🚀 免费的GPT-4和其他大语言模型API接口
 
-<kbd>7.3.3-slim</kbd> • [官网链接](https://github.com/xtekky/gpt4free)
+<kbd>7.3.4</kbd> • [官网链接](https://github.com/xtekky/gpt4free)
 
 </td>
 <td width="33%" align="center">
