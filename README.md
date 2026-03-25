@@ -803,7 +803,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🖼️ 高效云存储和图床平台管理工具
 
-<kbd>2.3.3</kbd> • [官网链接](https://github.com/Kuingsmile/PicList)
+<kbd>2.3.5</kbd> • [官网链接](https://github.com/Kuingsmile/PicList)
 
 </td>
 </tr>
