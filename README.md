@@ -28,7 +28,6 @@
 - 不对任何原始镜像的有效性做出任何明示或暗示的保证或声明，安全性和风险自查
 - 个人仓库，可以Fork后自行更新，但是严禁未经授权，私自删除个人信息后合并发布
 
-
 ### 🚀 使用方法
 
 #### 📋 添加脚本到 1Panel 计划任务
@@ -102,7 +101,6 @@ docker run -d --name=nginx -p 80:80 nginx:latest
 - `README_en.md` - 英文文档
 - `logo.png` - 应用图标
 
-
 ### 📱 应用列表
 
 以下是当前在本仓库中提供的应用列表及其版本信息，**点击应用名称可查看应用详细介绍文档**
@@ -112,7 +110,7 @@ docker run -d --name=nginx -p 80:80 nginx:latest
 - 支持一键部署AI免费API接口，使用方式请参考应用内**README介绍**
 - **Free-API系列应用已下架，原项目由于供应链投毒，被植入恶意代码，请及时停止运行并删除这些服务！！！**
 - 经过几天的排查和重构，已重新上架[GLM-Free-API](https://github.com/xiaoY233/GLM-Free-API)、[MiniMax-Free-API](https://github.com/xiaoY233/MiniMax-Free-API)、[Qwen-Free-API](https://github.com/xiaoY233/Qwen-Free-API)、[Kimi-Free-API](https://github.com/xiaoY233/Kimi-Free-API)，[DeepSeek-Free-API](https://github.com/xiaoY233/DeepSeek-Free-API),欢迎各位对源码进行审查，如果不放心，建议还是暂停使用！
-- 其他的Free-API系列看情况再搞了,后续主要更新上述几个Free-API兼容Gemini-cli和Claude的API接入。
+- LiteLLM应用原项目又出现了供应链投毒事件，**请及时停止运行并删除该服务，友情提示：为了避免泄漏的API密钥被滥用，请从你的AI供应商中删除或禁止使用相关密钥！！！**
 
 <table>
 <tr>
@@ -1266,7 +1264,6 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 </tr>
 </table>
 
-
 <!-- 橙色风格 -->
 
-![Copyright-arch3rPro](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
+!\[Copyright-arch3rPro]\(<https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white> null)
