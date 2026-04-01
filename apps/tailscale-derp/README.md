@@ -18,20 +18,28 @@ Tailscale DERP 中继服务器，使用完整配置方式，包含tailscale和de
 
 ### 登录指南
 
-部署完成后，需要获取tailscale登录链接：
+部署完成后，tailscale容器需要登录认证才能正常工作：
 
+1. **查看tailscale容器日志获取登录链接**：
 ```bash
-# 查看tailscale容器日志获取登录链接
+# 查看tailscale容器日志
 docker logs -f <容器名称>-tailscale
 ```
 
-在日志中找到类似以下内容的登录链接：
+2. **在日志中找到登录链接**：
 ```
+Switching ipn state NoState -> NeedsLogin (WantRunning=false, nm=false)
 To authenticate, visit:
         https://login.tailscale.com/a/xxxxxxx
 ```
 
-复制链接到浏览器打开并登录Tailscale账户。
+3. **复制链接到浏览器打开并登录Tailscale账户**
+
+4. **验证登录状态**：
+登录成功后，再次查看日志应该显示类似以下内容：
+```
+Switching ipn state NeedsLogin -> Running (WantRunning=true, nm=false)
+```
 
 ### 防火墙配置
 

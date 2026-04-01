@@ -5,11 +5,13 @@ services:
       - TS_HOSTNAME=tailscale-docker
       - TS_AUTH_ONCE=true
       - TS_STATE_DIR=/data
+      - TS_USERSPACE=true
     volumes:
       - tailscale:/var/run/tailscale
       - tailscale_data:/data
     networks:
       - 1panel-network
+    command: tailscaled --tun=userspace-networking --socks5-server=localhost:1055
   
   derper:
     image: ghcr.io/yangchuansheng/ip_derper:latest
@@ -23,7 +25,7 @@ services:
     volumes:
       - tailscale:/var/run/tailscale
     environment:
-      - DERP_VERIFY_CLIENTS=${DERP_VERIFY_CLIENTS}
+      - DERP_VERIFY_CLIENTS=${DERP_VERIFY_CLIENTS:-true}
     depends_on:
       - tailscale
     labels:  

@@ -18,20 +18,28 @@ Tailscale DERP relay server with complete configuration, including coexistence o
 
 ### Login Guide
 
-After deployment, you need to get the tailscale login link:
+After deployment, the tailscale container needs login authentication to work properly:
 
+1. **Check tailscale container logs for login link**:
 ```bash
-# Check tailscale container logs for login link
+# Check tailscale container logs
 docker logs -f <container-name>-tailscale
 ```
 
-Find the login link in the logs similar to:
+2. **Find the login link in the logs**:
 ```
+Switching ipn state NoState -> NeedsLogin (WantRunning=false, nm=false)
 To authenticate, visit:
         https://login.tailscale.com/a/xxxxxxx
 ```
 
-Copy the link to browser and login to your Tailscale account.
+3. **Copy the link to browser and login to your Tailscale account**
+
+4. **Verify login status**:
+After successful login, check the logs again should show:
+```
+Switching ipn state NeedsLogin -> Running (WantRunning=true, nm=false)
+```
 
 ### Firewall Configuration
 
