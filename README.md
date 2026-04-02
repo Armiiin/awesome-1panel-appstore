@@ -764,6 +764,47 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 </tr>
 </table>
 
+<table>
+<tr>
+<td width="33%" align="center">
+
+<a href="./apps/sub2api/README.md">
+<img src="./apps/sub2api/logo.png" width="60" height="60" alt="Sub2API">
+<br><b>Sub2API</b>
+</a>
+
+🍥 AI API 网关平台，支持订阅配额分发、API Key 管理、计费和负载均衡
+
+<kbd>0.1.106</kbd> • [官网链接](https://sub2api.org)
+
+</td>
+<td width="33%" align="center">
+
+<a href="./apps/cliproxyapi-plus/README.md">
+<img src="./apps/cliproxyapi-plus/logo.png" width="60" height="60" alt="CLIProxyAPI Plus">
+<br><b>CLIProxyAPI Plus</b>
+</a>
+
+🔗 CLIProxyAPI Plus 代理API服务
+
+<kbd>6.9.9-0</kbd> • [官网链接](https://github.com/router-for-me/CLIProxyAPIPlus)
+
+</td>
+<td width="33%" align="center">
+
+<a href="./apps/trae-proxy/README.md">
+<img src="./apps/trae-proxy/logo.png" width="60" height="60" alt="Trae-Proxy">
+<br><b>Trae-Proxy</b>
+</a>
+
+🎯 一个智能的API代理工具，专门用于拦截和重定向OpenAI API请求到自定义后端服务
+
+<kbd>1.0.0</kbd> • [官网链接](https://github.com/arch3rPro/Trae-Proxy)
+
+</td>
+</tr>
+</table>
+
 #### 🎵 多媒体管理
 
 <table>
