@@ -9,13 +9,13 @@ additionalProperties:
       type: number
       edit: true
       rule: paramPort
-    - default: sk-1234
+    - default: sk-litellm-change-in-production
       envKey: LITELLM_MASTER_KEY
       label:
         en: LITELLM_MASTER_KEY
         zh: LITELLM密钥
       required: true
-      type: text
+      type: password
       edit: true
-      rule: paramCommon
-      values: []
+      rule: paramComplexity
+      random: true
