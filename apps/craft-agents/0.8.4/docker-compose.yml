@@ -13,6 +13,11 @@ services:
       - TZ=Asia/Shanghai
       - CRAFT_SERVER_TOKEN=${CRAFT_SERVER_TOKEN}
       - CRAFT_RPC_HOST=0.0.0.0
+    command:
+      - bun
+      - run
+      - packages/server/src/index.ts
+      - --allow-insecure-bind
     labels:
       createdBy: "Apps"
 volumes:
