@@ -746,7 +746,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🤖 AI驱动的图表创建工具
 
-<kbd>0.4.13</kbd> • [官网链接](https://next-ai-drawio.jiang.jp/)
+<kbd>0.4.15</kbd> • [官网链接](https://next-ai-drawio.jiang.jp/)
 
 </td>
 <td width="33%" align="center">
