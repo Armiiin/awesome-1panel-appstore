@@ -787,7 +787,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🔗 CLIProxyAPI Plus 代理API服务
 
-<kbd>6.9.27-0</kbd> • [官网链接](https://github.com/router-for-me/CLIProxyAPIPlus)
+<kbd>6.9.28-0</kbd> • [官网链接](https://github.com/router-for-me/CLIProxyAPIPlus)
 
 </td>
 <td width="33%" align="center">
