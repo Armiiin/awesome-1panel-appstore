@@ -705,7 +705,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🔮 强大的AI应用构建平台，可视化设计AI驱动的工作流和代理
 
-<kbd>1.9.0</kbd> • [官网链接](https://langflow.org/)
+<kbd>1.9.1</kbd> • [官网链接](https://langflow.org/)
 
 </td>
 <td width="33%" align="center">
