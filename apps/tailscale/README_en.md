@@ -82,7 +82,9 @@ If you want to use the auth key only on first startup and use existing state on 
 
 ### Data Directory
 
-Application data is stored in `./data/var/lib` directory, containing Tailscale state information. This directory is automatically mounted to `/var/lib` in the container.
+Application data is stored in `./data/state` directory, containing Tailscale state information (authentication state, configuration, etc.). This directory is mounted to `/var/lib/tailscale` in the container.
+
+**Important**: Ensure the `data/state` directory has correct read/write permissions, otherwise state cannot be persisted and re-authentication will be required on every restart.
 
 ## Environment Variables
 

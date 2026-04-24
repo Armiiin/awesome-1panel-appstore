@@ -5,7 +5,7 @@ services:
     hostname: ${HOSTNAME:-tailscale}
     restart: always
     volumes:
-      - ./data/var/lib:/var/lib
+      - ./data/state:/var/lib/tailscale
       - /dev/net/tun:/dev/net/tun
     cap_add:
       - NET_ADMIN
@@ -15,7 +15,7 @@ services:
     environment:
       - TS_AUTHKEY=${TS_AUTHKEY}
       - TS_USERSPACE=${TS_USERSPACE:-false}
-      - TS_STATE_DIR=/var/lib
+      - TS_STATE_DIR=/var/lib/tailscale
       - TS_ROUTES=${TS_ROUTES:-}
       - TS_ACCEPT_DNS=${TS_ACCEPT_DNS:-true}
       - TS_EXTRA_ARGS=${TS_EXTRA_ARGS:-}
