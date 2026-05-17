@@ -49,9 +49,6 @@ services:
       - 1panel-network
     labels:
       createdBy: "Apps"
-    cpus: 4.0
-    mem_limit: 8G
-    memswap_limit: 8G
 
   firecrawl-playwright:
     image: ghcr.io/firecrawl/playwright-service:latest
@@ -74,9 +71,6 @@ services:
       - /tmp/.cache:noexec,nosuid,size=1g
     labels:
       createdBy: "Apps"
-    cpus: 2.0
-    mem_limit: 4G
-    memswap_limit: 4G
 
   firecrawl-redis:
     image: redis:alpine
