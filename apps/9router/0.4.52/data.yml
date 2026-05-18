@@ -11,14 +11,3 @@ additionalProperties:
       label:
         en: Web Port
         zh: Web 端口
-    - default: 9router
-      edit: true
-      envKey: CONTAINER_NAME
-      labelEn: Container Name
-      labelZh: 容器名称
-      required: true
-      rule: paramCommon
-      type: text
-      label:
-        en: Container Name
-        zh: 容器名称
