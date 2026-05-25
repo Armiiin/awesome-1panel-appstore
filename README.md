@@ -246,7 +246,7 @@ docker run -d --name=nginx -p 80:80 nginx:latest
 
 🚀 免费的GPT-4和其他大语言模型API接口
 
-<kbd>7.5.5-slim</kbd> • [官网链接](https://github.com/xtekky/gpt4free)
+<kbd>7.5.5</kbd> • [官网链接](https://github.com/xtekky/gpt4free)
 
 </td>
 <td width="33%" align="center">
@@ -412,7 +412,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 更优雅的微信公众号订阅方式，支持RSS输出和全文内容
 
-<kbd>2.6.1-sqlite</kbd> • [官网链接](https://github.com/cooderl/wewe-rss)
+<kbd>2.6.1</kbd> • [官网链接](https://github.com/cooderl/wewe-rss)
 
 </td>
 <td width="33%" align="center">
@@ -676,7 +676,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🔍 开源无广告元搜索引擎，保护隐私无追踪，支持自建部署
 
-<kbd>2025.12.3-1f6ea4127</kbd> • [官网链接](https://docs.searxng.org/)
+<kbd>2026.5.16-dce3bb69b</kbd> • [官网链接](https://docs.searxng.org/)
 
 </td>
 <td width="33%" align="center">
@@ -914,7 +914,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 👁️ 轻量级可视化综合服务器监控方案
 
-<kbd>latest</kbd> • [官网链接](https://github.com/arch3rPro/Glance-Monitor)
+<kbd>0.1.0</kbd> • [官网链接](https://github.com/arch3rPro/Glance-Monitor)
 
 </td>
 <td width="33%" align="center">
@@ -1203,7 +1203,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🛠️ 功能强大的日常任务网络工具，自托管无广告追踪
 
-<kbd>latest</kbd> • [官网链接](https://omnitools.app/)
+<kbd>0.6.0</kbd> • [官网链接](https://omnitools.app/)
 
 </td>
 <td width="33%" align="center">
@@ -1215,7 +1215,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🎭 专业的 Web 应用自动化测试环境，支持多浏览器
 
-<kbd>6.6.7</kbd> • [官网链接](https://playwright.dev/)
+<kbd>1.55.0-noble</kbd> • [官网链接](https://playwright.dev/)
 
 </td>
 </tr>
