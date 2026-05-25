@@ -1,6 +1,6 @@
 services:
   playwright-init:
-    image: mcr.microsoft.com/playwright:v1.55.0-noble
+    image: mcr.microsoft.com/playwright:v1.60.0-noble
     user: "root"
     volumes:
       - ./data:/home/pwuser/app
@@ -13,9 +13,8 @@ services:
         chmod +x /home/pwuser/app/start.sh
       "
     restart: "no"
-    
   playwright:
-    image: mcr.microsoft.com/playwright:v1.55.0-noble
+    image: mcr.microsoft.com/playwright:v1.60.0-noble
     container_name: ${CONTAINER_NAME}
     restart: always
     networks:
@@ -45,7 +44,6 @@ services:
       start_period: 90s
     labels:
       createdBy: "Apps"
-
 networks:
   1panel-network:
     external: true
