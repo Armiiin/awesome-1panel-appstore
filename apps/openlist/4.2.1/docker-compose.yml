@@ -14,10 +14,9 @@ services:
       - PUID=0
       - PGID=0
       - UMASK=022
-    image: openlistteam/openlist:v4.1.0
-    labels:  
+    image: openlistteam/openlist:v4.2.1
+    labels:
       createdBy: "Apps"
-networks:  
-  1panel-network:  
+networks:
+  1panel-network:
     external: true
-
