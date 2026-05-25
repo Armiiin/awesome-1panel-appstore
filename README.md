@@ -110,7 +110,6 @@ docker run -d --name=nginx -p 80:80 nginx:latest
 - 支持一键部署AI免费API接口，使用方式请参考应用内**README介绍**
 - **Free-API系列应用已下架，原项目由于供应链投毒，被植入恶意代码，请及时停止运行并删除这些服务！！！**
 - 经过几天的排查和重构，已重新上架[GLM-Free-API](https://github.com/xiaoY233/GLM-Free-API)、[MiniMax-Free-API](https://github.com/xiaoY233/MiniMax-Free-API)、[Qwen-Free-API](https://github.com/xiaoY233/Qwen-Free-API)、[Kimi-Free-API](https://github.com/xiaoY233/Kimi-Free-API)，[DeepSeek-Free-API](https://github.com/xiaoY233/DeepSeek-Free-API),欢迎各位对源码进行审查，如果不放心，建议还是暂停使用！
-- LiteLLM应用原项目又出现了供应链投毒事件，**请及时停止运行并删除该服务，友情提示：为了避免泄漏的API密钥被滥用，请从你的AI供应商中删除或禁止使用相关密钥！！！**
 
 <table>
 <tr>
@@ -528,6 +527,35 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 </tr>
 </table>
 
+<table>
+<tr>
+<td width="33%" align="center">
+
+<a href="./apps/tailscale/README.md">
+<img src="./apps/tailscale/logo.png" width="60" height="60" alt="Tailscale">
+<br><b>Tailscale</b>
+</a>
+
+🔐 私有 WireGuard 网络组网工具
+
+<kbd>1.98.3</kbd> • [官网链接](https://tailscale.com)
+
+</td>
+<td width="33%" align="center">
+
+<a href="./apps/tailscale-derp/README.md">
+<img src="./apps/tailscale-derp/logo.png" width="60" height="60" alt="Tailscale DERP">
+<br><b>Tailscale DERP</b>
+</a>
+
+🛰️ Tailscale DERP 中继服务器，无需域名即可使用
+
+<kbd>latest</kbd> • [官网链接](https://tailscale.com)
+
+</td>
+</tr>
+</table>
+
 #### 🤖 AI 与智能应用
 
 <table>
@@ -710,14 +738,14 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 </td>
 <td width="33%" align="center">
 
-<!-- <a href="">
-<img src="./apps/litellm/logo.png" width="60" height="60" alt="LiteLLM"> -->
+<a href="./apps/litellm/README.md">
+<img src="./apps/litellm/logo.png" width="60" height="60" alt="LiteLLM">
 <br><b>LiteLLM</b>
 </a>
 
 🔧 使用OpenAI格式统一调用所有LLM API，支持多种云服务商
 
-<kbd>已下架</kbd> • [官网链接](https://github.com/BerriAI/litellm)
+<kbd>1.86.0</kbd> • [官网链接](https://github.com/BerriAI/litellm)
 
 </td>
 <td width="33%" align="center">
@@ -805,6 +833,158 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 </tr>
 </table>
 
+<table>
+<tr>
+<td width="33%" align="center">
+
+<a href="./apps/9router/README.md">
+<img src="./apps/9router/logo.png" width="60" height="60" alt="9Router">
+<br><b>9Router</b>
+</a>
+
+🚀 免费 AI 路由器和 Token 节省工具
+
+<kbd>0.4.59</kbd> • [官网链接](https://9router.com)
+
+</td>
+<td width="33%" align="center">
+
+<a href="./apps/apipark/README.md">
+<img src="./apps/apipark/logo.png" width="60" height="60" alt="APIPark">
+<br><b>APIPark</b>
+</a>
+
+🌐 开源企业级 API 全生命周期管理平台
+
+<kbd>1.9.6-beta</kbd> • [官网链接](https://apipark.com)
+
+</td>
+<td width="33%" align="center">
+
+<a href="./apps/axonhub/README.md">
+<img src="./apps/axonhub/logo.png" width="60" height="60" alt="AxonHub">
+<br><b>AxonHub</b>
+</a>
+
+🤖 一站式AI开发平台 - 统一API网关
+
+<kbd>0.9.43</kbd> • [官网链接](https://github.com/looplj/axonhub)
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+<a href="./apps/browser-use/README.md">
+<img src="./apps/browser-use/logo.png" width="60" height="60" alt="Browser Use">
+<br><b>Browser Use</b>
+</a>
+
+🌐 让 AI 代理可以访问网站，轻松实现在线任务自动化
+
+<kbd>latest</kbd> • [官网链接](https://browser-use.com/)
+
+</td>
+<td width="33%" align="center">
+
+<a href="./apps/claude-code-hub/README.md">
+<img src="./apps/claude-code-hub/logo.png" width="60" height="60" alt="Claude Code Hub">
+<br><b>Claude Code Hub</b>
+</a>
+
+🔗 智能 AI API 代理中转服务平台
+
+<kbd>0.7.4</kbd> • [官网链接](https://github.com/ding113/claude-code-hub)
+
+</td>
+<td width="33%" align="center">
+
+<a href="./apps/craft-agents/README.md">
+<img src="./apps/craft-agents/logo.png" width="60" height="60" alt="Craft Agents">
+<br><b>Craft Agents</b>
+</a>
+
+🤖 AI Agent工作空间，支持多LLM提供商和MCP集成
+
+<kbd>0.9.2</kbd> • [官网链接](https://github.com/lukilabs/craft-agents-oss)
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+<a href="./apps/firecrawl/README.md">
+<img src="./apps/firecrawl/logo.png" width="60" height="60" alt="Firecrawl">
+<br><b>Firecrawl</b>
+</a>
+
+🔥 将任意网站转换为适合大语言模型的结构化数据
+
+<kbd>v2.10.0</kbd> • [官网链接](https://www.firecrawl.dev)
+
+</td>
+<td width="33%" align="center">
+
+<a href="./apps/hermes-web-ui/README.md">
+<img src="./apps/hermes-web-ui/logo.png" width="60" height="60" alt="Hermes Web UI">
+<br><b>Hermes Web UI</b>
+</a>
+
+🧭 Hermes Agent 的全功能 Web 管理面板
+
+<kbd>0.6.1</kbd> • [官网链接](https://github.com/EKKOLearnAI/hermes-web-ui)
+
+</td>
+<td width="33%" align="center">
+
+<a href="./apps/mcphub/README.md">
+<img src="./apps/mcphub/logo.png" width="60" height="60" alt="MCPHub">
+<br><b>MCPHub</b>
+</a>
+
+🔌 MCP 服务器统一管理中心
+
+<kbd>1.0.5</kbd> • [官网链接](https://docs.mcphub.app)
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+<a href="./apps/playwright-mcp/README.md">
+<img src="./apps/playwright-mcp/logo.png" width="60" height="60" alt="Playwright MCP">
+<br><b>Playwright MCP</b>
+</a>
+
+🎭 提供浏览器自动化功能的 MCP 服务器
+
+<kbd>0.0.36</kbd> • [官网链接](https://github.com/microsoft/playwright-mcp)
+
+</td>
+<td width="33%" align="center">
+
+<a href="./apps/vane/README.md">
+<img src="./apps/vane/logo.png" width="60" height="60" alt="Vane">
+<br><b>Vane</b>
+</a>
+
+🔍 专注于隐私的 AI 问答搜索引擎
+
+<kbd>v1.12.2</kbd> • [官网链接](https://github.com/ItzCrazyKns/Vane)
+
+</td>
+</tr>
+</table>
+
 #### 🎵 多媒体管理
 
 <table>
@@ -884,6 +1064,23 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 🎬 开箱即用的跨平台影视聚合播放器，支持多源搜索和在线播放
 
 <kbd>100.1.2</kbd> • [官网链接](https://github.com/MoonTechLab/LunaTV)
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+<a href="./apps/lxserver/README.md">
+<img src="./apps/lxserver/logo.png" width="60" height="60" alt="LXServer">
+<br><b>LXServer</b>
+</a>
+
+🎵 LX Music 数据同步服务器与 Web 播放器
+
+<kbd>1.9.3</kbd> • [官网链接](https://xcq0607.github.io/lxserver/)
 
 </td>
 </tr>
@@ -1221,6 +1418,35 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 </tr>
 </table>
 
+<table>
+<tr>
+<td width="33%" align="center">
+
+<a href="./apps/fast-note-sync-service/README.md">
+<img src="./apps/fast-note-sync-service/logo.png" width="60" height="60" alt="Fast Note Sync Service">
+<br><b>Fast Note Sync Service</b>
+</a>
+
+📝 高性能低延迟的 Obsidian 笔记同步服务
+
+<kbd>3.1.1</kbd> • [官网链接](https://github.com/haierkeys/fast-note-sync-service)
+
+</td>
+<td width="33%" align="center">
+
+<a href="./apps/trendradar/README.md">
+<img src="./apps/trendradar/logo.png" width="60" height="60" alt="TrendRadar">
+<br><b>TrendRadar</b>
+</a>
+
+📡 多平台热点推送
+
+<kbd>6.8.0</kbd> • [官网链接](https://github.com/sansan0/TrendRadar)
+
+</td>
+</tr>
+</table>
+
 #### 🐳 容器管理
 
 <table>
@@ -1300,6 +1526,23 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 🧙‍♂️ 现代化开源Docker管理Web面板
 
 <kbd>1.9.0</kbd> • [官网链接](https://arcane.ofkm.dev/)
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+<a href="./apps/dpanel/README.md">
+<img src="./apps/dpanel/logo.png" width="60" height="60" alt="DPanel">
+<br><b>DPanel</b>
+</a>
+
+🐳 轻量化 docker 可视化管理面板
+
+<kbd>1.10.3</kbd> • [官网链接](https://dpanel.cc/)
 
 </td>
 </tr>
