@@ -1,6 +1,6 @@
 services:
   sub2api:
-    image: weishaw/sub2api:0.1.106
+    image: weishaw/sub2api:0.1.130
     container_name: ${CONTAINER_NAME}
     restart: always
     networks:
@@ -19,7 +19,6 @@ services:
     depends_on:
       - postgres
       - redis
-
   postgres:
     image: postgres:15-alpine
     container_name: ${CONTAINER_NAME}-postgres
@@ -34,7 +33,6 @@ services:
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
     labels:
       createdBy: "Apps"
-
   redis:
     image: redis:7-alpine
     container_name: ${CONTAINER_NAME}-redis
@@ -46,11 +44,9 @@ services:
     command: redis-server --appendonly yes
     labels:
       createdBy: "Apps"
-
 networks:
   1panel-network:
     external: true
-
 volumes:
-  postgres_data:
-  redis_data:
+  postgres_data: null
+  redis_data: null
