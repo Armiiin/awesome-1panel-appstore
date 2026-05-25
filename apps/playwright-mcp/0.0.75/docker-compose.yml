@@ -1,6 +1,6 @@
 services:
   playwright-mcp:
-    image: mcr.microsoft.com/playwright/mcp:v0.0.36
+    image: mcr.microsoft.com/playwright/mcp:v0.0.75
     container_name: ${CONTAINER_NAME}
     restart: always
     networks:
@@ -20,14 +20,13 @@ services:
       - USER_AGENT=${USER_AGENT}
     command: ["--port", "8931", "--host", "0.0.0.0"]
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8931/mcp"] 
+      test: ["CMD", "curl", "-f", "http://localhost:8931/mcp"]
       interval: 30s
       timeout: 10s
       retries: 3
       start_period: 60s
     labels:
       createdBy: "Apps"
-
 networks:
   1panel-network:
     external: true

@@ -967,7 +967,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🎭 提供浏览器自动化功能的 MCP 服务器
 
-<kbd>1.60.0-noble</kbd> • [官网链接](https://github.com/microsoft/playwright-mcp)
+<kbd>0.0.75</kbd> • [官网链接](https://github.com/microsoft/playwright-mcp)
 
 </td>
 <td width="33%" align="center">
