@@ -1289,7 +1289,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🌌 简单易用的自托管VPN服务，支持多平台和Docker快速部署
 
-<kbd>5.1.5</kbd> • [官网链接](https://github.com/starvpn/starvpn)
+<kbd>6.0.5</kbd> • [官网链接](https://github.com/starvpn/starvpn)
 
 </td>
 </tr>
