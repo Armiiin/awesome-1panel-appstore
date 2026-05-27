@@ -998,7 +998,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🎵 使用小爱/红米音箱播放音乐，支持yt-dlp下载
 
-<kbd>0.5.7</kbd> • [官网链接](https://github.com/hanxi/xiaomusic)
+<kbd>0.5.8</kbd> • [官网链接](https://github.com/hanxi/xiaomusic)
 
 </td>
 <td width="33%" align="center">
