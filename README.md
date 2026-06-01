@@ -300,7 +300,7 @@ docker run -d --name=nginx -p 80:80 nginx:latest
 
 快速静态博客框架，支持Markdown编写，丰富的插件和主题
 
-<kbd>stable-26-05-01</kbd> • [官网链接](https://github.com/hexojs/hexo)
+<kbd>stable-26-06-01</kbd> • [官网链接](https://github.com/hexojs/hexo)
 
 </td>
 <td width="33%" align="center">
