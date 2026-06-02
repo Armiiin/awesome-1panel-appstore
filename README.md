@@ -950,7 +950,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🔌 MCP 服务器统一管理中心
 
-<kbd>1.0.9</kbd> • [官网链接](https://docs.mcphub.app)
+<kbd>1.0.10</kbd> • [官网链接](https://docs.mcphub.app)
 
 </td>
 </tr>
