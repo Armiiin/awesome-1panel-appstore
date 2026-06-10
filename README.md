@@ -803,7 +803,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🍥 AI API 网关平台，支持订阅配额分发、API Key 管理、计费和负载均衡
 
-<kbd>0.1.135</kbd> • [官网链接](https://sub2api.org)
+<kbd>0.1.136</kbd> • [官网链接](https://sub2api.org)
 
 </td>
 <td width="33%" align="center">
