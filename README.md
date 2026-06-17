@@ -844,7 +844,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🚀 免费 AI 路由器和 Token 节省工具
 
-<kbd>0.4.80</kbd> • [官网链接](https://9router.com)
+<kbd>0.5.2</kbd> • [官网链接](https://9router.com)
 
 </td>
 <td width="33%" align="center">
