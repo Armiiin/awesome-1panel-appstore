@@ -786,7 +786,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 📝 私有的、多模型的Google Notebook LM替代方案，支持多模态内容和AI播客生成
 
-<kbd>1.9.0</kbd> • [官网链接](https://www.open-notebook.ai/)
+<kbd>1.10.0</kbd> • [官网链接](https://www.open-notebook.ai/)
 
 </td>
 </tr>
