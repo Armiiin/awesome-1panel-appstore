@@ -745,7 +745,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🔧 使用OpenAI格式统一调用所有LLM API，支持多种云服务商
 
-<kbd>1.89.2</kbd> • [官网链接](https://github.com/BerriAI/litellm)
+<kbd>1.89.3</kbd> • [官网链接](https://github.com/BerriAI/litellm)
 
 </td>
 <td width="33%" align="center">
