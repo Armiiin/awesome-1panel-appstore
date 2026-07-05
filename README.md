@@ -370,7 +370,7 @@ docker run -d --name=nginx -p 80:80 nginx:latest
 
 文档、白板和数据库完全整合的工作空间
 
-<kbd>0.26.3</kbd> • [官网链接](https://github.com/toeverything/AFFiNE)
+<kbd>0.26.7</kbd> • [官网链接](https://github.com/toeverything/AFFiNE)
 
 </td>
 <td width="33%" align="center">
