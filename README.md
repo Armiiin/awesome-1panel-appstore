@@ -478,7 +478,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🔄 轻量级高性能内网穿透代理服务器
 
-<kbd>0.33.11</kbd> • [官网链接](https://github.com/djylb/nps)
+<kbd>0.34.7</kbd> • [官网链接](https://github.com/djylb/nps)
 
 </td>
 </tr>
@@ -610,7 +610,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🍥 新一代大模型网关与AI资产管理系统，支持多种模型统一调用
 
-<kbd>0.13.2</kbd> • [官网链接](https://docs.newapi.pro/)
+<kbd>1.0.0-rc.16</kbd> • [官网链接](https://docs.newapi.pro/)
 
 </td>
 <td width="33%" align="center">
@@ -844,7 +844,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🚀 免费 AI 路由器和 Token 节省工具
 
-<kbd>0.5.15</kbd> • [官网链接](https://9router.com)
+<kbd>0.5.18</kbd> • [官网链接](https://9router.com)
 
 </td>
 <td width="33%" align="center">
@@ -926,7 +926,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🔥 将任意网站转换为适合大语言模型的结构化数据
 
-<kbd>v2.10.0</kbd> • [官网链接](https://www.firecrawl.dev)
+<kbd>2.10.19</kbd> • [官网链接](https://www.firecrawl.dev)
 
 </td>
 <td width="33%" align="center">
@@ -1412,7 +1412,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🎭 专业的 Web 应用自动化测试环境，支持多浏览器
 
-<kbd>1.55.0-noble</kbd> • [官网链接](https://playwright.dev/)
+<kbd>1.61.1-noble</kbd> • [官网链接](https://playwright.dev/)
 
 </td>
 </tr>

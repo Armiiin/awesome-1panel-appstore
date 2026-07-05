@@ -14,7 +14,7 @@ services:
     environment:
       - TZ=${TZ}
     labels:
-      createdBy: Apps
+      createdBy: "Apps"
 networks:
   1panel-network:
     external: true

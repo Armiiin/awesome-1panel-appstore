@@ -1,6 +1,6 @@
 services:
   firecrawl-api:
-    image: ghcr.io/firecrawl/firecrawl:latest
+    image: ghcr.io/firecrawl/firecrawl:2.10.19
     container_name: ${CONTAINER_NAME}
     restart: always
     environment:
@@ -51,7 +51,7 @@ services:
       createdBy: "Apps"
 
   firecrawl-playwright:
-    image: ghcr.io/firecrawl/playwright-service:v2.10.0
+    image: ghcr.io/firecrawl/playwright-service:latest
     container_name: ${CONTAINER_NAME}-playwright
     restart: always
     environment:
