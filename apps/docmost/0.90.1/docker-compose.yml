@@ -13,10 +13,12 @@ services:
       REDIS_URL: redis://redis:6379
     image: docmost/docmost:0.90.1
     labels:
-      createdBy: Apps
+      createdBy: "Apps"
     depends_on:
       - db
       - redis
+    networks:
+      - 1panel-network
   db:
     image: postgres:16-alpine
     environment:
@@ -26,12 +28,23 @@ services:
     restart: always
     volumes:
       - db_data:/var/lib/postgresql/data
+    labels:
+      createdBy: "Apps"
+    networks:
+      - 1panel-network
   redis:
     image: redis:7.2-alpine
     restart: always
     volumes:
       - redis_data:/data
+    labels:
+      createdBy: "Apps"
+    networks:
+      - 1panel-network
 volumes:
   docmost: null
   db_data: null
   redis_data: null
+networks:
+  1panel-network:
+    external: true

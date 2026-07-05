@@ -12,11 +12,13 @@ services:
       DATABASE_URL: "postgresql://docmost:${PANEL_DB_USER_PASSWORD}@db:5432/docmost?schema=public"
       REDIS_URL: "redis://redis:6379"
     image: docmost/docmost:latest
-    labels:  
+    labels:
       createdBy: "Apps"
     depends_on:
       - db
       - redis
+    networks:
+      - 1panel-network
   db:
     image: postgres:16-alpine
     environment:
@@ -26,13 +28,23 @@ services:
     restart: always
     volumes:
       - db_data:/var/lib/postgresql/data
-
+    labels:
+      createdBy: "Apps"
+    networks:
+      - 1panel-network
   redis:
     image: redis:7.2-alpine
     restart: always
     volumes:
       - redis_data:/data
+    labels:
+      createdBy: "Apps"
+    networks:
+      - 1panel-network
 volumes:
   docmost:
   db_data:
   redis_data:
+networks:
+  1panel-network:
+    external: true
