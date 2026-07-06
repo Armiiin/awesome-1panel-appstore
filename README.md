@@ -815,7 +815,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🔗 AI CLI/OAuth 账号代理 API 服务
 
-<kbd>v7.2.50</kbd> • [官网链接](https://github.com/router-for-me/CLIProxyAPI)
+<kbd>7.2.50</kbd> • [官网链接](https://github.com/router-for-me/CLIProxyAPI)
 
 </td>
 <td width="33%" align="center">
