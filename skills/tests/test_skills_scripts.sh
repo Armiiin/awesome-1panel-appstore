@@ -388,6 +388,49 @@ YAML
   fi
 }
 
+test_validate_app_detects_named_version_directory() {
+  local app="$TMP_DIR/named-version/apps/demo-app"
+  mkdir -p "$app/chromium-bundled-2026-07-06"
+  printf 'png' > "$app/logo.png"
+  cat > "$app/data.yml" <<'YAML'
+name: DemoApp
+tags:
+    - 实用工具
+title: Demo
+description: Demo
+additionalProperties:
+    key: demo-app
+    name: DemoApp
+    architectures:
+      - amd64
+YAML
+  cat > "$app/chromium-bundled-2026-07-06/data.yml" <<'YAML'
+additionalProperties:
+  formFields: []
+YAML
+  cat > "$app/chromium-bundled-2026-07-06/docker-compose.yml" <<'YAML'
+services:
+  demo:
+    container_name: ${CONTAINER_NAME}
+    restart: always
+    networks:
+      - 1panel-network
+    image: demo/demo-app:chromium-bundled-2026-07-06
+    labels:
+      createdBy: "Apps"
+networks:
+  1panel-network:
+    external: true
+YAML
+
+  bash "$ROOT_DIR/skills/scripts/validate-app.sh" "$app" >/tmp/validate_named_version.out 2>&1
+  assert_contains /tmp/validate_named_version.out "检查版本目录: chromium-bundled-2026-07-06"
+  if grep -q "未找到版本目录" /tmp/validate_named_version.out; then
+    cat /tmp/validate_named_version.out >&2
+    fail "validator should detect named version directory"
+  fi
+}
+
 run_test "download icon skip mode" test_download_icon_skip_mode_does_not_create_logo
 run_test "download icon cache-only mode" test_download_icon_cache_only_uses_cached_logo
 run_test "generate app dependency check" test_generate_app_reports_missing_dependencies
@@ -400,5 +443,6 @@ run_test "generate app complex docker run flags" test_generate_app_parses_comple
 run_test "validate undefined port variable" test_validate_app_rejects_undefined_port_variable
 run_test "validate latest image tag" test_validate_app_rejects_latest_wrong_tag
 run_test "validate v-prefixed version tag" test_validate_app_accepts_v_prefixed_version_tag
+run_test "validate named version directory" test_validate_app_detects_named_version_directory
 
 echo "All skills script tests passed."
