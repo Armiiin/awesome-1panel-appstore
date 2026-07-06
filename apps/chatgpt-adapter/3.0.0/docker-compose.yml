@@ -1,6 +1,6 @@
 services:
   chatgpt-adapter:
-    image: ghcr.io/bincooo/chatgpt-adapter:latest
+    image: ghcr.io/bincooo/chatgpt-adapter:v3.0.0
     container_name: ${CONTAINER_NAME}
     restart: always
     networks:

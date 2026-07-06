@@ -269,7 +269,7 @@ docker run -d --name=nginx -p 80:80 nginx:latest
 
 🚀 多款AI聊天逆向接口适配到OpenAI标准接口
 
-<kbd>latest</kbd> • [官网链接](https://github.com/bincooo/chatgpt-adapter)
+<kbd>3.0.0</kbd> • [官网链接](https://github.com/bincooo/chatgpt-adapter)
 
 </td>
 </tr>
