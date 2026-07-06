@@ -18,7 +18,7 @@ services:
       - PGID=${GROUP_ID}
       - TZ=${TIME_ZONE}
     labels:
-      createdBy: Apps
+      createdBy: "Apps"
 networks:
   1panel-network:
     external: true
