@@ -1371,7 +1371,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🛠️ 为开发人员和IT从业者提供的在线工具集合，支持加密、转换、Web、图像等多类工具
 
-<kbd>2025.8.31-13b8f041</kbd> • [官网链接](https://github.com/sharevb/it-tools)
+<kbd>2026.1.4</kbd> • [官网链接](https://github.com/sharevb/it-tools)
 
 </td>
 </tr>
