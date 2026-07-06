@@ -944,7 +944,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🔥 将任意网站转换为适合大语言模型的结构化数据
 
-<kbd>2.11.64</kbd> • [官网链接](https://www.firecrawl.dev)
+<kbd>2.11.67</kbd> • [官网链接](https://www.firecrawl.dev)
 
 </td>
 <td width="33%" align="center">
