@@ -979,7 +979,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🔍 专注于隐私的 AI 问答搜索引擎
 
-<kbd>v1.12.2</kbd> • [官网链接](https://github.com/ItzCrazyKns/Vane)
+<kbd>1.12.2</kbd> • [官网链接](https://github.com/ItzCrazyKns/Vane)
 
 </td>
 </tr>
