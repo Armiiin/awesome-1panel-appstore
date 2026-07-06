@@ -293,7 +293,7 @@ validate_image_tags() {
       log_error "latest 目录中的镜像必须使用 latest tag: $image"
     fi
 
-    if [[ "$version" != "latest" && "$tag" == "$version" ]]; then
+    if [[ "$version" != "latest" ]] && { [[ "$tag" == "$version" ]] || [[ "$tag" == "v${version}" ]]; }; then
       matched_version=true
     fi
   done < <(grep -E '^[[:space:]]*image:[[:space:]]*' "$compose_file" | sed -E 's/^[[:space:]]*image:[[:space:]]*"?([^"]*)"?/\1/' || true)

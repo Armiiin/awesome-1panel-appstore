@@ -15,7 +15,7 @@ services:
       N8N_SECURE_COOKIE: false
       N8N_DEFAULT_LOCALE: zh-CN
     labels:
-      createdBy: Apps
+      createdBy: "Apps"
 networks:
   1panel-network:
     external: true
