@@ -885,7 +885,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🌐 让 AI 代理可以访问网站，轻松实现在线任务自动化
 
-<kbd>latest</kbd> • [官网链接](https://browser-use.com/)
+<kbd>3.0.0</kbd> • [官网链接](https://browser-use.com/)
 
 </td>
 <td width="33%" align="center">

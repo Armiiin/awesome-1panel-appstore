@@ -1,7 +1,7 @@
 services:
   # debug: docker compose run --rm -it browser-use-webui bash
   browser-use-webui:
-    image: ghcr.io/browser-use/web-ui:latest
+    image: ghcr.io/browser-use/web-ui:v3.0.0
     container_name: ${CONTAINER_NAME}
     ports:
       - "${PANEL_APP_PORT_HTTP}:7788"
