@@ -359,9 +359,9 @@ x-shared-env:
   MAX_ITERATIONS_NUM: ${MAX_ITERATIONS_NUM:-99}
   TEXT_GENERATION_TIMEOUT_MS: ${TEXT_GENERATION_TIMEOUT_MS:-60000}
   ALLOW_UNSAFE_DATA_SCHEME: ${ALLOW_UNSAFE_DATA_SCHEME:-false}
-  POSTGRES_USER: ${POSTGRES_USER:-${DB_USERNAME}}
-  POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-${DB_PASSWORD}}
-  POSTGRES_DB: ${POSTGRES_DB:-${DB_DATABASE}}
+  POSTGRES_USER: ${POSTGRES_USER:-postgres}
+  POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-difyai123456}
+  POSTGRES_DB: ${POSTGRES_DB:-dify}
   PGDATA: ${PGDATA:-/var/lib/postgresql/data/pgdata}
   SANDBOX_API_KEY: ${SANDBOX_API_KEY:-dify-sandbox}
   SANDBOX_GIN_MODE: ${SANDBOX_GIN_MODE:-release}
@@ -510,10 +510,12 @@ x-shared-env:
   QUEUE_MONITOR_INTERVAL: ${QUEUE_MONITOR_INTERVAL:-30}
 services:
   api:
-    image: langgenius/dify-api:1.14.2
+    image: langgenius/dify-api:1.15.0
     env_file:
       - dify.env
     restart: always
+    labels:
+      createdBy: "Apps"
     environment:
       CONSOLE_API_URL: ${CONSOLE_API_URL:-}
       CONSOLE_WEB_URL: ${CONSOLE_WEB_URL:-}
@@ -875,9 +877,9 @@ services:
       MAX_ITERATIONS_NUM: ${MAX_ITERATIONS_NUM:-99}
       TEXT_GENERATION_TIMEOUT_MS: ${TEXT_GENERATION_TIMEOUT_MS:-60000}
       ALLOW_UNSAFE_DATA_SCHEME: ${ALLOW_UNSAFE_DATA_SCHEME:-false}
-      POSTGRES_USER: ${POSTGRES_USER:-${DB_USERNAME}}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-${DB_PASSWORD}}
-      POSTGRES_DB: ${POSTGRES_DB:-${DB_DATABASE}}
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-difyai123456}
+      POSTGRES_DB: ${POSTGRES_DB:-dify}
       PGDATA: ${PGDATA:-/var/lib/postgresql/data/pgdata}
       SANDBOX_API_KEY: ${SANDBOX_API_KEY:-dify-sandbox}
       SANDBOX_GIN_MODE: ${SANDBOX_GIN_MODE:-release}
@@ -1041,10 +1043,12 @@ services:
       - ssrf_proxy_network
       - default
   worker:
-    image: langgenius/dify-api:1.14.2
+    image: langgenius/dify-api:1.15.0
     env_file:
       - dify.env
     restart: always
+    labels:
+      createdBy: "Apps"
     environment:
       CONSOLE_API_URL: ${CONSOLE_API_URL:-}
       CONSOLE_WEB_URL: ${CONSOLE_WEB_URL:-}
@@ -1406,9 +1410,9 @@ services:
       MAX_ITERATIONS_NUM: ${MAX_ITERATIONS_NUM:-99}
       TEXT_GENERATION_TIMEOUT_MS: ${TEXT_GENERATION_TIMEOUT_MS:-60000}
       ALLOW_UNSAFE_DATA_SCHEME: ${ALLOW_UNSAFE_DATA_SCHEME:-false}
-      POSTGRES_USER: ${POSTGRES_USER:-${DB_USERNAME}}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-${DB_PASSWORD}}
-      POSTGRES_DB: ${POSTGRES_DB:-${DB_DATABASE}}
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-difyai123456}
+      POSTGRES_DB: ${POSTGRES_DB:-dify}
       PGDATA: ${PGDATA:-/var/lib/postgresql/data/pgdata}
       SANDBOX_API_KEY: ${SANDBOX_API_KEY:-dify-sandbox}
       SANDBOX_GIN_MODE: ${SANDBOX_GIN_MODE:-release}
@@ -1570,11 +1574,13 @@ services:
       - ssrf_proxy_network
       - default
   web:
-    image: langgenius/dify-web:1.14.2
+    image: langgenius/dify-web:1.15.0
     container_name: ${CONTAINER_NAME}
     env_file:
       - dify.env
     restart: always
+    labels:
+      createdBy: "Apps"
     environment:
       CONSOLE_API_URL: ${CONSOLE_API_URL:-}
       APP_API_URL: ${APP_API_URL:-}
@@ -1601,6 +1607,8 @@ services:
     env_file:
       - dify.env
     restart: always
+    labels:
+      createdBy: "Apps"
     environment:
       POSTGRES_USER: ${POSTGRES_USER:-postgres}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-difyai123456}
@@ -1630,6 +1638,8 @@ services:
     env_file:
       - dify.env
     restart: always
+    labels:
+      createdBy: "Apps"
     environment:
       REDISCLI_AUTH: ${REDIS_PASSWORD:-difyai123456}
     volumes:
@@ -1641,10 +1651,12 @@ services:
         - redis-cli
         - ping
   sandbox:
-    image: langgenius/dify-sandbox:0.2.12
+    image: langgenius/dify-sandbox:0.2.15
     env_file:
       - dify.env
     restart: always
+    labels:
+      createdBy: "Apps"
     environment:
       API_KEY: ${SANDBOX_API_KEY:-dify-sandbox}
       GIN_MODE: ${SANDBOX_GIN_MODE:-release}
@@ -1666,10 +1678,12 @@ services:
     networks:
       - ssrf_proxy_network
   plugin_daemon:
-    image: langgenius/dify-plugin-daemon:0.1.3-local
+    image: langgenius/dify-plugin-daemon:0.6.3-local
     env_file:
       - dify.env
     restart: always
+    labels:
+      createdBy: "Apps"
     environment:
       CONSOLE_API_URL: ${CONSOLE_API_URL:-}
       CONSOLE_WEB_URL: ${CONSOLE_WEB_URL:-}
@@ -2031,9 +2045,9 @@ services:
       MAX_ITERATIONS_NUM: ${MAX_ITERATIONS_NUM:-99}
       TEXT_GENERATION_TIMEOUT_MS: ${TEXT_GENERATION_TIMEOUT_MS:-60000}
       ALLOW_UNSAFE_DATA_SCHEME: ${ALLOW_UNSAFE_DATA_SCHEME:-false}
-      POSTGRES_USER: ${POSTGRES_USER:-${DB_USERNAME}}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-${DB_PASSWORD}}
-      POSTGRES_DB: ${POSTGRES_DB:-${DB_DATABASE}}
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-difyai123456}
+      POSTGRES_DB: ${POSTGRES_DB:-dify}
       PGDATA: ${PGDATA:-/var/lib/postgresql/data/pgdata}
       SANDBOX_API_KEY: ${SANDBOX_API_KEY:-dify-sandbox}
       SANDBOX_GIN_MODE: ${SANDBOX_GIN_MODE:-release}
@@ -2210,6 +2224,8 @@ services:
     env_file:
       - dify.env
     restart: always
+    labels:
+      createdBy: "Apps"
     volumes:
       - ./ssrf_proxy/squid.conf.template:/etc/squid/squid.conf.template
       - ./ssrf_proxy/docker-entrypoint.sh:/docker-entrypoint-mount.sh
@@ -2232,6 +2248,8 @@ services:
     env_file:
       - dify.env
     restart: always
+    labels:
+      createdBy: "Apps"
     volumes:
       - ./nginx/nginx.conf.template:/etc/nginx/nginx.conf.template
       - ./nginx/proxy.conf.template:/etc/nginx/proxy.conf.template
@@ -2268,14 +2286,19 @@ services:
     ports:
       - ${PANEL_APP_PORT_HTTP}:${NGINX_PORT:-80}
       - ${PANEL_APP_PORT_HTTPS}:${NGINX_SSL_PORT:-443}
+    networks:
+      - default
+      - 1panel-network
   weaviate:
-    image: semitechnologies/weaviate:1.19.0
+    image: semitechnologies/weaviate:1.27.0
     env_file:
       - dify.env
     profiles:
       - ''
       - weaviate
     restart: always
+    labels:
+      createdBy: "Apps"
     volumes:
       - ./volumes/weaviate:/var/lib/weaviate
     environment:
@@ -2290,6 +2313,8 @@ services:
       AUTHORIZATION_ADMINLIST_ENABLED: ${WEAVIATE_AUTHORIZATION_ADMINLIST_ENABLED:-true}
       AUTHORIZATION_ADMINLIST_USERS: ${WEAVIATE_AUTHORIZATION_ADMINLIST_USERS:-hello@dify.ai}
 networks:
+  1panel-network:
+    external: true
   default:
     driver: bridge
   ssrf_proxy_network:
