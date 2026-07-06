@@ -808,14 +808,14 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 </td>
 <td width="33%" align="center">
 
-<a href="./apps/cliproxyapi-plus/README.md">
-<img src="./apps/cliproxyapi-plus/logo.png" width="60" height="60" alt="CLIProxyAPI Plus">
-<br><b>CLIProxyAPI Plus</b>
+<a href="./apps/cliproxyapi/README.md">
+<img src="./apps/cliproxyapi/logo.png" width="60" height="60" alt="CLIProxyAPI">
+<br><b>CLIProxyAPI</b>
 </a>
 
-🔗 CLIProxyAPI Plus 代理API服务
+🔗 AI CLI/OAuth 账号代理 API 服务
 
-<kbd>6.9.28-0</kbd> • [官网链接](https://github.com/router-for-me/CLIProxyAPIPlus)
+<kbd>v7.2.50</kbd> • [官网链接](https://github.com/router-for-me/CLIProxyAPI)
 
 </td>
 <td width="33%" align="center">
