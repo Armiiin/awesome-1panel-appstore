@@ -1000,6 +1000,18 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 <kbd>1.12.2</kbd> • [官网链接](https://github.com/ItzCrazyKns/Vane)
 
 </td>
+<td width="33%" align="center">
+
+<a href="./apps/speaches/README.md">
+<img src="./apps/speaches/logo.png" width="60" height="60" alt="Speaches">
+<br><b>Speaches</b>
+</a>
+
+🎙️ 兼容 OpenAI API 的流式语音识别、翻译和语音生成服务器
+
+<kbd>0.8.3-cuda</kbd> • [官网链接](https://github.com/speaches-ai/speaches)
+
+</td>
 </tr>
 </table>
 
