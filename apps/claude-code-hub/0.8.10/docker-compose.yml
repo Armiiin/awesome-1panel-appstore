@@ -38,7 +38,7 @@ services:
       - 1panel-network
   app:
     container_name: ${CONTAINER_NAME}
-    image: ghcr.io/ding113/claude-code-hub:v0.8.9
+    image: ghcr.io/ding113/claude-code-hub:v0.8.10
     depends_on:
       postgres:
         condition: service_healthy
