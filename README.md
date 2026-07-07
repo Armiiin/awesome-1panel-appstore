@@ -568,7 +568,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🛰️ Tailscale DERP 中继服务器，无需域名即可使用
 
-<kbd>latest</kbd> • [官网链接](https://tailscale.com)
+<kbd>1.98.8</kbd> • [官网链接](https://tailscale.com)
 
 </td>
 </tr>
