@@ -453,7 +453,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🧡 万物皆可 RSS，开源自托管 RSS 内容聚合器，内置 Redis 缓存
 
-<kbd>chromium-bundled-2026-07-06</kbd> • [官网链接](https://docs.rsshub.app/)
+<kbd>chromium-bundled-2026-07-07</kbd> • [官网链接](https://docs.rsshub.app/)
 
 </td>
 </tr>
@@ -775,7 +775,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🔄 n8n汉化版，具有原生AI能力的Fair-code工作流自动化平台
 
-<kbd>2.29.6</kbd> • [官网链接](https://n8n.io/)
+<kbd>2.30.0</kbd> • [官网链接](https://n8n.io/)
 
 </td>
 </tr>
