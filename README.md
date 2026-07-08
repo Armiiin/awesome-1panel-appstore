@@ -1592,4 +1592,4 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 <!-- 橙色风格 -->
 
-!\[Copyright-arch3rPro]\(<https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white> null)
+![Copyright-arch3rPro](https://img.shields.io/badge/Copyright-arch3rPro-ff9800?style=flat&logo=github&logoColor=white)
