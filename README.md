@@ -571,6 +571,18 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 <kbd>1.98.8</kbd> • [官网链接](https://tailscale.com)
 
 </td>
+<td width="33%" align="center">
+
+<a href="./apps/myip/README.md">
+<img src="./apps/myip/logo.png" width="60" height="60" alt="MyIP">
+<br><b>MyIP</b>
+</a>
+
+🌐 开源 IP 与网络检测工具箱，支持 IP 信息、DNS 泄露、测速、延迟、MTR、Whois 等检测
+
+<kbd>6.6.0</kbd> • [官网链接](https://ipcheck.ing)
+
+</td>
 </tr>
 </table>
 
