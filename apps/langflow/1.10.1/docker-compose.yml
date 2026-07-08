@@ -17,6 +17,7 @@ services:
       - 1panel-network
     labels:
       createdBy: Apps
+    restart: always
   postgres:
     image: postgres:16
     container_name: ${CONTAINER_NAME}-postgres
@@ -32,9 +33,10 @@ services:
       - 1panel-network
     labels:
       createdBy: Apps
+    restart: always
 volumes:
-  langflow-postgres: null
-  langflow-data: null
+  langflow-postgres:
+  langflow-data:
 networks:
   1panel-network:
     external: true
