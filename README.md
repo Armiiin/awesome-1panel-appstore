@@ -819,6 +819,18 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 <kbd>1.10.0</kbd> • [官网链接](https://www.open-notebook.ai/)
 
 </td>
+<td width="33%" align="center">
+
+<a href="./apps/omniroute/README.md">
+<img src="./apps/omniroute/logo.png" width="60" height="60" alt="OmniRoute">
+<br><b>OmniRoute</b>
+</a>
+
+🚀 免费 AI 网关，接入 237 个 AI 提供商（90+ 免费），兼容 OpenAI/Claude/Gemini API
+
+<kbd>3.8.46</kbd> • [官网链接](https://omniroute.online)
+
+</td>
 </tr>
 </table>
 
