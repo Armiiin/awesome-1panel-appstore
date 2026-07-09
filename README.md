@@ -909,6 +909,18 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 <kbd>chromium-bundled-2026-07-08</kbd> • [官网链接](https://docs.rsshub.app/)
 
 </td>
+<td width="33%" align="center">
+
+<a href="./apps/fast-note-sync-service/README.md">
+<img src="./apps/fast-note-sync-service/logo.png" width="60" height="60" alt="Fast Note Sync Service">
+<br><b>Fast Note Sync Service</b>
+</a>
+
+📝 高性能低延迟的 Obsidian 笔记同步服务
+
+<kbd>3.5.1</kbd> • [官网链接](https://github.com/haierkeys/fast-note-sync-service)
+
+</td>
 </tr>
 </table>
 
@@ -1474,18 +1486,6 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 <table>
 <tr>
-<td width="33%" align="center">
-
-<a href="./apps/fast-note-sync-service/README.md">
-<img src="./apps/fast-note-sync-service/logo.png" width="60" height="60" alt="Fast Note Sync Service">
-<br><b>Fast Note Sync Service</b>
-</a>
-
-📝 高性能低延迟的 Obsidian 笔记同步服务
-
-<kbd>3.5.1</kbd> • [官网链接](https://github.com/haierkeys/fast-note-sync-service)
-
-</td>
 <td width="33%" align="center">
 
 <a href="./apps/trendradar/README.md">
