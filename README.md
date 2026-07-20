@@ -357,6 +357,23 @@ docker run -d --name=nginx -p 80:80 nginx:latest
 <tr>
 <td width="33%" align="center">
 
+<a href="./apps/deeptutor/README.md">
+<img src="./apps/deeptutor/logo.png" width="60" height="60" alt="DeepTutor">
+<br><b>DeepTutor</b>
+</a>
+
+🎓 终身个性化 AI 辅导平台，支持 RAG 知识库、多模型与长期记忆
+
+<kbd>1.5.2</kbd> • [官网链接](https://deeptutor.info)
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="33%" align="center">
+
 <a href="./apps/sub2api/README.md">
 <img src="./apps/sub2api/logo.png" width="60" height="60" alt="Sub2API">
 <br><b>Sub2API</b>
