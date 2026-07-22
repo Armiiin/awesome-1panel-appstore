@@ -374,6 +374,23 @@ docker run -d --name=nginx -p 80:80 nginx:latest
 <tr>
 <td width="33%" align="center">
 
+<a href="./apps/openmaic/README.md">
+<img src="./apps/openmaic/logo.png" width="60" height="60" alt="OpenMAIC">
+<br><b>OpenMAIC</b>
+</a>
+
+🤖 多智能体课堂生成平台，一键生成课件、测验与交互模拟
+
+<kbd>0.3.0</kbd> • [官网链接](https://open.maic.chat)
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="33%" align="center">
+
 <a href="./apps/sub2api/README.md">
 <img src="./apps/sub2api/logo.png" width="60" height="60" alt="Sub2API">
 <br><b>Sub2API</b>
