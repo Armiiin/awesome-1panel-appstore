@@ -200,7 +200,7 @@ docker run -d --name=nginx -p 80:80 nginx:latest
 
 🔮 开源可视化AI工作流构建平台，拖拽式设计LLM应用
 
-<kbd>3.1.3</kbd> • [官网链接](https://github.com/FlowiseAI/Flowise)
+<kbd>3.1.4</kbd> • [官网链接](https://github.com/FlowiseAI/Flowise)
 
 </td>
 <td width="33%" align="center">
