@@ -922,7 +922,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 高性能Rust对象存储系统，提供S3兼容API
 
-<kbd>1.0.0-beta.11</kbd> • [官网链接](https://github.com/rustfs/rustfs)
+<kbd>1.0.0-beta.12</kbd> • [官网链接](https://github.com/rustfs/rustfs)
 
 </td>
 </tr>
