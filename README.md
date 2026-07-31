@@ -1067,7 +1067,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🔐 私有 WireGuard 网络组网工具
 
-<kbd>1.98.9</kbd> • [官网链接](https://tailscale.com)
+<kbd>1.98.10</kbd> • [官网链接](https://tailscale.com)
 
 </td>
 <td width="33%" align="center">
