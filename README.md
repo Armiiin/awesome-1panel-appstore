@@ -964,7 +964,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🔥 在浏览器中运行 Obsidian，无需远程桌面
 
-<kbd>0.8.8</kbd> • [官网链接](https://github.com/Nystik-gh/ignis)
+<kbd>0.8.9</kbd> • [官网链接](https://github.com/Nystik-gh/ignis)
 
 </td>
 </tr>
