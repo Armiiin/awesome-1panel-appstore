@@ -364,7 +364,7 @@ docker run -d --name=nginx -p 80:80 nginx:latest
 
 🎓 终身个性化 AI 辅导平台，支持 RAG 知识库、多模型与长期记忆
 
-<kbd>1.5.7</kbd> • [官网链接](https://deeptutor.info)
+<kbd>1.5.8</kbd> • [官网链接](https://deeptutor.info)
 
 </td>
 </tr>
