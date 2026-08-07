@@ -1122,7 +1122,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 📁 开源支持多存储的文件列表程序和私人网盘
 
-<kbd>4.2.4</kbd> • [官网链接](https://github.com/OpenListTeam/OpenList)
+<kbd>4.2.5</kbd> • [官网链接](https://github.com/OpenListTeam/OpenList)
 
 </td>
 <td width="33%" align="center">
