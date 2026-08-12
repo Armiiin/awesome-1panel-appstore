@@ -775,7 +775,7 @@ docker run -d --name=nginx -p 80:80 nginx:latest
 
 轻量级文档管理系统，支持多人协作编辑与版本控制
 
-<kbd>0.95.1-beta.test-3</kbd> • [官网链接](https://github.com/docmost/docmost)
+<kbd>0.95.1-beta.2</kbd> • [官网链接](https://github.com/docmost/docmost)
 
 </td>
 <td width="33%" align="center">
