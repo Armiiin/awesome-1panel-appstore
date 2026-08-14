@@ -952,7 +952,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 📝 高性能低延迟的 Obsidian 笔记同步服务
 
-<kbd>3.6.0</kbd> • [官网链接](https://github.com/haierkeys/fast-note-sync-service)
+<kbd>3.6.1</kbd> • [官网链接](https://github.com/haierkeys/fast-note-sync-service)
 
 </td>
 <td width="33%" align="center">
