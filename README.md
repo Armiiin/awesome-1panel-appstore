@@ -492,7 +492,7 @@ docker run -d --name=nginx -p 80:80 nginx:latest
 
 🔗 智能 AI API 代理中转服务平台
 
-<kbd>0.9.2</kbd> • [官网链接](https://github.com/ding113/claude-code-hub)
+<kbd>0.9.3</kbd> • [官网链接](https://github.com/ding113/claude-code-hub)
 
 </td>
 <td width="33%" align="center">
