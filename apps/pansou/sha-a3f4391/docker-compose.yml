@@ -1,6 +1,6 @@
 services:
   pansou:
-    image: ghcr.io/fish2018/pansou-web:sha-3060e01
+    image: ghcr.io/fish2018/pansou-web:sha-a3f4391
     container_name: ${CONTAINER_NAME}
     restart: always
     labels:
