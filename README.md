@@ -589,6 +589,18 @@ docker run -d --name=nginx -p 80:80 nginx:latest
 <kbd>0.8.3-cuda</kbd> • [官网链接](https://github.com/speaches-ai/speaches)
 
 </td>
+<td width="33%" align="center">
+
+<a href="./apps/deepseek-harness/README.md">
+<img src="./apps/deepseek-harness/logo.png" width="60" height="60" alt="DeepSeek-Harness">
+<br><b>DeepSeek-Harness</b>
+</a>
+
+🧠 DeepSeek 开源智能体开发环境
+
+<kbd>0.1.1-rc.2</kbd> • [官网链接](https://github.com/deepseek-ai/deepseek-harness)
+
+</td>
 </tr>
 </table>
 
@@ -967,6 +979,18 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 <kbd>0.8.10</kbd> • [官网链接](https://github.com/Nystik-gh/ignis)
 
 </td>
+<td width="33%" align="center">
+
+<a href="./apps/we-mp-rss/README.md">
+<img src="./apps/we-mp-rss/logo.png" width="60" height="60" alt="WeRSS">
+<br><b>WeRSS</b>
+</a>
+
+📰 微信公众号 RSS 订阅助手，支持内容抓取、RSS 生成和多主题
+
+<kbd>1.4.5</kbd> • [官网链接](https://github.com/rachelos/we-mp-rss)
+
+</td>
 </tr>
 </table>
 
@@ -1092,6 +1116,18 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 🌐 开源 IP 与网络检测工具箱，支持 IP 信息、DNS 泄露、测速、延迟、MTR、Whois 等检测
 
 <kbd>7.4.0</kbd> • [官网链接](https://ipcheck.ing)
+
+</td>
+<td width="33%" align="center">
+
+<a href="./apps/nitter/README.md">
+<img src="./apps/nitter/logo.png" width="60" height="60" alt="Nitter">
+<br><b>Nitter</b>
+</a>
+
+🕊️ 免费开源的 Twitter/X 前端，注重隐私
+
+<kbd>latest</kbd> • [官网链接](https://github.com/zedeus/nitter)
 
 </td>
 </tr>
