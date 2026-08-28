@@ -9,6 +9,7 @@ services:
       - "${PANEL_APP_PORT_HTTP}:8080"
     volumes:
       - ./data/nitter.conf:/src/nitter.conf
+      - ./data/sessions.jsonl:/src/sessions.jsonl
     depends_on:
       - nitter-redis
     labels:
