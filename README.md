@@ -367,11 +367,6 @@ docker run -d --name=nginx -p 80:80 nginx:latest
 <kbd>1.5.17</kbd> • [官网链接](https://deeptutor.info)
 
 </td>
-</tr>
-</table>
-
-<table>
-<tr>
 <td width="33%" align="center">
 
 <a href="./apps/openmaic/README.md">
@@ -382,6 +377,18 @@ docker run -d --name=nginx -p 80:80 nginx:latest
 🤖 多智能体课堂生成平台，一键生成课件、测验与交互模拟
 
 <kbd>0.3.0</kbd> • [官网链接](https://open.maic.chat)
+
+</td>
+<td width="33%" align="center">
+
+<a href="./apps/deepseek-harness/README.md">
+<img src="./apps/deepseek-harness/logo.png" width="60" height="60" alt="DeepSeek-Harness">
+<br><b>DeepSeek-Harness</b>
+</a>
+
+🧠 DeepSeek 开源智能体开发环境
+
+<kbd>0.1.1-rc.2</kbd> • [官网链接](https://github.com/deepseek-ai/deepseek-harness)
 
 </td>
 </tr>
@@ -587,18 +594,6 @@ docker run -d --name=nginx -p 80:80 nginx:latest
 🎙️ 兼容 OpenAI API 的流式语音识别、翻译和语音生成服务器
 
 <kbd>0.8.3-cuda</kbd> • [官网链接](https://github.com/speaches-ai/speaches)
-
-</td>
-<td width="33%" align="center">
-
-<a href="./apps/deepseek-harness/README.md">
-<img src="./apps/deepseek-harness/logo.png" width="60" height="60" alt="DeepSeek-Harness">
-<br><b>DeepSeek-Harness</b>
-</a>
-
-🧠 DeepSeek 开源智能体开发环境
-
-<kbd>0.1.1-rc.2</kbd> • [官网链接](https://github.com/deepseek-ai/deepseek-harness)
 
 </td>
 </tr>
@@ -1118,18 +1113,6 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 <kbd>7.4.0</kbd> • [官网链接](https://ipcheck.ing)
 
 </td>
-<td width="33%" align="center">
-
-<a href="./apps/nitter/README.md">
-<img src="./apps/nitter/logo.png" width="60" height="60" alt="Nitter">
-<br><b>Nitter</b>
-</a>
-
-🕊️ 免费开源的 Twitter/X 前端，注重隐私
-
-<kbd>latest</kbd> • [官网链接](https://github.com/zedeus/nitter)
-
-</td>
 </tr>
 </table>
 
@@ -1229,6 +1212,18 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 🎵 LX Music 数据同步服务器与 Web 播放器
 
 <kbd>2.0.0</kbd> • [官网链接](https://xcq0607.github.io/lxserver/)
+
+</td>
+<td width="33%" align="center">
+
+<a href="./apps/nitter/README.md">
+<img src="./apps/nitter/logo.png" width="60" height="60" alt="Nitter">
+<br><b>Nitter</b>
+</a>
+
+🕊️ 免费开源的 Twitter/X 前端，注重隐私
+
+<kbd>latest</kbd> • [官网链接](https://github.com/zedeus/nitter)
 
 </td>
 </tr>
