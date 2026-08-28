@@ -1575,6 +1575,18 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 <kbd>1.4.5</kbd> • [官网链接](https://github.com/rachelos/we-mp-rss)
 
 </td>
+<td width="33%" align="center">
+
+<a href="./apps/bark/README.md">
+<img src="./apps/bark/logo.png" width="60" height="60" alt="Bark">
+<br><b>Bark</b>
+</a>
+
+🔔 注重隐私、免费开源的 iOS 推送通知服务
+
+<kbd>2.3.5</kbd> • [官网链接](https://github.com/Finb/bark-server)
+
+</td>
 </tr>
 </table>
 
