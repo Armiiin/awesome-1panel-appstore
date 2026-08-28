@@ -974,18 +974,6 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 <kbd>0.8.10</kbd> • [官网链接](https://github.com/Nystik-gh/ignis)
 
 </td>
-<td width="33%" align="center">
-
-<a href="./apps/we-mp-rss/README.md">
-<img src="./apps/we-mp-rss/logo.png" width="60" height="60" alt="WeRSS">
-<br><b>WeRSS</b>
-</a>
-
-📰 微信公众号 RSS 订阅助手，支持内容抓取、RSS 生成和多主题
-
-<kbd>1.4.5</kbd> • [官网链接](https://github.com/rachelos/we-mp-rss)
-
-</td>
 </tr>
 </table>
 
@@ -1573,6 +1561,18 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 📡 多平台热点推送
 
 <kbd>6.10.0</kbd> • [官网链接](https://github.com/sansan0/TrendRadar)
+
+</td>
+<td width="33%" align="center">
+
+<a href="./apps/we-mp-rss/README.md">
+<img src="./apps/we-mp-rss/logo.png" width="60" height="60" alt="WeRSS">
+<br><b>WeRSS</b>
+</a>
+
+📰 微信公众号 RSS 订阅助手，支持内容抓取、RSS 生成和多主题
+
+<kbd>1.4.5</kbd> • [官网链接](https://github.com/rachelos/we-mp-rss)
 
 </td>
 </tr>
