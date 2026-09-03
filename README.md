@@ -1685,7 +1685,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🐳 轻量化 docker 可视化管理面板
 
-<kbd>1.10.6</kbd> • [官网链接](https://dpanel.cc/)
+<kbd>1.10.7</kbd> • [官网链接](https://dpanel.cc/)
 
 </td>
 </tr>
