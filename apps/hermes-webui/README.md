@@ -1,6 +1,6 @@
 # Hermes WebUI
 
-Hermes WebUI 是 [Hermes Agent](https://github.com/nesquena/hermes-webui) 的官方 Web 界面，通过浏览器或手机即可使用 Hermes Agent。单容器部署，容器内同时运行 Agent 与 Web 界面。
+Hermes WebUI 是 [Hermes Agent](https://hermes-agent.nousresearch.com/) 的 Web 界面（第三方项目），通过浏览器或手机即可使用 Hermes Agent。单容器部署，容器内同时运行 Agent 与 Web 界面。
 
 ## 使用说明
 
@@ -15,10 +15,10 @@ Hermes WebUI 是 [Hermes Agent](https://github.com/nesquena/hermes-webui) 的官
 
 ## 注意事项
 
-- 镜像来自官方 GHCR（`ghcr.io/nesquena/hermes-webui`），amd64 + arm64。
+- 镜像由项目作者发布到 GHCR（`ghcr.io/nesquena/hermes-webui`），amd64 + arm64。
 - 本包与仓库中已有的 `hermes-web-ui`（社区 fork 版，双容器、端口 6060）是两个不同的应用，请勿混淆。
 
-## 官方资源
+## 项目资源
 
 - 项目仓库：https://github.com/nesquena/hermes-webui
 - 镜像：https://ghcr.io/nesquena/hermes-webui

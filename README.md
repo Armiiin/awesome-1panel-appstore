@@ -550,7 +550,7 @@ docker run -d --name=nginx -p 80:80 nginx:latest
 <br><b>Hermes WebUI</b>
 </a>
 
-🛰️ Hermes Agent 的官方 Web 界面（单容器）
+🛰️ Hermes Agent 的 Web 界面（第三方，单容器）
 
 <kbd>0.52.264</kbd> • [官网链接](https://github.com/nesquena/hermes-webui)
 

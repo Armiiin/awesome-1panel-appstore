@@ -1,6 +1,6 @@
 # Hermes WebUI
 
-Hermes WebUI is the official web interface for [Hermes Agent](https://github.com/nesquena/hermes-webui), letting you use Hermes Agent from the browser or your phone. It is a single-container deployment that runs the agent and the web UI in-process.
+Hermes WebUI is a third-party web interface for [Hermes Agent](https://hermes-agent.nousresearch.com/), letting you use Hermes Agent from the browser or your phone. It is a single-container deployment that runs the agent and the web UI in-process.
 
 ## Usage
 
@@ -15,7 +15,7 @@ Hermes WebUI is the official web interface for [Hermes Agent](https://github.com
 
 ## Notes
 
-- The image comes from official GHCR (`ghcr.io/nesquena/hermes-webui`), amd64 + arm64.
+- The image is published to GHCR by the project author (`ghcr.io/nesquena/hermes-webui`), amd64 + arm64.
 - This package is a different app from the existing `hermes-web-ui` in this store (community fork, two containers, port 6060). Do not confuse them.
 
 ## Resources
