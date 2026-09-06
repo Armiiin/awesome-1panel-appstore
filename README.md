@@ -1661,7 +1661,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 ⚡ Docker镜像加速命令查询获取、镜像搜索、配置教程文档展示UI面板
 
-<kbd>5.1.5</kbd> • [官网链接](https://github.com/dqzboy/Docker-Proxy)
+<kbd>5.1.7</kbd> • [官网链接](https://github.com/dqzboy/Docker-Proxy)
 
 </td>
 <td width="33%" align="center">
