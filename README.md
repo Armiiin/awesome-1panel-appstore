@@ -613,6 +613,18 @@ docker run -d --name=nginx -p 80:80 nginx:latest
 <kbd>0.8.3-cuda</kbd> • [官网链接](https://github.com/speaches-ai/speaches)
 
 </td>
+<td width="33%" align="center">
+
+<a href="./apps/mcp-searxng/README.md">
+<img src="./apps/mcp-searxng/logo.png" width="60" height="60" alt="MCP-SearXNG">
+<br><b>MCP-SearXNG</b>
+</a>
+
+🔍 通过 SearXNG 为 AI 助手提供私有网络搜索的 MCP 服务器
+
+<kbd>2.1.0</kbd> • [官网链接](https://github.com/ihor-sokoliuk/mcp-searxng)
+
+</td>
 </tr>
 </table>
 
