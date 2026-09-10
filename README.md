@@ -1519,7 +1519,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🔍 高性能网盘资源搜索API服务，支持TG频道和插件搜索，智能排序和网盘类型分类
 
-<kbd>sha-a54498f</kbd> • [官网链接](https://github.com/fish2018/pansou)
+<kbd>sha-5e2b9f8</kbd> • [官网链接](https://github.com/fish2018/pansou)
 
 </td>
 <td width="33%" align="center">
