@@ -20,7 +20,7 @@ services:
     depends_on:
       - api
     restart: always
-    image: chaitin-registry.cn-hangzhou.cr.aliyuncs.com/chaitin/panda-wiki-nginx:v3.87.0
+    image: chaitin-registry.cn-hangzhou.cr.aliyuncs.com/chaitin/panda-wiki-nginx:v3.87.1
     ports:
       - "${PANEL_APP_PORT_HTTPS}:8080"
     volumes:
@@ -36,7 +36,7 @@ services:
   app:
     container_name: ${CONTAINER_NAME}-app
     restart: always
-    image: chaitin-registry.cn-hangzhou.cr.aliyuncs.com/chaitin/panda-wiki-app:v3.87.0
+    image: chaitin-registry.cn-hangzhou.cr.aliyuncs.com/chaitin/panda-wiki-app:v3.87.1
     networks:
       panda-wiki:
         ipv4_address: "${SUBNET_PREFIX:-169.254.15}.112"
