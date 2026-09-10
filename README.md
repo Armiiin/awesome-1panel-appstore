@@ -876,7 +876,7 @@ docker run -d --name=nginx -p 80:80 nginx:latest
 
 自托管协作书签管理工具，支持网页归档和团队协作
 
-<kbd>2.16.2</kbd> • [官网链接](https://github.com/linkwarden/linkwarden)
+<kbd>2.16.3</kbd> • [官网链接](https://github.com/linkwarden/linkwarden)
 
 </td>
 </tr>
