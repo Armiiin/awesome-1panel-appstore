@@ -581,7 +581,7 @@ docker run -d --name=nginx -p 80:80 nginx:latest
 
 🎭 提供浏览器自动化功能的 MCP 服务器
 
-<kbd>0.0.81</kbd> • [官网链接](https://github.com/microsoft/playwright-mcp)
+<kbd>0.0.82</kbd> • [官网链接](https://github.com/microsoft/playwright-mcp)
 
 </td>
 <td width="33%" align="center">
