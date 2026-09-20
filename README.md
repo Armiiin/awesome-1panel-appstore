@@ -625,6 +625,18 @@ docker run -d --name=nginx -p 80:80 nginx:latest
 <kbd>2.3.0</kbd> • [官网链接](https://github.com/ihor-sokoliuk/mcp-searxng)
 
 </td>
+<td width="33%" align="center">
+
+<a href="./apps/weknora/README.md">
+<img src="./apps/weknora/logo.png" width="60" height="60" alt="WeKnora">
+<br><b>WeKnora</b>
+</a>
+
+📚 腾讯开源的 LLM 知识平台，支持 RAG 问答、智能体与知识图谱
+
+<kbd>0.8.0</kbd> • [官网链接](https://github.com/Tencent/WeKnora)
+
+</td>
 </tr>
 </table>
 
