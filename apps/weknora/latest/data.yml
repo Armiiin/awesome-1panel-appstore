@@ -93,6 +93,13 @@ additionalProperties:
       required: true
       rule: paramCommon
       type: text
+    - default: searxng,qdrant,milvus,weaviate,doris-fe,doris-be,minio
+      edit: true
+      envKey: SSRF_WHITELIST_EXTRA
+      labelEn: SSRF allow-list (extra hosts / domains / CIDR, comma separated)
+      labelZh: SSRF 白名单（额外主机/域名/CIDR，逗号分隔）
+      required: false
+      type: text
 
     - default: minioadmin
       edit: true

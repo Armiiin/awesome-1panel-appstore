@@ -38,13 +38,33 @@ The bundled MinIO is used as the default file storage, and the bucket is created
 
 The bundled SearXNG is not enabled automatically. Add a SearXNG provider under Settings → Web Search with instance URL `http://searxng:8080`.
 
-WeKnora also supports connecting to an **external SearXNG instance**: simply enter its URL in the provider. The external instance must enable JSON output (`search.formats: [json]`); for private/LAN addresses the host must also be added to the `SSRF_WHITELIST` environment variable.
+WeKnora also supports connecting to an **external SearXNG instance**: simply enter its URL in the provider. The external instance must enable JSON output (`search.formats: [json]`); for private/LAN addresses the host must also be added to the `SSRF_WHITELIST_EXTRA` environment variable (see Troubleshooting below).
 
 ### Secrets
 
 - `SYSTEM_AES_KEY`: encrypts sensitive fields such as API keys in the database. It **must be exactly 32 characters** and kept safe — losing it makes encrypted data unrecoverable.
 - `JWT_SECRET`: auto-generated at install time; replace it with a strong random value.
 - Change the default database, Redis and MinIO passwords as well as the SearXNG secret during installation.
+
+## Troubleshooting
+
+### "Base URL 未通过安全校验：SSRF validation failed" when configuring a local LLM
+
+For SSRF protection WeKnora **rejects raw IP addresses** (including private/LAN IPs) as model or service endpoints. If your local LLM gateway (One-API / New-API / Ollama / vLLM, etc.) is exposed as e.g. `http://192.168.123.216:3000/v1`, add that host or subnet to `SSRF_WHITELIST_EXTRA`:
+
+1. Open 1Panel → App Store → Installed → WeKnora → Parameters.
+2. Append your address to **SSRF allow-list (extra hosts / domains / CIDR, comma separated)**, for example:
+
+   ```
+   searxng,qdrant,milvus,weaviate,doris-fe,doris-be,minio,192.168.123.216
+   ```
+
+   Supported entries: exact domain (`llm.lan`), wildcard (`*.example.com`), plain IP, or CIDR (`192.168.123.0/24`, `10.0.0.0/8`).
+3. Save and recreate the app containers.
+
+> `SSRF_WHITELIST_EXTRA` is an **append-only** list — keep the default `searxng,...,minio` entries when editing, otherwise the bundled SearXNG / MinIO may become unreachable.
+> Using a domain name will not help: it resolves to a private IP and is still blocked, so it must be allow-listed too.
+> If the model service runs on the Docker host itself, you can use `http://host.docker.internal:3000/v1` and allow-list `host.docker.internal`.
 
 ## Requirements
 
