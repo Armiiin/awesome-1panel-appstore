@@ -38,33 +38,13 @@ WeKnora 不内置任何大模型。部署完成后，需要在界面中配置至
 
 内置 SearXNG 不会自动启用。需要在「设置 → Web 搜索」中新增 SearXNG Provider，实例地址填写 `http://searxng:8080`。
 
-WeKnora 同样支持连接**外部 SearXNG 实例**：在 Provider 中填写外部实例地址即可。外部实例需开启 JSON 输出（`search.formats: [json]`）；若为内网地址，还需将主机加入 `SSRF_WHITELIST_EXTRA` 环境变量（见下方「常见问题」）。
+WeKnora 同样支持连接**外部 SearXNG 实例**：在 Provider 中填写外部实例地址即可。外部实例需开启 JSON 输出（`search.formats: [json]`）；若为内网地址，还需将主机加入 `SSRF_WHITELIST` 环境变量。
 
 ### 密钥安全
 
 - `SYSTEM_AES_KEY`：用于加密数据库中的 API Key 等敏感字段，**必须为 32 个字符且妥善保管**，丢失后已加密数据不可恢复。
 - `JWT_SECRET`：安装时会自动生成，建议替换为强随机值。
 - 请在安装时修改数据库、Redis、MinIO 的默认密码以及 SearXNG 密钥。
-
-## 常见问题
-
-### 配置本地大模型时提示「Base URL 未通过安全校验：SSRF validation failed」
-
-WeKnora 出于 SSRF 防护，**默认拒绝直接使用 IP 地址**（包括内网 IP）作为模型/服务的访问地址。若你的本地大模型网关（One-API / New-API / Ollama / vLLM 等）使用 `http://192.168.123.216:3000/v1` 这类地址，需要把该主机或网段加入 `SSRF_WHITELIST_EXTRA`：
-
-1. 打开 1Panel →「应用商店」→「已安装」→ WeKnora →「参数」。
-2. 在 **SSRF 白名单（额外主机/域名/CIDR，逗号分隔）** 中追加你的地址，例如：
-
-   ```
-   searxng,qdrant,milvus,weaviate,doris-fe,doris-be,minio,192.168.123.216
-   ```
-
-   支持精确域名（如 `llm.lan`）、通配域名（`*.example.com`）、单个 IP、CIDR 网段（如 `192.168.123.0/24`、`10.0.0.0/8`）。
-3. 保存并重建应用容器后即可使用。
-
-> 说明：`SSRF_WHITELIST_EXTRA` 是**追加**列表，修改时请保留原有的 `searxng,...,minio` 默认项，否则内置 SearXNG / MinIO 可能无法访问。
-> 改用域名同样会被拦截，因为该域名会解析到内网 IP，因此仍然必须加入白名单。
-> 若模型服务在宿主机本机，也可填 `http://host.docker.internal:3000/v1`，并将 `host.docker.internal` 加入白名单。
 
 ## 系统要求
 
