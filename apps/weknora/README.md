@@ -43,8 +43,8 @@ WeKnora 同样支持连接**外部 SearXNG 实例**：在 Provider 中填写外�
 ### 密钥安全
 
 - `SYSTEM_AES_KEY`：用于加密数据库中的 API Key 等敏感字段，**必须为 32 个字符且妥善保管**，丢失后已加密数据不可恢复。
-- `JWT_SECRET`：留空时启动会随机生成，生产环境建议显式设置。
-- 请在安装时修改数据库、Redis、MinIO 的默认密码。
+- `JWT_SECRET`：安装时会自动生成，建议替换为强随机值。
+- 请在安装时修改数据库、Redis、MinIO 的默认密码以及 SearXNG 密钥。
 
 ## 系统要求
 

@@ -49,14 +49,14 @@ additionalProperties:
       required: true
       rule: paramCommon
       type: text
-    - default: postgres123!@#
+    - default: weknoraDBpass123
       edit: true
       envKey: DB_PASSWORD
       labelEn: Database password
       labelZh: 数据库密码
       random: true
       required: true
-      rule: paramComplexity
+      rule: paramCommon
       type: password
     - default: WeKnora
       edit: true
@@ -66,21 +66,21 @@ additionalProperties:
       required: true
       rule: paramCommon
       type: text
-    - default: redis123!@#
+    - default: weknoraRedispass123
       edit: true
       envKey: REDIS_PASSWORD
       labelEn: Redis password
       labelZh: Redis 密码
       random: true
       required: true
-      rule: paramComplexity
+      rule: paramCommon
       type: password
 
-    - default: ""
+    - default: weknoraJWTsecret0123456789
       edit: true
       envKey: JWT_SECRET
-      labelEn: JWT secret (leave empty to auto-generate)
-      labelZh: JWT 密钥（留空则自动生成）
+      labelEn: JWT secret
+      labelZh: JWT 密钥
       random: true
       required: false
       rule: paramCommon
@@ -102,14 +102,14 @@ additionalProperties:
       required: true
       rule: paramCommon
       type: text
-    - default: minioadmin
+    - default: weknoraMinioSecret123
       edit: true
       envKey: MINIO_SECRET_ACCESS_KEY
       labelEn: MinIO secret key
       labelZh: MinIO 私钥
       random: true
       required: true
-      rule: paramComplexity
+      rule: paramCommon
       type: password
     - default: weknora
       edit: true
@@ -120,7 +120,7 @@ additionalProperties:
       rule: paramCommon
       type: text
 
-    - default: weknora-default-searxng-secret-rotate-before-exposing-publicly
+    - default: weknoraSearxngSecret0123456789
       edit: true
       envKey: SEARXNG_SECRET
       labelEn: SearXNG secret
@@ -135,7 +135,6 @@ additionalProperties:
       labelEn: Ollama base URL
       labelZh: Ollama 地址
       required: false
-      rule: paramCommon
       type: text
 
     - default: Asia/Shanghai

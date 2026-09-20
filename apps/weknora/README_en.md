@@ -43,8 +43,8 @@ WeKnora also supports connecting to an **external SearXNG instance**: simply ent
 ### Secrets
 
 - `SYSTEM_AES_KEY`: encrypts sensitive fields such as API keys in the database. It **must be exactly 32 characters** and kept safe — losing it makes encrypted data unrecoverable.
-- `JWT_SECRET`: randomly generated at startup if left empty; set it explicitly for production.
-- Change the default database, Redis and MinIO passwords during installation.
+- `JWT_SECRET`: auto-generated at install time; replace it with a strong random value.
+- Change the default database, Redis and MinIO passwords as well as the SearXNG secret during installation.
 
 ## Requirements
 

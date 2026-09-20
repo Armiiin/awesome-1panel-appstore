@@ -177,7 +177,7 @@ services:
       # ----- MinIO（STORAGE_TYPE=minio）-----
       - MINIO_ENDPOINT=${MINIO_ENDPOINT:-minio:9000}
       - MINIO_ACCESS_KEY_ID=${MINIO_ACCESS_KEY_ID:-minioadmin}
-      - MINIO_SECRET_ACCESS_KEY=${MINIO_SECRET_ACCESS_KEY:-minioadmin}
+      - MINIO_SECRET_ACCESS_KEY=${MINIO_SECRET_ACCESS_KEY:-weknoraMinioSecret123}
       - MINIO_BUCKET_NAME=${MINIO_BUCKET_NAME:-weknora}
       - MINIO_PATH_PREFIX=${MINIO_PATH_PREFIX:-}
       - MINIO_USE_SSL=${MINIO_USE_SSL:-false}
@@ -425,7 +425,7 @@ services:
     container_name: ${CONTAINER_NAME}-postgres
     environment:
       - POSTGRES_USER=${DB_USER:-postgres}
-      - POSTGRES_PASSWORD=${DB_PASSWORD:-postgres123!@#}
+      - POSTGRES_PASSWORD=${DB_PASSWORD:-weknoraDBpass123}
       - POSTGRES_DB=${DB_NAME:-WeKnora}
     volumes:
       - ./data/postgres:/var/lib/postgresql/data
@@ -445,7 +445,7 @@ services:
   redis:
     image: redis:7.0-alpine
     container_name: ${CONTAINER_NAME}-redis
-    command: redis-server --appendonly yes --requirepass ${REDIS_PASSWORD:-redis123!@#}
+    command: redis-server --appendonly yes --requirepass ${REDIS_PASSWORD:-weknoraRedispass123}
     volumes:
       - ./data/redis:/data
     networks:
@@ -462,7 +462,7 @@ services:
       - "${PANEL_APP_PORT_ADMIN}:9001"
     environment:
       - MINIO_ROOT_USER=${MINIO_ACCESS_KEY_ID:-minioadmin}
-      - MINIO_ROOT_PASSWORD=${MINIO_SECRET_ACCESS_KEY:-minioadmin}
+      - MINIO_ROOT_PASSWORD=${MINIO_SECRET_ACCESS_KEY:-weknoraMinioSecret123}
     command: server --console-address ":9001" /data
     volumes:
       - ./data/minio:/data
@@ -477,39 +477,23 @@ services:
     labels:
       createdBy: "Apps"
 
-  searxng-init:
-    image: busybox:1.36
-    container_name: ${CONTAINER_NAME}-searxng-init
-    command: ["sh", "-c", "cp /template/settings.yml /etc/searxng/settings.yml && chmod 0644 /etc/searxng/settings.yml"]
-    volumes:
-      - ./searxng/settings.yml:/template/settings.yml:ro
-      - ./data/searxng:/etc/searxng
-    restart: "no"
-    networks:
-      - 1panel-network
-    labels:
-      createdBy: "Apps"
-
   searxng:
     image: searxng/searxng:latest
     container_name: ${CONTAINER_NAME}-searxng
     ports:
       - "${PANEL_APP_PORT_SEARXNG}:8080"
     volumes:
-      - ./data/searxng:/etc/searxng
+      - ./searxng:/etc/searxng
     environment:
       - SEARXNG_BASE_URL=http://localhost:${PANEL_APP_PORT_SEARXNG}/
       - INSTANCE_NAME=weknora-searxng
-      - SEARXNG_SECRET=${SEARXNG_SECRET:-weknora-default-searxng-secret-rotate-before-exposing-publicly}
+      - SEARXNG_SECRET=${SEARXNG_SECRET:-weknoraSearxngSecret0123456789}
     cap_drop:
       - ALL
     cap_add:
       - CHOWN
       - SETGID
       - SETUID
-    depends_on:
-      searxng-init:
-        condition: service_completed_successfully
     networks:
       - 1panel-network
     restart: always
