@@ -1625,7 +1625,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🔔 注重隐私、免费开源的 iOS 推送通知服务
 
-<kbd>2.3.5</kbd> • [官网链接](https://github.com/Finb/bark-server)
+<kbd>2.3.6</kbd> • [官网链接](https://github.com/Finb/bark-server)
 
 </td>
 </tr>
