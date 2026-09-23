@@ -137,6 +137,13 @@ additionalProperties:
       labelZh: SSRF 白名单（额外主机/域名/CIDR，逗号分隔）
       required: false
       type: text
+    - default: ""
+      edit: true
+      envKey: WEKNORA_BOOTSTRAP_SYSTEM_ADMIN_EMAIL
+      labelEn: Bootstrap system admin email (optional; must equal a registered account's email)
+      labelZh: 引导系统管理员邮箱（可选；必须与已注册账号的邮箱完全一致）
+      required: false
+      type: text
 
     - default: minioadmin
       edit: true

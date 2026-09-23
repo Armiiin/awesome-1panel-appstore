@@ -69,6 +69,18 @@ WeKnora ships **no MCP image**; the MCP Server must be deployed on its own. Buil
 
 HTTP transport listens on port 8000 by default.
 
+### First system administrator
+
+WeKnora has no default admin account; the first system administrator is created via a bootstrap:
+
+1. Register an account through the Web UI first (**remember the email you used**).
+2. Set **Bootstrap system admin email** in the app parameters to that account's email (optional field, can be changed or cleared anytime).
+3. Save and restart the `app` service. On startup, the existing account with that email is promoted to system administrator.
+
+> ⚠️ The email passed at install/startup must **exactly match** the registered account's email, otherwise it has no effect (a warning is logged; startup is not blocked).
+> The bootstrap only promotes an **existing** account and never creates one. It only grants privileges while the deployment has no system administrator yet, so it is safe to leave in place — a later UI revoke will not be silently undone.
+> System administrators get four extra sections under Settings: **System Settings, Task Queues, Platform API Keys and System Audit Log**; they can also reset user passwords, create users, and promote/revoke other administrators (but not themselves, nor the last remaining one).
+
 ### Secrets
 
 - `SYSTEM_AES_KEY`: encrypts sensitive fields such as API keys in the database. It **must be exactly 32 characters** and kept safe — losing it makes encrypted data unrecoverable.
