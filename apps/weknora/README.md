@@ -23,6 +23,7 @@ WeKnora 是腾讯开源的 LLM 知识平台，围绕三大核心能力构建：*
 | redis | 任务队列与流 | 不对外暴露 |
 | minio | 对象存储，**默认存储后端** | S3 9000 / 控制台 9001 |
 | searxng | 内置元搜索，用于联网检索 | 安装时配置（默认 8888） |
+| neo4j | 知识图谱存储（默认启用） | Browser 7474 / Bolt 7687 |
 
 启动后请访问 **Web 界面端口** 完成初始化。
 
@@ -40,11 +41,39 @@ WeKnora 不内置任何大模型。部署完成后，需要在界面中配置至
 
 WeKnora 同样支持连接**外部 SearXNG 实例**：在 Provider 中填写外部实例地址即可。外部实例需开启 JSON 输出（`search.formats: [json]`）；若为内网地址，还需将主机加入 `SSRF_WHITELIST_EXTRA` 环境变量（见下方「常见问题」）。
 
+### 知识图谱（Neo4j）
+
+默认已启用（`NEO4J_ENABLE=true`），随包内置 Neo4j 2025.10.1。构建图谱时会调用大模型抽取实体与关系，耗时较长，建议按需为知识库开启。
+
+- **Neo4j Browser**：`http://<服务器IP>:<Neo4j Browser 端口>`（安装时配置，默认 7474），账号 `neo4j`，密码为安装时设置的 **Neo4j 密码**。
+- **Bolt**：默认端口 7687，供外部图数据库工具连接。
+- 如不需要知识图谱，可在应用参数中把 `NEO4J_ENABLE` 关闭；关闭后仍会运行 neo4j 容器，可按需停止。
+
+### 配置修改
+
+应用包已将 WeKnora 的 `config/` 目录挂载到容器内 `/app/config`，可直接编辑安装目录下的 `config/` 文件，保存后重启应用生效：
+
+- `config.yaml`：主配置（对话轮数、分块参数、抽取、租户策略等）
+- `builtin_agents.yaml`、`agent_type_presets.yaml`：内置智能体与类型预设
+- `prompt_templates/*`：提示词模板
+
+> 注意：挂载的是随包发布的配置副本。升级应用版本时请同步更新 `config/` 目录（用新版本目录下的同名文件覆盖），否则可能缺少新版本引入的配置项。
+
+### MCP Server（可选，需独立部署）
+
+WeKnora 官方**未提供 MCP 镜像**，MCP Server 需单独部署。可使用上游 `mcp-server/` 源码构建，或使用 PyPI 上的 `tencent-weknora-mcp` 包。运行时需设置：
+
+- `WEKNORA_BASE_URL`：后端 API 地址，容器内可用 `http://app:8080/api/v1`
+- `WEKNORA_API_KEY`：在前端「设置 → API Keys」生成
+- `MCP_SERVER_AUTH_TOKEN`：HTTP/SSE 传输必填，否则拒绝启动
+
+HTTP 传输默认监听 8000 端口。
+
 ### 密钥安全
 
 - `SYSTEM_AES_KEY`：用于加密数据库中的 API Key 等敏感字段，**必须为 32 个字符且妥善保管**，丢失后已加密数据不可恢复。
 - `JWT_SECRET`：安装时会自动生成，建议替换为强随机值。
-- 请在安装时修改数据库、Redis、MinIO 的默认密码以及 SearXNG 密钥。
+- 请在安装时修改数据库、Redis、MinIO 的默认密码、Neo4j 密码以及 SearXNG 密钥。
 
 ## 常见问题
 
@@ -69,6 +98,7 @@ WeKnora 出于 SSRF 防护，**默认拒绝直接使用 IP 地址**（包括内�
 ## 系统要求
 
 - 建议至少 4 核 CPU、8 GB 内存、20 GB 可用磁盘。
+- 启用知识图谱（Neo4j）后建议额外预留 1 GB 以上内存。
 - docreader 镜像体积较大（约 1.5 GB），首次拉取与启动需要一定时间。
 
 ## 官方资源
