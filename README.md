@@ -1502,7 +1502,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🔄 基于P2P的极速文件同步工具，支持多平台和多架构，适合家庭与企业备份
 
-<kbd>2.21.3</kbd> • [官网链接](https://github.com/Jonnyan404/verysync)
+<kbd>2.33.2</kbd> • [官网链接](https://github.com/Jonnyan404/verysync)
 
 </td>
 </tr>
