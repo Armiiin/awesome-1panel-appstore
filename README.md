@@ -1055,7 +1055,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🔄 轻量级高性能内网穿透代理服务器
 
-<kbd>0.34.7</kbd> • [官网链接](https://github.com/djylb/nps)
+<kbd>0.34.8</kbd> • [官网链接](https://github.com/djylb/nps)
 
 </td>
 </tr>
