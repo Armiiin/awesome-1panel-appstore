@@ -1589,7 +1589,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🛠️ 功能强大的日常任务网络工具，自托管无广告追踪
 
-<kbd>0.6.0</kbd> • [官网链接](https://omnitools.app/)
+<kbd>0.7.0</kbd> • [官网链接](https://omnitools.app/)
 
 </td>
 <td width="33%" align="center">
