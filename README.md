@@ -651,7 +651,7 @@ docker run -d --name=nginx -p 80:80 nginx:latest
 
 🧠 火山引擎开源的自进化 AI Agent 上下文数据库，统一记忆、知识 RAG 与技能
 
-<kbd>0.5.0</kbd> • [官网链接](https://github.com/volcengine/OpenViking)
+<kbd>0.5.1</kbd> • [官网链接](https://github.com/volcengine/OpenViking)
 
 </td>
 </tr>
