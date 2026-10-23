@@ -1661,7 +1661,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🔄 支持Web和Cli方式检查容器镜像更新
 
-<kbd>3.5.1</kbd> • [官网链接](https://github.com/sergi0g/cup/)
+<kbd>3.6.0</kbd> • [官网链接](https://github.com/sergi0g/cup/)
 
 </td>
 <td width="33%" align="center">
