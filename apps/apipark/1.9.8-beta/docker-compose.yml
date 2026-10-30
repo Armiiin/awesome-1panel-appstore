@@ -1,6 +1,6 @@
 services:
   apipark:
-    image: apipark/apipark:v1.9.6-beta
+    image: apipark/apipark:v1.9.8-beta
     container_name: ${CONTAINER_NAME}
     restart: always
     depends_on:

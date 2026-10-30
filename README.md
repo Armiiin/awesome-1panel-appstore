@@ -458,7 +458,7 @@ docker run -d --name=nginx -p 80:80 nginx:latest
 
 🌐 开源企业级 API 全生命周期管理平台
 
-<kbd>1.9.6-beta</kbd> • [官网链接](https://apipark.com)
+<kbd>1.9.8-beta</kbd> • [官网链接](https://apipark.com)
 
 </td>
 <td width="33%" align="center">
